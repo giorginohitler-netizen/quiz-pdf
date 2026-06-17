@@ -1,494 +1,228 @@
 import json
+import re
 
 questions = [
-  {
-    "question": "Quale differenza sussiste tra un nome individuale e un nome collettivo?",
-    "correct_answer": "L'individuale indica un singolo elemento, il collettivo un insieme di elementi della stessa specie pur essendo al singolare.",
-    "wrong_answers": [
-      "L'individuale si riferisce a esseri umani, mentre il collettivo si usa esclusivamente per gli animali o gli oggetti.",
-      "L'individuale è sempre di tipo concreto, mentre il collettivo rappresenta sempre un concetto puramente astratto.",
-      "L'individuale si coniuga nei due numeri, il collettivo si utilizza invariabilmente soltanto alla forma singolare."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Classificazione"
-  },
-  {
-    "question": "Come si distingue un nome concreto da un nome astratto?",
-    "correct_answer": "Il concreto indica elementi percepibili attraverso i sensi, l'astratto indica idee o concetti non materiali.",
-    "wrong_answers": [
-      "Il concreto si riferisce solo a oggetti inanimati, l'astratto si applica esclusivamente ai sentimenti umani.",
-      "Il concreto ha sempre una forma plurale, l'astratto manca sempre della forma plurale in modo assoluto.",
-      "Il concreto è composto da un'unica radice, l'astratto è formato da una radice unita a un suffisso verbale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Classificazione"
-  },
-  {
-    "question": "Perché si utilizza l'iniziale maiuscola per i nomi propri?",
-    "correct_answer": "Per indicare in modo specifico e distinto un singolo individuo, animale o luogo rispetto agli altri della sua specie.",
-    "wrong_answers": [
-      "Per conferire un tono di rispetto formale quando ci si rivolge a persone adulte o a istituzioni di rilievo.",
-      "Perché non possiedono mai la forma plurale e la maiuscola serve proprio a segnalarne l'assoluta invariabilità.",
-      "Per segnalare che si tratta di nomi derivati e non primitivi all'interno della medesima proposizione sintattica."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Classificazione"
-  },
-  {
-    "question": "Cosa indica specificamente la classificazione dei nomi in 'comuni' e 'propri'?",
-    "correct_answer": "I comuni indicano un elemento qualsiasi di una categoria, i propri un elemento specifico e unico di quella categoria.",
-    "wrong_answers": [
-      "I comuni descrivono esclusivamente cose inanimate, mentre i propri descrivono solo le persone fisiche vive.",
-      "I comuni non possiedono il numero plurale, a differenza dei nomi propri che possono sempre essere pluralizzati.",
-      "I comuni hanno radici derivate dal latino, mentre i propri provengono sempre da dialetti regionali locali."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Classificazione"
-  },
-  {
-    "question": "Quale particolarità presentano i nomi dal genere 'promiscuo'?",
-    "correct_answer": "Hanno un'unica forma invariabile e specificano il sesso dell'animale aggiungendo l'apposizione 'maschio' o 'femmina'.",
-    "wrong_answers": [
-      "Si usano indifferentemente sia con l'articolo maschile che femminile mantenendo lo stesso significato.",
-      "Cambiano completamente la radice del nome a seconda che indichino un esemplare di sesso maschile o femminile.",
-      "Non identificano mai alcun animale ma vengono utilizzati esclusivamente per gli oggetti di uso domestico."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Genere"
-  },
-  {
-    "question": "Cosa caratterizza un nome dal genere 'indipendente'?",
-    "correct_answer": "Utilizza una forma completamente diversa dal maschile per formare il femminile, avendo radici del tutto separate.",
-    "wrong_answers": [
-      "Cambia solo ed esclusivamente la vocale finale mantenendo invariata la radice della parola di partenza.",
-      "Ha un'unica forma invariabile e il suo genere si intuisce esclusivamente dall'articolo che lo precede.",
-      "Può essere associato sia a un articolo maschile che femminile modificando radicalmente il significato."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Genere"
-  },
-  {
-    "question": "Cosa indica l'espressione 'falso cambiamento di genere' (es. tavolo/tavola)?",
-    "correct_answer": "Nomi che cambiando la desinenza finale sembrano formare il femminile, ma cambiano in realtà il loro significato.",
-    "wrong_answers": [
-      "Nomi che pur cambiando desinenza mantengono il medesimo genere grammaticale del nome di partenza originario.",
-      "Nomi stranieri che in italiano vengono assegnati al genere sbagliato a causa di una traduzione non accurata.",
-      "Nomi astratti che assumono genere diverso in base al verbo che li accompagna nella proposizione reggente."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Genere"
-  },
-  {
-    "question": "Come si comportano i nomi definiti di genere 'comune'?",
-    "correct_answer": "Mantengono un'unica forma e il genere (maschile o femminile) è determinato unicamente dall'articolo che li precede.",
-    "wrong_answers": [
-      "Appartengono a un genere neutro che in italiano si forma eliminando qualsiasi articolo precedente alla parola.",
-      "Si riferiscono unicamente a collettività di persone in cui sono presenti in numero uguale sia maschi che femmine.",
-      "Richiedono obbligatoriamente l'aggiunta di un aggettivo per poterne distinguere correttamente l'identità."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Genere"
-  },
-  {
-    "question": "Quale comportamento morfologico descrive un nome di genere 'mobile'?",
-    "correct_answer": "Forma il femminile semplicemente cambiando la desinenza finale pur mantenendo inalterata la radice.",
-    "wrong_answers": [
-      "Il genere cambia ogni volta in funzione della zona geografica e del dialetto del parlante che lo pronuncia.",
-      "Indica oggetti che possono essere fisicamente spostati, come veicoli o strumenti di precisione mobile.",
-      "Possiede due radici distinte da usare obbligatoriamente a seconda del contesto formale o informale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Genere"
-  },
-  {
-    "question": "Un nome che manca del tutto del singolare o del plurale è classificato morfologicamente come:",
-    "correct_answer": "Nome difettivo, in quanto risulta letteralmente difettoso di uno dei due numeri grammaticali previsti.",
-    "wrong_answers": [
-      "Nome sovrabbondante, poiché possiede abbondanza di desinenze in base all'uso che se ne fa nel discorso.",
-      "Nome promiscuo, in quanto confonde le desinenze dei due numeri in una sola forma unica e compatta.",
-      "Nome invariabile, perché non modifica mai la desinenza finale neppure quando viene cambiato l'articolo."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Numero"
-  },
-  {
-    "question": "Qual è la caratteristica peculiare dei sostantivi detti 'sovrabbondanti'?",
-    "correct_answer": "Presentano due forme diverse in uno dei numeri (spesso il plurale), quasi sempre con due significati differenti.",
-    "wrong_answers": [
-      "Presentano innumerevoli variazioni di accento pur descrivendo esattamente il medesimo oggetto di riferimento.",
-      "Si riferiscono sempre e solo a moltitudini eccessive di persone o insiemi disordinati di elementi astratti.",
-      "Necessitano obbligatoriamente di due articoli differenti per poter esprimere appieno il loro significato."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Numero"
-  },
-  {
-    "question": "I nomi 'invariabili' (es. la crisi / le crisi) come gestiscono il concetto di numero?",
-    "correct_answer": "Mantengono la parola identica sia al singolare che al plurale, e la differenza viene segnalata dall'articolo.",
-    "wrong_answers": [
-      "Non possiedono affatto il plurale, pertanto costringono l'uso di sinonimi per poterne esprimere la pluralità.",
-      "Aggiungono il suffisso finale tipico della lingua latina da cui derivano per segnare la forma plurale esatta.",
-      "Trasformano l'ultima consonante della radice per permettere alla vocale finale di restare la stessa."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Numero"
-  },
-  {
-    "question": "Cosa si intende in grammatica per nomi 'primitivi'?",
-    "correct_answer": "Nomi che non derivano da alcuna altra parola e sono composti soltanto da una radice di base e una desinenza.",
-    "wrong_answers": [
-      "Nomi che derivano da prestiti di antiche lingue straniere o dialetti arcaici ormai del tutto in disuso.",
-      "Nomi associati a strumenti e oggetti antichi che oggi non vengono quasi più impiegati nel gergo comune.",
-      "Nomi che presentano prefissi e suffissi, e non possono essere scissi o analizzati nei loro componenti."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Struttura"
-  },
-  {
-    "question": "Come si forma un nome classificato come 'derivato' rispetto al suo primitivo?",
-    "correct_answer": "Aggiungendo un prefisso iniziale o un suffisso finale alla radice, creandone uno con un significato del tutto nuovo.",
-    "wrong_answers": [
-      "Unendo tra loro due nomi primitivi completamente distinti per formare una nuova parola con doppio significato.",
-      "Sostituendo l'ultima sillaba del primitivo per trasmettere particolari sfumature di affetto, sprezzo o grandezza.",
-      "Convertendo l'infinito del verbo associato in un nome attraverso l'inserimento dell'articolo determinativo."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Struttura"
-  },
-  {
-    "question": "Se la parola 'bambinone' esprime una variante di 'bambino', è classificata grammaticalmente come:",
-    "correct_answer": "Alterato accrescitivo, formato tramite l'aggiunta di un suffisso che ne modifica la dimensione ma non il senso logico.",
-    "wrong_answers": [
-      "Composto nominale, in quanto unisce l'idea generica di grandezza alla radice originaria formandone due separate.",
-      "Derivato qualificativo, poiché l'aggiunta della desinenza lo sposta dalla classe dei nomi a quella degli aggettivi.",
-      "Primitivo irregolare, in quanto l'accrescimento lo rende totalmente autonomo e slegato dalla sua radice iniziale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Struttura"
-  },
-  {
-    "question": "Quale struttura logico-sintattica possiede un nome 'composto'?",
-    "correct_answer": "Deriva dall'unione di due o più parole autonome (come due nomi o un verbo e un nome) per formare un nuovo lemma.",
-    "wrong_answers": [
-      "Risulta esclusivamente dall'aggiunta di una lunga radice derivante da prestiti europei con una desinenza singolare.",
-      "Nasce raddoppiando l'ultima vocale del nome primitivo per accentuarne o rafforzarne l'uso e l'espressività.",
-      "Consiste unicamente nell'inserire un prefisso prima del nome primitivo per mutarne radicalmente l'accezione."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Nomi - Struttura"
-  },
-  {
-    "question": "A livello logico, qual è la funzione principale degli aggettivi 'qualificativi'?",
-    "correct_answer": "Esprimere in maniera descrittiva una particolare qualità, caratteristica o condizione del nome al quale si riferiscono.",
-    "wrong_answers": [
-      "Determinare in modo assolutamente esatto e numerico la distanza fisica dell'oggetto dal soggetto parlante.",
-      "Sostituire totalmente il sostantivo all'interno delle frasi articolate per evitare noiose ripetizioni stilistiche.",
-      "Concordare unicamente con il soggetto del verbo principale, ignorando qualsiasi altro nome della frase."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Qualificativi e Gradi"
-  },
-  {
-    "question": "Cosa esprime il grado 'comparativo di uguaglianza' in un aggettivo?",
-    "correct_answer": "Istituisce un confronto diretto ed equilibrato in cui la qualità misurata è posseduta in uguale misura dai due soggetti.",
-    "wrong_answers": [
-      "Pone in evidenza che il primo termine possiede la qualità indicata in misura di gran lunga superiore al secondo.",
-      "Descrive una qualità posseduta al grado più elevato possibile, svincolandola completamente da qualsiasi confronto.",
-      "Applica l'aggettivo senza alcuna intensità misurabile, rappresentando la qualità pura del termine di partenza."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Qualificativi e Gradi"
-  },
-  {
-    "question": "Qual è l'essenza dell'aggettivo di grado 'superlativo relativo'?",
-    "correct_answer": "Indica il livello massimo o minimo di una qualità, ma il confronto è limitato a un gruppo o insieme ben circoscritto.",
-    "wrong_answers": [
-      "Rafforza la qualità all'estremo grado universale senza tenere in considerazione alcun altro elemento di paragone.",
-      "Indebolisce parzialmente la qualità per non apparire troppo radicali all'interno della frase in esame.",
-      "Afferma semplicemente la presenza di una qualità senza minimamente sbilanciarsi sull'intensità o sulla misura."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Qualificativi e Gradi"
-  },
-  {
-    "question": "Cosa si intende con il grado 'superlativo assoluto' di un aggettivo qualificativo?",
-    "correct_answer": "L'espressione di una qualità posseduta al suo livello massimo ed eccezionale, in modo del tutto slegato da confronti.",
-    "wrong_answers": [
-      "Una qualità che emerge maggiormente in un soggetto ma soltanto rispetto a un ristrettissimo gruppo di elementi.",
-      "Una comparazione quantitativa per stabilire quale elemento di una classe eccelle maggiormente in uno specifico ambito.",
-      "L'uso dell'aggettivo accoppiato a un nome astratto che conferisce solennità ma ne annulla le variazioni di numero."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Qualificativi e Gradi"
-  },
-  {
-    "question": "In grammatica, in base a quale parametro si differenziano gli aggettivi 'qualificativi' dai 'determinativi'?",
-    "correct_answer": "I qualificativi indicano le peculiarità qualitative, i determinativi definiscono aspetti esatti come l'identità, la posizione o il possesso.",
-    "wrong_answers": [
-      "I qualificativi concordano sistematicamente col sostantivo in genere e numero, mentre i determinativi rimangono invariati.",
-      "I qualificativi accompagnano soltanto i nomi in forma concreta, i determinativi affiancano solamente i nomi astratti.",
-      "I qualificativi vengono posizionati obbligatoriamente prima del nome, mentre i determinativi sempre alla fine della frase."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Determinativi"
-  },
-  {
-    "question": "Tra i determinativi, qual è la funzione caratteristica dell'aggettivo 'dimostrativo'?",
-    "correct_answer": "Specifica in modo chiaro la collocazione spaziale o temporale (vicinanza/lontananza) del nome rispetto ai parlanti.",
-    "wrong_answers": [
-      "Determina in modo inequivocabile chi possiede giuridicamente e materialmente l'oggetto descritto all'interno della frase.",
-      "Offre una misura approssimativa e non misurabile del sostantivo descritto, mantenendo vaghezza di calcolo quantitativo.",
-      "Sostituisce il sostantivo allorquando viene ripetuto frequentemente per preservare la leggibilità del costrutto in uso."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Determinativi"
-  },
-  {
-    "question": "Gli aggettivi 'possessivi' quale specifica informazione aggiungono al sostantivo?",
-    "correct_answer": "Chiariscono l'appartenenza o la relazione di un determinato oggetto rispetto a una determinata persona grammaticale.",
-    "wrong_answers": [
-      "Esprimono le fattezze fisiche e le qualità materiali che rendono unico l'oggetto posseduto dal soggetto in questione.",
-      "Calcolano l'esatto valore quantitativo dell'elemento, enumerandone le quantità in scala ordinale e temporale.",
-      "Stabiliscono i confini spaziali entro i quali l'oggetto si colloca, indicando esattamente i limiti geografici."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Determinativi"
-  },
-  {
-    "question": "In che modo l'aggettivo 'indefinito' si rapporta col nome che accompagna?",
-    "correct_answer": "Fornisce informazioni volontariamente approssimative, generiche e vaghe riguardanti la qualità o l'ammontare numerico.",
-    "wrong_answers": [
-      "Assicura con estremo grado di certezza l'esatta origine temporale e cronologica del soggetto della frase.",
-      "Indebolisce il significato del sostantivo, privandolo di alcuna logica sintattica nella costruzione della frase reggente.",
-      "Funziona come rafforzativo per marcare con estrema precisazione il soggetto protagonista dell'intero periodo testuale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Aggettivi - Determinativi"
-  },
-  {
-    "question": "Qual è il ruolo basilare assegnato a un 'pronome' all'interno di un periodo?",
-    "correct_answer": "Fare in modo esatto le veci di un nome o di un altro frammento del discorso, snellendo la frase ed evitando stucchevoli ripetizioni.",
-    "wrong_answers": [
-      "Accompagnare obbligatoriamente il sostantivo per aggiungervi informazioni incalcolabili relative alle sue dimensioni fisiche.",
-      "Congiungere strutturalmente la proposizione principale alle subordinate oggettive garantendo robustezza formale al verbo.",
-      "Specificare tassativamente la persona in gioco unicamente nei periodi ipotetici con verbi di tipo riflessivo condizionale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Personali e Dimostrativi"
-  },
-  {
-    "question": "Quale comportamento morfologico presentano i pronomi personali all'interno della frase?",
-    "correct_answer": "Possono variare in relazione alla prima, seconda o terza persona, e assumono forme distinte a seconda che siano soggetto o complemento.",
-    "wrong_answers": [
-      "Restano completamente invariati a prescindere dal loro utilizzo formale e la declinazione in persone è ininfluente.",
-      "Si coniugano rispettando l'umore e i tempi logici del verbo, diventando pronomi imperfetti quando l'azione è nel passato.",
-      "Funzionano bene esclusivamente in abbinamento con avverbi temporali al fine di determinare chi svolge materialmente l'azione."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Personali e Dimostrativi"
-  },
-  {
-    "question": "Come si comportano pronomi come 'questo' e 'quello' a livello sintattico?",
-    "correct_answer": "Sostituiscono totalmente un sostantivo esprimendo in modo netto la sua collocazione di vicinanza o lontananza.",
-    "wrong_answers": [
-      "Funzionano come articoli determinativi deboli che introducono il soggetto per non doverlo mai citare direttamente.",
-      "Rafforzano semplicemente il pronome personale precedente creando le cosiddette coppie pronominali a rinforzo logico.",
-      "Forniscono un'idea generica di moltitudine e vaghezza se accoppiati a concetti astratti senza radice fisica."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Personali e Dimostrativi"
-  },
-  {
-    "question": "Qual è la duplice funzione fondamentale dei pronomi 'relativi' come 'che' o 'il quale'?",
-    "correct_answer": "Sostituire logicamente un termine appena enunciato (antecedente) e unire al tempo stesso la proposizione che segue alla reggente.",
-    "wrong_answers": [
-      "Sostituire integralmente i verbi e fungere da semplici congiunzioni puramente coordinate tra frasi temporalmente separate.",
-      "Stabilire esatte relazioni di proporzione matematica fra gli elementi misurabili presenti all'interno della medesima frase.",
-      "Interrompere il normale scorrimento logico in favore di parentesi esclamative senza dover declinare i verbi successivi."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Relativi"
-  },
-  {
-    "question": "Tra i pronomi relativi, quale tratto distingue l'utilizzo della particella 'che'?",
-    "correct_answer": "Si rivela essere un pronome del tutto invariabile ed è deputato a compiere ruoli di soggetto e di complemento oggetto diretto.",
-    "wrong_answers": [
-      "Varia costantemente la sua desinenza concordandosi al genere dell'antecedente cui si riferisce senza possibilità di errori.",
-      "Trova spazio grammaticale solamente all'interno di proposizioni passive dove assume il gravoso compito di agente.",
-      "Svolge esclusivamente la funzione di complemento di specificazione accompagnato per sua natura da preposizione semplice."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Relativi"
-  },
-  {
-    "question": "Nella galassia dei pronomi relativi, qual è la regola per l'impiego della parola 'cui'?",
-    "correct_answer": "È un termine invariabile la cui presenza in frase segnala sempre la costruzione di un complemento indiretto accompagnato da preposizione.",
-    "wrong_answers": [
-      "Si declina nei quattro generi per adattarsi all'elemento sostituito, rivestendo il ruolo di soggetto indiscusso nella subordinata.",
-      "Non ha reale valore pronominale ma serve a rafforzare un successivo complemento di luogo espresso tramite verbo moto a luogo.",
-      "Viene posizionato liberamente a inizio frase in caso di domande retoriche per eludere le limitazioni della sintassi moderna."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Relativi"
-  },
-  {
-    "question": "Cosa caratterizza il pronome relativo 'chi' rispetto agli altri della sua stessa famiglia?",
-    "correct_answer": "È un pronome misto che ingloba tacitamente al suo interno il significato di 'colui il quale' fondendo due funzioni logiche.",
-    "wrong_answers": [
-      "Viene impiegato esclusivamente in formule interrogative perdendo totalmente capacità di agire nelle forme affermative standard.",
-      "Cambia la radice in base alla terza persona plurale o singolare adeguandosi pedissequamente alle concordanze imposte.",
-      "Non può ricoprire la carica di soggetto perché è nato sintatticamente come esclusivo sostituto di complementi di termine."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Relativi"
-  },
-  {
-    "question": "Su quale fondamentale parametro si differenziano i pronomi 'indefiniti' da quelli 'identificativi'?",
-    "correct_answer": "Mentre gli indefiniti indicano l'oggetto in modo estremamente vago, gli identificativi asseriscono l'identità certa rispetto a qualcos'altro.",
-    "wrong_answers": [
-      "Gli indefiniti sono adatti per trattare concetti temporali incerti, mentre gli identificativi operano soltanto nelle grandezze calcolabili.",
-      "Gli indefiniti agiscono strutturalmente solo in qualità di aggettivi limitanti, gli identificativi operano come pronomi del tutto invariabili.",
-      "Gli indefiniti evidenziano precisamente le quantità in frazioni espresse, gli identificativi tentano di misurare ad occhio le grandezze."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Indefiniti e Altri"
-  },
-  {
-    "question": "A quale rigida regola morfologica obbediscono i pronomi indefiniti 'chiunque' e 'checché'?",
-    "correct_answer": "Sono del tutto refrattari a coniugazioni, rimanendo sempre invariabili e usati morfologicamente come singolari in ogni contesto.",
-    "wrong_answers": [
-      "Mancano di una forma singolare per loro natura, e subiscono svariate flessioni al plurale qualora indichino assembramenti di individui.",
-      "Devono concordare obbligatoriamente al femminile se l'azione si svolge al passato in base al verbo indicato nella reggente della frase.",
-      "La loro forma diviene invariabile solo qualora siano preceduti da specifici verbi riflessivi intrinseci in proposizioni ipotetiche."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Indefiniti e Altri"
-  },
-  {
-    "question": "In che modalità agiscono i pronomi interrogativi ed esclamativi all'interno della comunicazione?",
-    "correct_answer": "Rimpiazzano un termine in frasi volte a instaurare una richiesta diretta oppure a esprimere un'intensa emozione su elementi e grandezze.",
-    "wrong_answers": [
-      "Si affiancano ai verbi regolari senza alterarne la radice solo se impiegati per sostituire nomi comuni di cose rigorosamente plurali.",
-      "Trattano argomenti di tipo puramente temporale negando validità alle altre componenti di sintassi nella costruzione del periodo logico.",
-      "Svolgono l'esclusiva mansione di legare due costrutti esclamativi senza porre alcun interrogativo che attenda una replica misurabile."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Pronomi - Indefiniti e Altri"
-  },
-  {
-    "question": "Quale criterio permette di stabilire se un verbo italiano appartiene alla prima, seconda o terza coniugazione?",
-    "correct_answer": "Si valuta semplicemente la terminazione del verbo all'infinito presente che determina se appartiene ai gruppi -are, -ere oppure -ire.",
-    "wrong_answers": [
-      "Si indaga a fondo sulle origini etimologiche della radice lessicale valutando accuratamente se derivi o meno da forme del latino arcaico.",
-      "Si conta sillaba per sillaba la lunghezza del lemma e se supera un certo calibro finisce automaticamente tra le coniugazioni sovrabbondanti.",
-      "Si applica una procedura che analizza in via preliminare i suffissi delle forme verbali al participio passato stabilendo l'appartenenza finale."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Tipi e Coniugazione"
-  },
-  {
-    "question": "Come si inquadrano grammaticalmente i verbi che non possiedono tutti i tempi e i modi per essere declinati?",
-    "correct_answer": "Sono universalmente definiti verbi 'difettivi' proprio per via della lacuna, o difetto, nelle loro forme di declinazione standard.",
-    "wrong_answers": [
-      "Appartengono ai cosiddetti verbi 'misti', in quanto mescolano le regole di più gruppi per supplire alle parti coniugali mancanti.",
-      "Assumono il titolo di verbi 'impersonali', poiché privi delle declinazioni possono legarsi unicamente alla terza persona singolare di prassi.",
-      "Vengono detti verbi 'alterati' dal momento che risultano deformati nel loro costrutto principale rispetto all'infinito da cui hanno origine."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Tipi e Coniugazione"
-  },
-  {
-    "question": "Per quale motivo taluni verbi sono ufficialmente designati dalla grammatica come 'irregolari'?",
-    "correct_answer": "Poiché nel momento della flessione si allontanano dalle rigide regole comuni, alterando profondamente la radice o modificando la desinenza base.",
-    "wrong_answers": [
-      "Per il semplice fatto che derivano integralmente da vocaboli o prestiti di antiche e inusuali lingue straniere prive di legami storici nostrani.",
-      "In virtù della loro prolissità che costringe a ridurli e storpiarli per consentirne l'utilizzo scorrevole nei moderni discorsi di tono informale.",
-      "Dato che esprimono azioni talmente irreali e insolite da non poter essere adeguatamente costrette in alcuna regola formale di sintassi valida."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Tipi e Coniugazione"
-  },
-  {
-    "question": "Cosa indica specificamente la qualifica di verbo 'transitivo' nell'ambito della morfologia verbale?",
-    "correct_answer": "Certifica che l'azione avviata e condotta dal soggetto compie un transito diretto ricadendo inesorabilmente sul complemento oggetto prescelto.",
-    "wrong_answers": [
-      "Dimostra che la radice del verbo transita attraverso una serie interminabile di desinenze alterandosi a seconda della persona chiamata in causa.",
-      "Implica che le ripercussioni del verbo non hanno peso su elementi esterni, confinando le conseguenze all'interno del ristretto circolo del soggetto.",
-      "Comprova inequivocabilmente che il verbo possiede l'autorità di muovere l'azione tra frasi indipendenti prescindendo dalle regole di punteggiatura."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Transitività e Forma"
-  },
-  {
-    "question": "Quale dinamica contraddistingue in modo peculiare un verbo che la grammatica classifica come 'intransitivo'?",
-    "correct_answer": "L'energia sprigionata dall'azione rimane bloccata entro il soggetto, risultando priva di un qualsivoglia passaggio in direzione di un complemento diretto.",
-    "wrong_answers": [
-      "L'evento prodotto genera la necessitante inclusione di molteplici complementi oggetti consecutivi in modo da appesantirne la ricezione e la lettura.",
-      "La coniugazione obbligatoria è circoscritta all'utilizzo rigoroso dei tempi storici narrativi che sfuggono all'imperativo delle costruzioni presenti.",
-      "Il significato profondo dell'azione viene trasmesso in via trasversale solo alle proposizioni limitrofe inibendo totalmente le frasi principali e reggenti."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Transitività e Forma"
-  },
-  {
-    "question": "Quale comportamento atipico esibiscono i verbi incasellati nella categoria dei cosiddetti 'pronominali'?",
-    "correct_answer": "Saldano all'infinito un inseparabile pronome che diviene a tutti gli effetti un organo vitale indispensabile al significato complessivo del verbo stesso.",
-    "wrong_answers": [
-      "Si adoperano esclusivamente in contesti formali sostituendo i sostantivi principali al fine di attribuire solennità inusitata allo scritto stilato dall'autore.",
-      "Aboliscono qualsiasi uso di particelle aggiuntive, ripudiandole per evitare di incombere in appesantimenti sintattici ritenuti deleteri e scorretti.",
-      "Prevedono la completa obliterazione dei tempi coniugati semplici obbligando l'impiego perenne dei tempi verbali declinati solo e soltanto al passato."
-    ],
-    "source_file": "CamScanner 08-06-26 15.33.pdf",
-    "subject": "ITALIANO",
-    "topic": "Verbi - Transitività e Forma"
-  }
+    {
+        "question": "Che cosa rappresentano le 'fonti di cognizione' nell'ordinamento giuridico?",
+        "correct_answer": "Gli strumenti ufficiali e conoscitivi attraverso cui è possibile prendere visione e conoscere le fonti di produzione (es. Gazzetta Ufficiale).",
+        "wrong_answers": [
+            "L'insieme degli organi dello Stato che sono materialmente incaricati di elaborare, modificare o abrogare le leggi vigenti.",
+            "I testi storici e filosofici che hanno ispirato i principi cardine e i diritti inalienabili contenuti nell'attuale Costituzione.",
+            "I documenti giurisprudenziali emessi esclusivamente dai Tribunali di merito che creano nuovi precedenti legali vincolanti."
+        ],
+        "source_file": "CamScanner 27-05-26 09.35.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Diritto - Fonti"
+    },
+    {
+        "question": "Secondo il criterio gerarchico delle fonti del diritto, cosa succede in caso di contrasto tra due norme di grado diverso?",
+        "correct_answer": "La norma di grado inferiore non può mai modificare o abrogare quella di grado superiore, che ha sempre prevalenza formale.",
+        "wrong_answers": [
+            "La norma entrata in vigore più recentemente annulla sistematicamente la precedente, indipendentemente dal suo grado e livello.",
+            "La Corte Costituzionale deve temporaneamente sospendere entrambe le norme e demandare una decisione al Presidente della Repubblica.",
+            "La norma di grado superiore viene automaticamente degradata per adeguarsi a quella emanata dal Parlamento in via ordinaria."
+        ],
+        "source_file": "CamScanner 27-05-26 09.35.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Diritto - Fonti"
+    },
+    {
+        "question": "In Italia, da chi viene eletto il Presidente della Repubblica e con quale criterio?",
+        "correct_answer": "Viene eletto dal Parlamento riunito in seduta comune, a cui si aggiungono i delegati regionali scelti dai rispettivi consigli.",
+        "wrong_answers": [
+            "Viene eletto dai cittadini italiani mediante un'elezione a suffragio universale diretto che si tiene ogni sette anni.",
+            "Viene nominato in via diretta dal Presidente del Consiglio uscente di concerto con i vertici della Corte Costituzionale.",
+            "Viene votato esclusivamente dai membri del Senato della Repubblica, in in rappresentanza dell'unità statale e del territorio."
+        ],
+        "source_file": "CamScanner 27-05-26 11.18.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Istituzioni - Presidente della Repubblica"
+    },
+    {
+        "question": "Quali sono i due unici reati per cui il Presidente della Repubblica risulta essere costituzionalmente responsabile?",
+        "correct_answer": "Alto tradimento o attentato alla Costituzione, per i quali può essere messo in stato di accusa dal Parlamento.",
+        "wrong_answers": [
+            "Corruzione in atti d'ufficio e vilipendio alle istituzioni repubblicane o alla bandiera nazionale italiana.",
+            "Peculato aggravato e appropriazione indebita di fondi pubblici destinati al mantenimento della sua carica.",
+            "Qualsiasi infrazione penale commessa durante il mandato e punibile con una reclusione superiore a cinque anni."
+        ],
+        "source_file": "CamScanner 27-05-26 11.18.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Istituzioni - Presidente della Repubblica"
+    },
+    {
+        "question": "Cosa prevedeva storicamente la Dichiarazione Schuman del 1950?",
+        "correct_answer": "La proposta di mettere l'intera produzione franco-tedesca di carbone e acciaio sotto un'Alta Autorità comune e sovranazionale.",
+        "wrong_answers": [
+            "L'istituzione di un esercito unificato europeo volto a contrastare le ingerenze politiche delle nazioni del blocco sovietico.",
+            "La rimozione immediata di tutte le dogane tra Inghilterra e Francia per la libera circolazione di persone e merci industriali.",
+            "La creazione di una moneta unica europea che avrebbe dovuto sostituire i franchi e i marchi in tutto il continente entro 10 anni."
+        ],
+        "source_file": "CamScanner 27-05-26 15.32.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Unione Europea - Storia"
+    },
+    {
+        "question": "In che modo l'ordinamento comunitario (europeo) si relaziona alla sovranità degli Stati membri?",
+        "correct_answer": "Comporta che gli Stati membri limitino parzialmente la loro sovranità, accettando vincoli in settori gestiti da istituzioni sovranazionali.",
+        "wrong_answers": [
+            "Obbliga gli Stati membri a cedere integralmente e definitivamente l'intera sovranità politica ed economica al Parlamento Europeo.",
+            "Agisce esclusivamente con raccomandazioni informali che non sono in alcun caso vincolanti per l'ordinamento giuridico nazionale.",
+            "Prevede che ogni legge europea passi obbligatoriamente da un referendum nazionale per essere accolta dallo Stato membro."
+        ],
+        "source_file": "CamScanner 27-05-26 15.32.pdf",
+        "subject": "EDUCAZIONE_CIVICA",
+        "topic": "Unione Europea - Istituzioni"
+    },
+    {
+        "question": "Quali sono geologicamente le origini delle colline situate sul margine meridionale dell'arco alpino italiano?",
+        "correct_answer": "Hanno origine morenica, generate dall'accumulo di detriti depositati dal lento movimento dei ghiacciai durante l'ultima glaciazione.",
+        "wrong_answers": [
+            "Sono di origine prevalentemente vulcanica, frutto dell'antico innalzamento di crateri inattivi ormai erosi dal tempo.",
+            "Si sono formate a causa del sollevamento e piegamento tettonico della crosta oceanica scontratasi con l'arco dolomitico.",
+            "Sono il risultato del prosciugamento di enormi laghi alpini preistorici che hanno lasciato imponenti rilievi sedimentari."
+        ],
+        "source_file": "CamScanner 09-06-26 09.00.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Italia - Territorio"
+    },
+    {
+        "question": "All'interno del territorio geografico e morfologico dell'Italia si trovano due piccoli Stati indipendenti. Quali sono?",
+        "correct_answer": "La Città del Vaticano e la Repubblica di San Marino, entrambi enclave inserite all'interno della penisola italiana.",
+        "wrong_answers": [
+            "Il Principato di Monaco e la Repubblica di San Marino, posizionati entrambi in specifiche zone collinari e costiere del paese.",
+            "La Città del Vaticano e il Principato del Liechtenstein, nazioni con statuto autonomo completamente esterne all'Unione Europea.",
+            "La Repubblica di San Marino e lo Stato Indipendente di Malta, storicamente distaccati dai domini italiani prima della Repubblica."
+        ],
+        "source_file": "CamScanner 09-06-26 09.00.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Italia - Territorio"
+    },
+    {
+        "question": "Il sistema montuoso alpino-himalaiano (di cui fanno parte Alpi e Appennini) da quale grande movimento tettonico ha avuto origine?",
+        "correct_answer": "Dal possente movimento di compressione e scontro avvenuto tra la zolla africana e quella europea nel corso delle ere geologiche.",
+        "wrong_answers": [
+            "Dalla brusca e inarrestabile espansione del fondale dell'Oceano Atlantico che ha compresso lateralmente il continente euroasiatico.",
+            "Dallo sprofondamento tettonico di un antico blocco continentale emerso noto ai geologi col nome di antico mar Mediterraneo.",
+            "Dall'accumulo inarrestabile di sedimenti vulcanici lungo la cintura di fuoco scaturita durante le glaciazioni dell'era quaternaria."
+        ],
+        "source_file": "CamScanner 09-06-26 09.00.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Italia - Territorio"
+    },
+    {
+        "question": "Quali elementi geografici segnano convenzionalmente i confini fisici tra l'Europa e il continente asiatico?",
+        "correct_answer": "I rilievi montuosi degli Urali e la vasta depressione del Kuma-Manych situata nel settore sud-orientale della Russia.",
+        "wrong_answers": [
+            "Le alte vette della catena del Caucaso e le vaste e inesplorate distese della Siberia centrale ai confini con la Cina.",
+            "La depressione del Mar Caspio e i grandi altipiani desertici della Mongolia che delimitano le steppe del continente europeo.",
+            "La penisola scandinava a nord e lo stretto dei Dardanelli a sud, che da sempre impediscono il contatto terrestre tra i blocchi."
+        ],
+        "source_file": "CamScanner 26-05-26 20.52.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Europa - Territorio"
+    },
+    {
+        "question": "Quali caratteristiche morfologiche contraddistinguono le coste nord-occidentali dell'Europa (Francia nord, Danimarca, Paesi Bassi)?",
+        "correct_answer": "Sono coste marcatamente basse e sabbiose, ampiamente modellate dalla presenza di numerose dune naturali e lagune costiere.",
+        "wrong_answers": [
+            "Sono prevalentemente alte e rocciose, solcate verticalmente da fiordi profondi generati dall'attività millenaria dei ghiacciai.",
+            "Si presentano irregolari e scoscese, punteggiate da innumerevoli golfi vulcanici e promontori aspri e poco accessibili.",
+            "Risultano frastagliate e paludose, interamente dominate da enormi sistemi di barriere coralline fossili del Pleistocene."
+        ],
+        "source_file": "CamScanner 26-05-26 20.52.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Europa - Territorio"
+    },
+    {
+        "question": "In Italia settentrionale, quale bacino lacustre risulta essere il più esteso in termini di superficie totale?",
+        "correct_answer": "Il Lago di Garda, con una superficie totale misurata di circa 370 chilometri quadrati, esteso tra Lombardia, Veneto e Trentino.",
+        "wrong_answers": [
+            "Il Lago Maggiore, che vanta la maggiore ampiezza in larghezza occupando una superficie di gran lunga superiore agli altri bacini.",
+            "Il Lago di Como, famoso per la sua eccezionale profondità che lo rende al contempo anche il più ampio di tutta la penisola italiana.",
+            "Il Lago di Lugano, che pur trovandosi a cavallo con la Svizzera vanta una porzione idrica territoriale vastissima in Lombardia."
+        ],
+        "source_file": "CamScanner 09-06-26 09.08.pdf",
+        "subject": "GEOGRAFIA",
+        "topic": "Italia - Idrografia"
+    },
+    {
+        "question": "Nella disciplina grammaticale, che cosa si intende per 'parti variabili del discorso'?",
+        "correct_answer": "Le parole (nomi, aggettivi, pronomi, articoli, verbi) che subiscono flessioni, ovvero modificano la loro forma in base a genere, numero o tempo.",
+        "wrong_answers": [
+            "Esclusivamente i sostantivi derivati che cambiano costantemente radice e origine etimologica a seconda della regione in cui sono parlati.",
+            "Gli avverbi e le congiunzioni che si legano in modo del tutto aleatorio ai verbi all'interno di proposizioni condizionali e ipotetiche.",
+            "I verbi difettivi e irregolari, così definiti in quanto la loro estrema instabilità impedisce la formazione di una desinenza standardizzata."
+        ],
+        "source_file": "CamScanner 08-06-26 15.33.pdf",
+        "subject": "ITALIANO",
+        "topic": "Grammatica - Classificazione"
+    },
+    {
+        "question": "Quale funzione precipua svolgono gli avverbi all'interno di una proposizione logica?",
+        "correct_answer": "Sono elementi invariabili usati appositamente per modificare e precisare in modo specifico il significato di un verbo, aggettivo o altro avverbio.",
+        "wrong_answers": [
+            "Si comportano come veri e propri sostantivi autonomi che guidano sintatticamente l'intera principale e collegano il discorso.",
+            "Determinano unicamente ed esclusivamente le flessioni di tempo nei verbi al passato remoto per marcare le tempistiche storiche.",
+            "Fungono da congiunzioni coordinate tra proposizioni subordinate relative con lo scopo precipuo di annullarne le ambiguità."
+        ],
+        "source_file": "CamScanner 08-06-26 17.03.pdf",
+        "subject": "ITALIANO",
+        "topic": "Avverbi e Preposizioni"
+    },
+    {
+        "question": "In grammatica, in quale categoria ricade l'espressione formata dall'unione di una preposizione semplice (es. 'in') con un articolo (es. 'il')?",
+        "correct_answer": "Preposizione articolata, la quale fonde sinteticamente il valore della preposizione con le caratteristiche identificative dell'articolo determinativo.",
+        "wrong_answers": [
+            "Avverbio di specificazione temporale, usato in via eccezionale all'interno dei composti lessicali aventi radice pronominale mista.",
+            "Aggettivo dimostrativo improprio, che assorbe la preposizione rendendo del tutto inutile esplicitare la collocazione spaziale esatta.",
+            "Pronome relativo composto, poiché unisce strettamente l'introduzione preposizionale con l'oggetto e il soggetto a cui si relaziona."
+        ],
+        "source_file": "CamScanner 08-06-26 17.03.pdf",
+        "subject": "ITALIANO",
+        "topic": "Avverbi e Preposizioni"
+    },
+    {
+        "question": "Quale caratteristica distingue in modo inequivocabile l'articolo 'indeterminativo' da quello 'determinativo'?",
+        "correct_answer": "L'articolo indeterminativo segnala l'oggetto o l'individuo in forma generica e non specifica, mancando peraltro di una vera e propria declinazione plurale formale.",
+        "wrong_answers": [
+            "L'articolo indeterminativo viene usato esclusivamente dinanzi ai nomi difettivi e sovrabbondanti per mascherarne l'assenza intrinseca di un genere.",
+            "L'articolo indeterminativo sostituisce obbligatoriamente le funzioni logiche proprie dei pronomi personali se impiegati nel mezzo di verbi transitivi o riflessivi.",
+            "A differenza del determinativo, l'indeterminativo concorda rigidamente con la proposizione principale mutando la radice in base all'interlocutore."
+        ],
+        "source_file": "CamScanner 08-06-26 15.33.pdf",
+        "subject": "ITALIANO",
+        "topic": "Articoli"
+    },
+    {
+        "question": "Cos'è che caratterizza la proposizione subordinata detta 'condizionale'?",
+        "correct_answer": "Specifica in maniera netta l'ipotesi o la condizione dalla quale dipende inesorabilmente l'attuarsi dell'azione espressa all'interno della reggente.",
+        "wrong_answers": [
+            "Dichiara una condizione avversa e del tutto in contrasto con la reggente, invalidando così l'azione narrata all'interno del periodo complessivo.",
+            "Indica esplicitamente il fine temporale ultimo da raggiungere affinché le tempistiche espresse nel verbo principale trovino logica collocazione.",
+            "Conferma una realtà puramente descrittiva volta ad affermare qualità stabili dell'azione a prescindere dalle variabili causali espresse dal verbo."
+        ],
+        "source_file": "CamScanner 08-06-26 17.03.pdf",
+        "subject": "ITALIANO",
+        "topic": "Sintassi - Subordinate"
+    },
+    {
+        "question": "Nel periodo ipotetico, quale specifico nome tecnico assume la proposizione dipendente che enuncia la condizione di base?",
+        "correct_answer": "Viene denominata protasi, ed è generalmente introdotta dalla particella 'se' o da costrutti similari che ne determinano il carattere ipotetico.",
+        "wrong_answers": [
+            "Viene chiamata apodosi, e si manifesta esclusivamente sotto le forme implicite per mantenere lo stile conciso e non gravare la reggente.",
+            "Prende il nome di relativa limitativa, poiché circoscrive i limiti materiali dell'azione a un ipotetico e fantasioso universo parallelo astratto.",
+            "È definita incidentale causale, in quanto la sua unica utilità sintattica è chiarire la motivazione fortuita alla base dell'azione principale narrata."
+        ],
+        "source_file": "CamScanner 08-06-26 17.03.pdf",
+        "subject": "ITALIANO",
+        "topic": "Sintassi - Subordinate"
+    }
 ]
-
-import re
 
 with open("index.html", "r", encoding="utf-8") as f:
     content = f.read()
 
-# Trova INIZIO DATI e FINE DATI
 pattern = r"/\* INIZIO DATI \*/.*?/\* FINE DATI \*/"
 replacement = "/* INIZIO DATI */\n  const QUESTIONS = " + json.dumps(questions, indent=4, ensure_ascii=False) + ";\n  /* FINE DATI */"
 
