@@ -3,23 +3,51 @@ const path = require('path');
 const { execSync } = require('child_process');
 const pdfParse = require('pdf-parse/lib/pdf-parse.js');
 
-const filePath = process.argv[2];
+const inputPath = process.argv[2];
 
-if (!filePath) {
-  console.error("Percorso file mancante.");
+if (!inputPath) {
+  console.error("Percorso file o cartella mancante.");
   process.exit(1);
 }
 
-const absFilePath = path.resolve(filePath);
+const absInputPath = path.resolve(inputPath);
 
-if (!fs.existsSync(absFilePath)) {
-  console.error(`Il file non esiste: ${absFilePath}`);
+if (!fs.existsSync(absInputPath)) {
+  console.error(`Il percorso non esiste: ${absInputPath}`);
   process.exit(1);
 }
 
-const dataBuffer = fs.readFileSync(absFilePath);
+// Funzione ricorsiva per trovare i PDF
+function findPdfs(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  list.forEach(file => {
+    file = path.join(dir, file);
+    const stat = fs.statSync(file);
+    if (stat && stat.isDirectory()) {
+      results = results.concat(findPdfs(file));
+    } else if (file.toLowerCase().endsWith('.pdf')) {
+      results.push(file);
+    }
+  });
+  return results;
+}
 
-async function extractText() {
+const filesToProcess = fs.statSync(absInputPath).isDirectory() 
+  ? findPdfs(absInputPath) 
+  : [absInputPath];
+
+async function processFiles() {
+  for (const file of filesToProcess) {
+    const parentFolder = path.basename(path.dirname(file));
+    const subject = parentFolder.toUpperCase(); // Es. GEOGRAFIA, ITALIANO
+    console.log(`\n--- Inizio estrazione: ${path.basename(file)} (Materia: ${subject}) ---`);
+    await extractText(file);
+  }
+}
+
+async function extractText(pdfPath) {
+  const dataBuffer = fs.readFileSync(pdfPath);
   try {
     const data = await pdfParse(dataBuffer);
     const text = data.text ? data.text.trim() : '';
@@ -30,11 +58,11 @@ async function extractText() {
     }
     
     console.warn("Testo nativo insufficiente (meno di 100 caratteri). Avvio processo OCR su PDF scansionato...");
-    performOCR(absFilePath);
+    performOCR(pdfPath);
 
   } catch (err) {
     console.warn("Errore durante pdf-parse, tento OCR come fallback...", err.message);
-    performOCR(absFilePath);
+    performOCR(pdfPath);
   }
 }
 
@@ -47,7 +75,6 @@ function performOCR(pdfPath) {
 
   try {
     console.warn("[OCR] Step 1: Conversione PDF in immagini ad alta risoluzione (300 dpi) in corso...");
-    // Aggiungo i path assoluti come fallback in caso il PATH del mio worker non sia aggiornato
     const gsCmdName = fs.existsSync("C:\\Program Files\\gs\\gs10.07.1\\bin\\gswin64c.exe") 
       ? '"C:\\Program Files\\gs\\gs10.07.1\\bin\\gswin64c.exe"' 
       : 'gswin64c';
@@ -81,7 +108,6 @@ function performOCR(pdfPath) {
       throw new Error("Tesseract non ha estratto alcun testo dalle immagini.");
     }
 
-    // Scriviamo il testo finale su stdout (log standard per restituirlo)
     console.log(fullText.trim());
 
   } catch (err) {
@@ -89,7 +115,6 @@ function performOCR(pdfPath) {
     console.error(err.message);
     if (err.stderr) console.error("Dettagli STDERR:", err.stderr.toString());
   } finally {
-    // Pulizia file temporanei
     if (fs.existsSync(tempDir)) {
       const tempFiles = fs.readdirSync(tempDir);
       for (const f of tempFiles) {
@@ -100,4 +125,4 @@ function performOCR(pdfPath) {
   }
 }
 
-extractText();
+processFiles();

@@ -1,0 +1,4 @@
+node_modules/
+build/temp_ocr/
+temp.js
+package-lock.json

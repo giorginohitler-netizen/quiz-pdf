@@ -10,6 +10,7 @@ questions = [
       "L'individuale si coniuga nei due numeri, il collettivo si utilizza invariabilmente soltanto alla forma singolare."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Classificazione"
   },
   {
@@ -21,6 +22,7 @@ questions = [
       "Il concreto è composto da un'unica radice, l'astratto è formato da una radice unita a un suffisso verbale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Classificazione"
   },
   {
@@ -32,6 +34,7 @@ questions = [
       "Per segnalare che si tratta di nomi derivati e non primitivi all'interno della medesima proposizione sintattica."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Classificazione"
   },
   {
@@ -43,6 +46,7 @@ questions = [
       "I comuni hanno radici derivate dal latino, mentre i propri provengono sempre da dialetti regionali locali."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Classificazione"
   },
   {
@@ -54,6 +58,7 @@ questions = [
       "Non identificano mai alcun animale ma vengono utilizzati esclusivamente per gli oggetti di uso domestico."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Genere"
   },
   {
@@ -65,6 +70,7 @@ questions = [
       "Può essere associato sia a un articolo maschile che femminile modificando radicalmente il significato."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Genere"
   },
   {
@@ -76,6 +82,7 @@ questions = [
       "Nomi astratti che assumono genere diverso in base al verbo che li accompagna nella proposizione reggente."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Genere"
   },
   {
@@ -87,6 +94,7 @@ questions = [
       "Richiedono obbligatoriamente l'aggiunta di un aggettivo per poterne distinguere correttamente l'identità."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Genere"
   },
   {
@@ -98,6 +106,7 @@ questions = [
       "Possiede due radici distinte da usare obbligatoriamente a seconda del contesto formale o informale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Genere"
   },
   {
@@ -109,6 +118,7 @@ questions = [
       "Nome invariabile, perché non modifica mai la desinenza finale neppure quando viene cambiato l'articolo."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Numero"
   },
   {
@@ -120,6 +130,7 @@ questions = [
       "Necessitano obbligatoriamente di due articoli differenti per poter esprimere appieno il loro significato."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Numero"
   },
   {
@@ -131,6 +142,7 @@ questions = [
       "Trasformano l'ultima consonante della radice per permettere alla vocale finale di restare la stessa."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Numero"
   },
   {
@@ -142,6 +154,7 @@ questions = [
       "Nomi che presentano prefissi e suffissi, e non possono essere scissi o analizzati nei loro componenti."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Struttura"
   },
   {
@@ -153,6 +166,7 @@ questions = [
       "Convertendo l'infinito del verbo associato in un nome attraverso l'inserimento dell'articolo determinativo."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Struttura"
   },
   {
@@ -164,6 +178,7 @@ questions = [
       "Primitivo irregolare, in quanto l'accrescimento lo rende totalmente autonomo e slegato dalla sua radice iniziale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Struttura"
   },
   {
@@ -175,6 +190,7 @@ questions = [
       "Consiste unicamente nell'inserire un prefisso prima del nome primitivo per mutarne radicalmente l'accezione."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Nomi - Struttura"
   },
   {
@@ -186,6 +202,7 @@ questions = [
       "Concordare unicamente con il soggetto del verbo principale, ignorando qualsiasi altro nome della frase."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Qualificativi e Gradi"
   },
   {
@@ -197,6 +214,7 @@ questions = [
       "Applica l'aggettivo senza alcuna intensità misurabile, rappresentando la qualità pura del termine di partenza."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Qualificativi e Gradi"
   },
   {
@@ -208,6 +226,7 @@ questions = [
       "Afferma semplicemente la presenza di una qualità senza minimamente sbilanciarsi sull'intensità o sulla misura."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Qualificativi e Gradi"
   },
   {
@@ -219,6 +238,7 @@ questions = [
       "L'uso dell'aggettivo accoppiato a un nome astratto che conferisce solennità ma ne annulla le variazioni di numero."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Qualificativi e Gradi"
   },
   {
@@ -230,6 +250,7 @@ questions = [
       "I qualificativi vengono posizionati obbligatoriamente prima del nome, mentre i determinativi sempre alla fine della frase."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Determinativi"
   },
   {
@@ -241,6 +262,7 @@ questions = [
       "Sostituisce il sostantivo allorquando viene ripetuto frequentemente per preservare la leggibilità del costrutto in uso."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Determinativi"
   },
   {
@@ -252,6 +274,7 @@ questions = [
       "Stabiliscono i confini spaziali entro i quali l'oggetto si colloca, indicando esattamente i limiti geografici."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Determinativi"
   },
   {
@@ -263,6 +286,7 @@ questions = [
       "Funziona come rafforzativo per marcare con estrema precisazione il soggetto protagonista dell'intero periodo testuale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Aggettivi - Determinativi"
   },
   {
@@ -274,6 +298,7 @@ questions = [
       "Specificare tassativamente la persona in gioco unicamente nei periodi ipotetici con verbi di tipo riflessivo condizionale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Personali e Dimostrativi"
   },
   {
@@ -285,6 +310,7 @@ questions = [
       "Funzionano bene esclusivamente in abbinamento con avverbi temporali al fine di determinare chi svolge materialmente l'azione."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Personali e Dimostrativi"
   },
   {
@@ -296,6 +322,7 @@ questions = [
       "Forniscono un'idea generica di moltitudine e vaghezza se accoppiati a concetti astratti senza radice fisica."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Personali e Dimostrativi"
   },
   {
@@ -307,6 +334,7 @@ questions = [
       "Interrompere il normale scorrimento logico in favore di parentesi esclamative senza dover declinare i verbi successivi."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Relativi"
   },
   {
@@ -318,6 +346,7 @@ questions = [
       "Svolge esclusivamente la funzione di complemento di specificazione accompagnato per sua natura da preposizione semplice."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Relativi"
   },
   {
@@ -329,6 +358,7 @@ questions = [
       "Viene posizionato liberamente a inizio frase in caso di domande retoriche per eludere le limitazioni della sintassi moderna."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Relativi"
   },
   {
@@ -340,6 +370,7 @@ questions = [
       "Non può ricoprire la carica di soggetto perché è nato sintatticamente come esclusivo sostituto di complementi di termine."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Relativi"
   },
   {
@@ -351,6 +382,7 @@ questions = [
       "Gli indefiniti evidenziano precisamente le quantità in frazioni espresse, gli identificativi tentano di misurare ad occhio le grandezze."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Indefiniti e Altri"
   },
   {
@@ -362,6 +394,7 @@ questions = [
       "La loro forma diviene invariabile solo qualora siano preceduti da specifici verbi riflessivi intrinseci in proposizioni ipotetiche."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Indefiniti e Altri"
   },
   {
@@ -373,6 +406,7 @@ questions = [
       "Svolgono l'esclusiva mansione di legare due costrutti esclamativi senza porre alcun interrogativo che attenda una replica misurabile."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Pronomi - Indefiniti e Altri"
   },
   {
@@ -384,6 +418,7 @@ questions = [
       "Si applica una procedura che analizza in via preliminare i suffissi delle forme verbali al participio passato stabilendo l'appartenenza finale."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Tipi e Coniugazione"
   },
   {
@@ -395,6 +430,7 @@ questions = [
       "Vengono detti verbi 'alterati' dal momento che risultano deformati nel loro costrutto principale rispetto all'infinito da cui hanno origine."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Tipi e Coniugazione"
   },
   {
@@ -406,6 +442,7 @@ questions = [
       "Dato che esprimono azioni talmente irreali e insolite da non poter essere adeguatamente costrette in alcuna regola formale di sintassi valida."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Tipi e Coniugazione"
   },
   {
@@ -417,6 +454,7 @@ questions = [
       "Comprova inequivocabilmente che il verbo possiede l'autorità di muovere l'azione tra frasi indipendenti prescindendo dalle regole di punteggiatura."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Transitività e Forma"
   },
   {
@@ -428,6 +466,7 @@ questions = [
       "Il significato profondo dell'azione viene trasmesso in via trasversale solo alle proposizioni limitrofe inibendo totalmente le frasi principali e reggenti."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Transitività e Forma"
   },
   {
@@ -439,6 +478,7 @@ questions = [
       "Prevedono la completa obliterazione dei tempi coniugati semplici obbligando l'impiego perenne dei tempi verbali declinati solo e soltanto al passato."
     ],
     "source_file": "CamScanner 08-06-26 15.33.pdf",
+    "subject": "ITALIANO",
     "topic": "Verbi - Transitività e Forma"
   }
 ]
