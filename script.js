@@ -147,9 +147,10 @@ function renderQuestion() {
     ui.qTopic.textContent = `${q.topic} - ${q.subtopic}`;
     ui.questionText.textContent = q.question;
     
-    // Render options
+    // Render options (shuffled to ensure correct answer isn't always first)
     ui.optionsGrid.innerHTML = '';
-    q.options.forEach(opt => {
+    const shuffledOptions = [...q.options].sort(() => 0.5 - Math.random());
+    shuffledOptions.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = opt;
