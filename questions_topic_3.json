@@ -1,0 +1,130 @@
+{
+    "Educazione Civica": {
+        "Diritto Internazionale ed Europeo": {
+            "L'Unione Europea": [
+                {
+                    "id": "3_1_1",
+                    "question": "Quale storico trattato del 1951 ha istituito la CECA (Comunità Europea del Carbone e dell'Acciaio), considerata il primo nucleo della futura UE?",
+                    "options": [
+                        "Il Trattato di Parigi",
+                        "Il Trattato di Roma",
+                        "Il Trattato di Maastricht",
+                        "Il Trattato di Lisbona"
+                    ],
+                    "correctAnswer": "Il Trattato di Parigi",
+                    "explanation": "La CECA, firmata a Parigi nel 1951 da 6 paesi fondatori, mise in comune la produzione di carbone e acciaio."
+                },
+                {
+                    "id": "3_1_2",
+                    "question": "Quanti e quali erano i paesi fondatori delle prime Comunità Europee (CEE, EURATOM, CECA)?",
+                    "options": [
+                        "6: Italia, Francia, Germania Ovest, Belgio, Paesi Bassi e Lussemburgo",
+                        "4: Italia, Francia, Germania Ovest, Spagna",
+                        "12: i paesi dell'Europa occidentale al termine della Seconda Guerra Mondiale",
+                        "5: Francia, Regno Unito, Italia, Belgio, Germania Ovest"
+                    ],
+                    "correctAnswer": "6: Italia, Francia, Germania Ovest, Belgio, Paesi Bassi e Lussemburgo",
+                    "explanation": "I sei paesi originali (la 'Piccola Europa') avviarono il processo di integrazione economica ed europea."
+                },
+                {
+                    "id": "3_1_3",
+                    "question": "Quale trattato, firmato nel 1992, ha ufficialmente istituito l'Unione Europea (UE) e gettato le basi per l'unione economica e monetaria (Euro)?",
+                    "options": [
+                        "Il Trattato di Maastricht",
+                        "Il Trattato di Nizza",
+                        "Il Trattato di Amsterdam",
+                        "L'Atto Unico Europeo"
+                    ],
+                    "correctAnswer": "Il Trattato di Maastricht",
+                    "explanation": "Il Trattato di Maastricht (1992) ha sancito la nascita dell'Unione Europea, introducendo la cittadinanza europea e le tappe per la moneta unica."
+                },
+                {
+                    "id": "3_1_4",
+                    "question": "Quale istituzione dell'UE è l'unica ad essere eletta direttamente dai cittadini europei a suffragio universale?",
+                    "options": [
+                        "Il Parlamento Europeo",
+                        "La Commissione Europea",
+                        "Il Consiglio dell'Unione Europea",
+                        "Il Consiglio Europeo"
+                    ],
+                    "correctAnswer": "Il Parlamento Europeo",
+                    "explanation": "Il Parlamento Europeo, con sede a Strasburgo e Bruxelles, è composto dai rappresentanti dei cittadini dell'Unione ed è eletto ogni 5 anni."
+                },
+                {
+                    "id": "3_1_5",
+                    "question": "La Commissione Europea, spesso definita il 'governo' dell'UE, quale compito principale svolge?",
+                    "options": [
+                        "Detiene il potere esecutivo, propone nuove leggi e vigila sul rispetto dei trattati (guardiana dei trattati)",
+                        "Approva definitivamente tutte le leggi europee",
+                        "Giudica sulle violazioni dei diritti civili nei tribunali europei",
+                        "Gestisce la politica monetaria e stampa le banconote Euro"
+                    ],
+                    "correctAnswer": "Detiene il potere esecutivo, propone nuove leggi e vigila sul rispetto dei trattati (guardiana dei trattati)",
+                    "explanation": "La Commissione è l'organo indipendente che tutela gli interessi generali dell'UE e detiene il monopolio dell'iniziativa legislativa."
+                },
+                {
+                    "id": "3_1_6",
+                    "question": "Come si chiama l'organo dell'UE che riunisce i Capi di Stato o di Governo dei paesi membri per definire gli orientamenti e le priorità politiche generali?",
+                    "options": [
+                        "Il Consiglio Europeo",
+                        "Il Consiglio dell'Unione Europea (o dei Ministri)",
+                        "La Commissione Europea",
+                        "Il Parlamento Europeo"
+                    ],
+                    "correctAnswer": "Il Consiglio Europeo",
+                    "explanation": "Il Consiglio Europeo dà all'UE gli impulsi necessari al suo sviluppo e ne definisce gli orientamenti politici, senza però esercitare funzioni legislative."
+                }
+            ],
+            "Organizzazioni Internazionali": [
+                {
+                    "id": "3_2_1",
+                    "question": "L'Organizzazione delle Nazioni Unite (ONU) ha come scopo principale:",
+                    "options": [
+                        "Mantenere la pace e la sicurezza internazionale e sviluppare relazioni amichevoli tra le nazioni",
+                        "Stabilire un governo mondiale unico con un proprio esercito",
+                        "Regolare i dazi commerciali tra Europa e Stati Uniti",
+                        "Fornire assistenza tecnica per la produzione agricola (che è lo scopo della FAO, un'agenzia ONU, ma non dell'ONU in generale)"
+                    ],
+                    "correctAnswer": "Mantenere la pace e la sicurezza internazionale e sviluppare relazioni amichevoli tra le nazioni",
+                    "explanation": "Nata nel 1945 con la Carta di San Francisco, l'ONU persegue la pace mondiale e la cooperazione internazionale."
+                },
+                {
+                    "id": "3_2_2",
+                    "question": "Qual è l'organo dell'ONU che ha la responsabilità principale del mantenimento della pace e che può adottare risoluzioni vincolanti (comprese sanzioni o uso della forza)?",
+                    "options": [
+                        "Il Consiglio di Sicurezza",
+                        "L'Assemblea Generale",
+                        "Il Segretariato Generale",
+                        "La Corte Internazionale di Giustizia"
+                    ],
+                    "correctAnswer": "Il Consiglio di Sicurezza",
+                    "explanation": "Il Consiglio di Sicurezza è composto da 15 membri, di cui 5 permanenti con diritto di veto (USA, Russia, Cina, Francia, Regno Unito)."
+                },
+                {
+                    "id": "3_2_3",
+                    "question": "Cos'è la NATO (Organizzazione del Trattato dell'Atlantico del Nord)?",
+                    "options": [
+                        "Un'alleanza politica e militare difensiva tra paesi dell'Europa e del Nord America",
+                        "Un'organizzazione commerciale globale per favorire il libero scambio",
+                        "Un'agenzia dell'ONU specializzata nell'intervento umanitario",
+                        "L'organizzazione che unisce i paesi non allineati"
+                    ],
+                    "correctAnswer": "Un'alleanza politica e militare difensiva tra paesi dell'Europa e del Nord America",
+                    "explanation": "Fondata nel 1949, la NATO si basa sul principio della difesa collettiva (art. 5): un attacco a un membro è un attacco a tutti."
+                },
+                {
+                    "id": "3_2_4",
+                    "question": "Da non confondere con le istituzioni dell'UE, cos'è il Consiglio d'Europa?",
+                    "options": [
+                        "Un'organizzazione internazionale focalizzata sulla difesa dei diritti umani, la democrazia e lo stato di diritto in Europa",
+                        "L'organo legislativo dell'Unione Europea",
+                        "Una banca centrale che emette fondi per le nazioni europee",
+                        "Un'associazione temporanea di paesi per il commercio del carbone"
+                    ],
+                    "correctAnswer": "Un'organizzazione internazionale focalizzata sulla difesa dei diritti umani, la democrazia e lo stato di diritto in Europa",
+                    "explanation": "Il Consiglio d'Europa è un'organizzazione separata dall'UE, nota in particolare per la CEDU (Convenzione Europea dei Diritti dell'Uomo)."
+                }
+            ]
+        }
+    }
+}

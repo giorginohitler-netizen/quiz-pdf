@@ -1,0 +1,106 @@
+{
+    "Geografia": {
+        "L'Italia": {
+            "Territorio e Clima": [
+                {
+                    "id": "4_1_1",
+                    "question": "Qual è la lunghezza approssimativa delle coste italiane, considerando anche le isole?",
+                    "options": [
+                        "Circa 7.500 - 8.000 km",
+                        "Circa 2.000 km",
+                        "Oltre 15.000 km",
+                        "Circa 4.500 km"
+                    ],
+                    "correctAnswer": "Circa 7.500 - 8.000 km",
+                    "explanation": "L'Italia, essendo una penisola circondata da vari mari (Ligure, Tirreno, Ionio, Adriatico) e includendo le isole maggiori e minori, ha uno sviluppo costiero di quasi 8.000 km."
+                },
+                {
+                    "id": "4_1_2",
+                    "question": "Quali mari bagnano le coste della penisola italiana?",
+                    "options": [
+                        "Ligure, Tirreno, Ionio, Adriatico",
+                        "Mediterraneo, Egeo, Nero, Rosso",
+                        "Tirreno, Ionio, Egeo, Adriatico",
+                        "Ligure, Baltico, Tirreno, Ionio"
+                    ],
+                    "correctAnswer": "Ligure, Tirreno, Ionio, Adriatico",
+                    "explanation": "Questi quattro mari sono tutte articolazioni del Mar Mediterraneo che bagnano i diversi versanti dell'Italia."
+                },
+                {
+                    "id": "4_1_3",
+                    "question": "Da dove a dove si estende tradizionalmente la catena degli Appennini?",
+                    "options": [
+                        "Dal Colle di Cadibona (in Liguria) fino allo Stretto di Messina, e prosegue in Sicilia",
+                        "Dalla Valle d'Aosta al Friuli-Venezia Giulia",
+                        "Esclusivamente lungo le coste del Mar Adriatico",
+                        "Dal Piemonte fino al Lazio"
+                    ],
+                    "correctAnswer": "Dal Colle di Cadibona (in Liguria) fino allo Stretto di Messina, e prosegue in Sicilia",
+                    "explanation": "Gli Appennini sono la 'spina dorsale' della penisola italiana, estendendosi da nord a sud fino in Sicilia."
+                },
+                {
+                    "id": "4_1_4",
+                    "question": "Qual è il fiume più lungo d'Italia e dove sfocia?",
+                    "options": [
+                        "Il Po, che sfocia nel Mar Adriatico con un ampio delta",
+                        "Il Tevere, che sfocia nel Mar Tirreno",
+                        "L'Adige, che sfocia nel Mar Ionio",
+                        "L'Arno, che sfocia nel Mar Ligure"
+                    ],
+                    "correctAnswer": "Il Po, che sfocia nel Mar Adriatico con un ampio delta",
+                    "explanation": "Il Po, lungo circa 652 km, è il fiume più lungo e di maggiore portata in Italia, scorre nella Pianura Padana e sfocia a delta nell'Adriatico."
+                },
+                {
+                    "id": "4_1_5",
+                    "question": "Quale tra i seguenti laghi è il più grande per superficie in Italia?",
+                    "options": [
+                        "Il Lago di Garda",
+                        "Il Lago Maggiore",
+                        "Il Lago di Como",
+                        "Il Lago Trasimeno"
+                    ],
+                    "correctAnswer": "Il Lago di Garda",
+                    "explanation": "Il Lago di Garda (o Benaco) è il più grande lago italiano, situato tra Lombardia, Veneto e Trentino-Alto Adige."
+                }
+            ],
+            "Demografia ed Economia": [
+                {
+                    "id": "4_2_1",
+                    "question": "Cosa indica il concetto di 'invecchiamento demografico' riscontrato in Italia negli ultimi decenni?",
+                    "options": [
+                        "Un aumento percentuale della popolazione anziana rispetto ai giovani, dovuto al calo delle nascite e all'aumento dell'aspettativa di vita",
+                        "Un calo dell'aspettativa di vita totale",
+                        "L'aumento dell'emigrazione giovanile all'estero, senza alcuna variazione delle nascite",
+                        "Un fenomeno che riguarda solo il Sud Italia"
+                    ],
+                    "correctAnswer": "Un aumento percentuale della popolazione anziana rispetto ai giovani, dovuto al calo delle nascite e all'aumento dell'aspettativa di vita",
+                    "explanation": "L'Italia presenta uno degli indici di vecchiaia più alti al mondo, a causa di una bassissima natalità e un'alta longevità."
+                },
+                {
+                    "id": "4_2_2",
+                    "question": "Quali attività rientrano tipicamente nel 'Settore Primario' dell'economia italiana?",
+                    "options": [
+                        "Agricoltura, allevamento, pesca e sfruttamento delle risorse forestali",
+                        "Industria manifatturiera, edilizia e produzione di energia",
+                        "Servizi, commercio, turismo e finanza",
+                        "Ricerca scientifica, informatica e telecomunicazioni avanzate"
+                    ],
+                    "correctAnswer": "Agricoltura, allevamento, pesca e sfruttamento delle risorse forestali",
+                    "explanation": "Il settore primario raggruppa le attività di sfruttamento diretto delle risorse naturali. In Italia occupa circa il 4% degli occupati."
+                },
+                {
+                    "id": "4_2_3",
+                    "question": "In base all'art. 114 della Costituzione, cos'è una 'Città Metropolitana'?",
+                    "options": [
+                        "Un ente territoriale di vasta area che sostituisce la provincia in alcuni dei maggiori poli urbani del Paese (es. Roma, Milano, Napoli)",
+                        "Un semplice termine geografico per indicare una città con più di un milione di abitanti",
+                        "Una regione speciale che include diverse province",
+                        "Un quartiere autonomo all'interno di una grande città"
+                    ],
+                    "correctAnswer": "Un ente territoriale di vasta area che sostituisce la provincia in alcuni dei maggiori poli urbani del Paese (es. Roma, Milano, Napoli)",
+                    "explanation": "La Città Metropolitana è un vero e proprio ente amministrativo previsto dalla Costituzione per le grandi aree urbane."
+                }
+            ]
+        }
+    }
+}

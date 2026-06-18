@@ -1,0 +1,120 @@
+{
+    "Italiano": {
+        "Sintassi e Invariabili": {
+            "Parti Invariabili": [
+                {
+                    "id": "8_1_1",
+                    "question": "Quali sono le quattro parti INVARIABILI del discorso?",
+                    "options": [
+                        "Avverbio, preposizione, congiunzione, interiezione",
+                        "Nome, articolo, verbo, aggettivo",
+                        "Pronome, preposizione, nome, avverbio",
+                        "Avverbio, verbo, articolo, congiunzione"
+                    ],
+                    "correctAnswer": "Avverbio, preposizione, congiunzione, interiezione",
+                    "explanation": "Queste parti si dicono invariabili perché non subiscono flessioni, ossia non cambiano per genere (maschile/femminile) e numero (singolare/plurale)."
+                },
+                {
+                    "id": "8_1_2",
+                    "question": "Nella frase 'Luigi corre VELOCEMENTE', la parola 'velocemente' è:",
+                    "options": [
+                        "Un avverbio di modo",
+                        "Un aggettivo qualificativo",
+                        "Una preposizione di modo",
+                        "Un pronome"
+                    ],
+                    "correctAnswer": "Un avverbio di modo",
+                    "explanation": "L'avverbio si affianca al verbo (in questo caso 'corre') per modificarne o precisarne il significato (indica come corre)."
+                },
+                {
+                    "id": "8_1_3",
+                    "question": "Le parole 'di, a, da, in, con, su, per, tra, fra' sono:",
+                    "options": [
+                        "Preposizioni semplici",
+                        "Preposizioni articolate",
+                        "Congiunzioni subordinanti",
+                        "Avverbi di luogo"
+                    ],
+                    "correctAnswer": "Preposizioni semplici",
+                    "explanation": "Sono le preposizioni proprie semplici, che mettono in relazione due elementi della frase."
+                }
+            ],
+            "Sintassi della Frase": [
+                {
+                    "id": "8_2_1",
+                    "question": "Qual è l'elemento fondamentale della frase che indica l'azione compiuta o subita dal soggetto?",
+                    "options": [
+                        "Il Predicato (verbale o nominale)",
+                        "L'Attributo",
+                        "Il Complemento Oggetto",
+                        "L'Apposizione"
+                    ],
+                    "correctAnswer": "Il Predicato (verbale o nominale)",
+                    "explanation": "Il predicato è il 'motore' della frase; senza un verbo non può esistere una frase completa (proposizione)."
+                },
+                {
+                    "id": "8_2_2",
+                    "question": "A quale domanda risponde il Complemento di Specificazione?",
+                    "options": [
+                        "Di chi? Di che cosa?",
+                        "A chi? A che cosa?",
+                        "Chi? Che cosa?",
+                        "Perché? Per quale motivo?"
+                    ],
+                    "correctAnswer": "Di chi? Di che cosa?",
+                    "explanation": "Il complemento di specificazione (introdotto tipicamente dalla preposizione 'di') specifica e precisa il significato del termine cui si riferisce."
+                },
+                {
+                    "id": "8_2_3",
+                    "question": "Nella frase 'Ho regalato un libro A MARCO', 'A Marco' è:",
+                    "options": [
+                        "Complemento di Termine",
+                        "Complemento Oggetto",
+                        "Complemento di Specificazione",
+                        "Complemento di Modo"
+                    ],
+                    "correctAnswer": "Complemento di Termine",
+                    "explanation": "Il complemento di termine risponde alla domanda 'A chi? A che cosa?' e indica il destinatario dell'azione."
+                }
+            ],
+            "Sintassi del Periodo": [
+                {
+                    "id": "8_3_1",
+                    "question": "In un periodo, la proposizione che non dipende grammaticalmente da nessun'altra frase si chiama:",
+                    "options": [
+                        "Proposizione Principale (indipendente)",
+                        "Proposizione Subordinata",
+                        "Proposizione Coordinata",
+                        "Proposizione Implicita"
+                    ],
+                    "correctAnswer": "Proposizione Principale (indipendente)",
+                    "explanation": "La proposizione principale ha un senso compiuto e regge l'intera architettura del periodo."
+                },
+                {
+                    "id": "8_3_2",
+                    "question": "Come si chiama una proposizione collegata alla principale (o ad un'altra subordinata) tramite congiunzioni come 'e, o, ma, perciò' mettendola sullo stesso piano sintattico?",
+                    "options": [
+                        "Proposizione Coordinata",
+                        "Proposizione Subordinata causale",
+                        "Proposizione Principale",
+                        "Proposizione Relativa"
+                    ],
+                    "correctAnswer": "Proposizione Coordinata",
+                    "explanation": "La coordinazione (paratassi) unisce due frasi di pari grado gerarchico."
+                },
+                {
+                    "id": "8_3_3",
+                    "question": "Nel periodo ipotetico, come si chiamano la proposizione che esprime la condizione e quella che esprime la conseguenza?",
+                    "options": [
+                        "Protasi (condizione) e Apodosi (conseguenza)",
+                        "Principale (condizione) e Coordinata (conseguenza)",
+                        "Soggettiva (condizione) e Oggettiva (conseguenza)",
+                        "Apodosi (condizione) e Protasi (conseguenza)"
+                    ],
+                    "correctAnswer": "Protasi (condizione) e Apodosi (conseguenza)",
+                    "explanation": "Es. 'Se piove (protasi), non esco (apodosi)'. La protasi è subordinata condizionale, l'apodosi è spesso la principale."
+                }
+            ]
+        }
+    }
+}

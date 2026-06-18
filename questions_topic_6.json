@@ -1,0 +1,106 @@
+{
+    "Geografia": {
+        "L'Europa e i suoi Stati": {
+            "Il Continente Europeo": [
+                {
+                    "id": "6_1_1",
+                    "question": "Quali catene montuose segnano convenzionalmente il confine naturale a Est tra Europa e Asia?",
+                    "options": [
+                        "I Monti Urali e il Caucaso",
+                        "Le Alpi e gli Appennini",
+                        "I Pirenei e i Carpazi",
+                        "Le Ande e le Montagne Rocciose"
+                    ],
+                    "correctAnswer": "I Monti Urali e il Caucaso",
+                    "explanation": "L'Europa non è separata dall'Asia da oceani, ma forma l'Eurasia. Il confine convenzionale è segnato dai Monti Urali e dalla catena del Caucaso."
+                },
+                {
+                    "id": "6_1_2",
+                    "question": "Qual è il fiume più lungo del continente europeo?",
+                    "options": [
+                        "Il Volga",
+                        "Il Danubio",
+                        "Il Reno",
+                        "Il Tamigi"
+                    ],
+                    "correctAnswer": "Il Volga",
+                    "explanation": "Il Volga, lungo oltre 3.500 km, scorre interamente in Russia prima di sfociare nel Mar Caspio."
+                },
+                {
+                    "id": "6_1_3",
+                    "question": "Quale fiume europeo è il secondo per lunghezza e attraversa o sfiora ben 10 nazioni prima di sfociare nel Mar Nero?",
+                    "options": [
+                        "Il Danubio",
+                        "Il Reno",
+                        "La Senna",
+                        "Il Po"
+                    ],
+                    "correctAnswer": "Il Danubio",
+                    "explanation": "Il Danubio è una via di comunicazione vitale per l'Europa Centrale e Orientale e sfocia con un ampio delta nel Mar Nero."
+                }
+            ],
+            "Aree Geopolitiche e Stati": [
+                {
+                    "id": "6_2_1",
+                    "question": "Da quali Stati è composta prevalentemente la Penisola Iberica?",
+                    "options": [
+                        "Spagna, Portogallo e Andorra",
+                        "Francia e Spagna",
+                        "Italia e Grecia",
+                        "Svezia e Norvegia"
+                    ],
+                    "correctAnswer": "Spagna, Portogallo e Andorra",
+                    "explanation": "La Penisola Iberica è l'estremità sud-occidentale dell'Europa e comprende principalmente Spagna e Portogallo, oltre al Principato di Andorra (e Gibilterra)."
+                },
+                {
+                    "id": "6_2_2",
+                    "question": "Parigi è la capitale di:",
+                    "options": [
+                        "Francia",
+                        "Belgio",
+                        "Svizzera",
+                        "Olanda"
+                    ],
+                    "correctAnswer": "Francia",
+                    "explanation": "Parigi è il fulcro politico, economico e culturale della Repubblica Francese."
+                },
+                {
+                    "id": "6_2_3",
+                    "question": "Quali stati formano l'area del Benelux?",
+                    "options": [
+                        "Belgio, Paesi Bassi (Nederland) e Lussemburgo",
+                        "Bielorussia, Norvegia e Lettonia",
+                        "Belgio, Norvegia e Lituania",
+                        "Bosnia, Paesi Bassi e Lussemburgo"
+                    ],
+                    "correctAnswer": "Belgio, Paesi Bassi (Nederland) e Lussemburgo",
+                    "explanation": "Il termine Benelux nasce dalle iniziali di Belgium, Netherlands e Luxembourg."
+                },
+                {
+                    "id": "6_2_4",
+                    "question": "Qual è la capitale della Germania, Paese cardine dell'Europa Centrale?",
+                    "options": [
+                        "Berlino",
+                        "Monaco di Baviera",
+                        "Francoforte",
+                        "Amburgo"
+                    ],
+                    "correctAnswer": "Berlino",
+                    "explanation": "Berlino è la capitale e la città più popolosa della Germania, tornata tale dopo la riunificazione."
+                },
+                {
+                    "id": "6_2_5",
+                    "question": "Quali nazioni fanno parte del Regno Unito (UK)?",
+                    "options": [
+                        "Inghilterra, Scozia, Galles e Irlanda del Nord",
+                        "Inghilterra, Irlanda del Sud e Scozia",
+                        "Solo Inghilterra e Galles",
+                        "Inghilterra, Francia e Scozia"
+                    ],
+                    "correctAnswer": "Inghilterra, Scozia, Galles e Irlanda del Nord",
+                    "explanation": "Il Regno Unito comprende la Gran Bretagna (Inghilterra, Scozia, Galles) e la parte nord dell'isola d'Irlanda."
+                }
+            ]
+        }
+    }
+}

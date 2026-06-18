@@ -1,0 +1,156 @@
+{
+    "Geografia": {
+        "Le Regioni d'Italia": {
+            "Il Nord Italia": [
+                {
+                    "id": "5_1_1",
+                    "question": "Quale regione del Nord Italia è a Statuto Speciale e ha come capoluogo Aosta?",
+                    "options": [
+                        "Valle d'Aosta",
+                        "Trentino-Alto Adige",
+                        "Friuli-Venezia Giulia",
+                        "Piemonte"
+                    ],
+                    "correctAnswer": "Valle d'Aosta",
+                    "explanation": "La Valle d'Aosta è la più piccola regione italiana, è a statuto speciale (bilinguismo italiano-francese) e non ha province, ma solo il capoluogo Aosta."
+                },
+                {
+                    "id": "5_1_2",
+                    "question": "Il fiume Po, il più lungo d'Italia, nasce dal Monviso in quale regione?",
+                    "options": [
+                        "Piemonte",
+                        "Lombardia",
+                        "Emilia-Romagna",
+                        "Veneto"
+                    ],
+                    "correctAnswer": "Piemonte",
+                    "explanation": "Il Po nasce in Piemonte (Alpi Cozie) e attraversa la regione prima di scorrere verso la Lombardia."
+                },
+                {
+                    "id": "5_1_3",
+                    "question": "Quale regione italiana è bagnata dal Mar Ligure, ha una conformazione 'ad arco' ed è famosa per le Cinque Terre?",
+                    "options": [
+                        "Liguria",
+                        "Toscana",
+                        "Emilia-Romagna",
+                        "Campania"
+                    ],
+                    "correctAnswer": "Liguria",
+                    "explanation": "La Liguria ha un territorio montuoso/collinare affacciato sul mare, diviso tradizionalmente in Riviera di Ponente e Riviera di Levante."
+                },
+                {
+                    "id": "5_1_4",
+                    "question": "Qual è il capoluogo della regione Lombardia?",
+                    "options": [
+                        "Milano",
+                        "Torino",
+                        "Brescia",
+                        "Bergamo"
+                    ],
+                    "correctAnswer": "Milano",
+                    "explanation": "Milano è il capoluogo della Lombardia, nonché il principale polo finanziario ed economico d'Italia."
+                },
+                {
+                    "id": "5_1_5",
+                    "question": "Venezia è il capoluogo di quale regione?",
+                    "options": [
+                        "Veneto",
+                        "Friuli-Venezia Giulia",
+                        "Emilia-Romagna",
+                        "Marche"
+                    ],
+                    "correctAnswer": "Veneto",
+                    "explanation": "Il Veneto (capoluogo Venezia) è una vasta regione del Nord-Est, caratterizzata da un'economia florida basata su PMI."
+                }
+            ],
+            "Il Centro Italia": [
+                {
+                    "id": "5_2_1",
+                    "question": "Firenze, famosa per il Rinascimento, è il capoluogo di quale regione?",
+                    "options": [
+                        "Toscana",
+                        "Umbria",
+                        "Marche",
+                        "Lazio"
+                    ],
+                    "correctAnswer": "Toscana",
+                    "explanation": "La Toscana, nota per l'arte e i paesaggi collinari (es. il Chianti), ha per capoluogo Firenze."
+                },
+                {
+                    "id": "5_2_2",
+                    "question": "Quale di queste regioni del Centro Italia è priva di sbocchi sul mare?",
+                    "options": [
+                        "Umbria",
+                        "Toscana",
+                        "Lazio",
+                        "Marche"
+                    ],
+                    "correctAnswer": "Umbria",
+                    "explanation": "L'Umbria, definita il 'cuore verde d'Italia', è l'unica regione peninsulare a non essere bagnata dal mare."
+                },
+                {
+                    "id": "5_2_3",
+                    "question": "Quale regione ospita Roma, capitale della Repubblica Italiana?",
+                    "options": [
+                        "Lazio",
+                        "Campania",
+                        "Abruzzo",
+                        "Toscana"
+                    ],
+                    "correctAnswer": "Lazio",
+                    "explanation": "Il Lazio ha per capoluogo Roma, la città più popolosa d'Italia e sede delle massime istituzioni statali."
+                }
+            ],
+            "Il Sud Italia e le Isole": [
+                {
+                    "id": "5_3_1",
+                    "question": "Napoli, ai piedi del Vesuvio, è il capoluogo di:",
+                    "options": [
+                        "Campania",
+                        "Puglia",
+                        "Calabria",
+                        "Basilicata"
+                    ],
+                    "correctAnswer": "Campania",
+                    "explanation": "La Campania è una delle regioni più densamente popolate d'Italia, celebre per la Costiera Amalfitana e le isole (Capri, Ischia)."
+                },
+                {
+                    "id": "5_3_2",
+                    "question": "Quale regione forma il 'tacco' dello stivale italiano ed ha Bari come capoluogo?",
+                    "options": [
+                        "Puglia",
+                        "Calabria",
+                        "Sicilia",
+                        "Molise"
+                    ],
+                    "correctAnswer": "Puglia",
+                    "explanation": "La Puglia si protende nel Mar Ionio e Adriatico ed è nota per le sue estese pianure (Tavoliere) e le produzioni agricole."
+                },
+                {
+                    "id": "5_3_3",
+                    "question": "Palermo è il capoluogo di quale grande isola italiana (Regione a statuto speciale)?",
+                    "options": [
+                        "Sicilia",
+                        "Sardegna",
+                        "Corsica",
+                        "Isola d'Elba"
+                    ],
+                    "correctAnswer": "Sicilia",
+                    "explanation": "La Sicilia è l'isola più grande del Mediterraneo ed è una delle 5 regioni italiane a statuto speciale."
+                },
+                {
+                    "id": "5_3_4",
+                    "question": "Qual è il capoluogo della Sardegna?",
+                    "options": [
+                        "Cagliari",
+                        "Sassari",
+                        "Nuoro",
+                        "Olbia"
+                    ],
+                    "correctAnswer": "Cagliari",
+                    "explanation": "La Sardegna è una grande regione insulare a statuto speciale; il suo capoluogo politico-amministrativo è Cagliari."
+                }
+            ]
+        }
+    }
+}
