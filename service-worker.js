@@ -4,7 +4,7 @@
  * Strategia: Cache First per assets statici, Network First per domande.
  */
 
-const CACHE_NAME = 'auratest-v1';
+const CACHE_NAME = 'auratest-v2';
 
 // File da mettere in cache al momento dell'installazione
 const ASSETS_TO_CACHE = [
