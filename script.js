@@ -45,12 +45,115 @@ function fisherYatesShuffle(array) {
     return arr;
 }
 
+// ==================== CUSTOM DROPDOWN ====================
+function initDropdown() {
+    const dropdown = document.getElementById('customDropdown');
+    const trigger = document.getElementById('dropdownTrigger');
+    const menu = document.getElementById('dropdownMenu');
+    const hiddenInput = document.getElementById('subjectSelect');
+    const labelEl = document.getElementById('dropdownLabel');
+    const iconEl = document.getElementById('dropdownIcon');
+    const options = menu.querySelectorAll('.dropdown-option');
+
+    // Create overlay for outside-click detection
+    const overlay = document.createElement('div');
+    overlay.className = 'dropdown-overlay';
+    document.body.appendChild(overlay);
+
+    function openDropdown() {
+        dropdown.classList.add('open');
+        trigger.setAttribute('aria-expanded', 'true');
+        overlay.classList.add('active');
+    }
+
+    function closeDropdown() {
+        dropdown.classList.remove('open');
+        trigger.setAttribute('aria-expanded', 'false');
+        overlay.classList.remove('active');
+    }
+
+    function selectOption(optionEl) {
+        // Remove selected from all
+        options.forEach(o => {
+            o.classList.remove('selected');
+            o.setAttribute('aria-selected', 'false');
+        });
+        // Mark this one selected
+        optionEl.classList.add('selected');
+        optionEl.setAttribute('aria-selected', 'true');
+
+        // Update trigger display
+        const val = optionEl.dataset.value;
+        const icon = optionEl.querySelector('.opt-icon').textContent;
+        const text = optionEl.querySelector('.opt-text').textContent;
+        iconEl.textContent = icon;
+        labelEl.textContent = text;
+
+        // Update hidden input (used by startQuiz)
+        hiddenInput.value = val;
+
+        closeDropdown();
+    }
+
+    trigger.addEventListener('click', () => {
+        if (dropdown.classList.contains('open')) {
+            closeDropdown();
+        } else {
+            openDropdown();
+        }
+    });
+
+    overlay.addEventListener('click', closeDropdown);
+
+    options.forEach(opt => {
+        opt.addEventListener('click', () => selectOption(opt));
+    });
+
+    // Keyboard support
+    trigger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            if (dropdown.classList.contains('open')) closeDropdown();
+            else openDropdown();
+        }
+        if (e.key === 'Escape') closeDropdown();
+    });
+
+    menu.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeDropdown();
+            trigger.focus();
+        }
+        const optArr = [...options];
+        const focused = document.activeElement;
+        const idx = optArr.indexOf(focused);
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            const next = optArr[(idx + 1) % optArr.length];
+            next.focus();
+        }
+        if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            const prev = optArr[(idx - 1 + optArr.length) % optArr.length];
+            prev.focus();
+        }
+        if (e.key === 'Enter' && idx >= 0) {
+            e.preventDefault();
+            selectOption(optArr[idx]);
+        }
+    });
+
+    // Make options focusable
+    options.forEach(opt => opt.setAttribute('tabindex', '0'));
+}
+
 // Initialization
 async function init() {
     try {
         const response = await fetch('questions.json');
         const data = await response.json();
         processDatabase(data);
+        initDropdown();
         ui.startBtn.addEventListener('click', startQuiz);
         ui.nextBtn.addEventListener('click', loadNextQuestion);
         ui.restartBtn.addEventListener('click', resetApp);
@@ -60,6 +163,7 @@ async function init() {
         ui.startBtn.disabled = true;
     }
 }
+
 
 function processDatabase(data) {
     allQuestions = [];
