@@ -362,19 +362,7 @@ h1, h2, h3, h4 {
     opacity: 1;
 }
 
-/* Overlay to close dropdown on outside click */
-/* z-index must be LOWER than custom-dropdown (100) */
-.dropdown-overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 50;
-    display: none;
-    background: transparent;
-}
-
-.dropdown-overlay.active {
-    display: block;
-}
+/* (Overlay rimosso a favore del document click listener in JS) */
 
 /* ==================== BUTTONS ==================== */
 .btn-primary {

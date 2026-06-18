@@ -55,22 +55,14 @@ function initDropdown() {
     const iconEl = document.getElementById('dropdownIcon');
     const options = menu.querySelectorAll('.dropdown-option');
 
-    // Create overlay for outside-click detection
-    const overlay = document.createElement('div');
-    overlay.className = 'dropdown-overlay';
-    // Aggiungiamo l'overlay allo stesso container del dropdown (per non subire lo z-index fixato del body)
-    dropdown.parentElement.appendChild(overlay);
-
     function openDropdown() {
         dropdown.classList.add('open');
         trigger.setAttribute('aria-expanded', 'true');
-        overlay.classList.add('active');
     }
 
     function closeDropdown() {
         dropdown.classList.remove('open');
         trigger.setAttribute('aria-expanded', 'false');
-        overlay.classList.remove('active');
     }
 
     function selectOption(optionEl) {
@@ -96,7 +88,8 @@ function initDropdown() {
         closeDropdown();
     }
 
-    trigger.addEventListener('click', () => {
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent document click from firing immediately
         if (dropdown.classList.contains('open')) {
             closeDropdown();
         } else {
@@ -104,10 +97,18 @@ function initDropdown() {
         }
     });
 
-    overlay.addEventListener('click', closeDropdown);
-
     options.forEach(opt => {
-        opt.addEventListener('click', () => selectOption(opt));
+        opt.addEventListener('click', (e) => {
+            e.stopPropagation();
+            selectOption(opt);
+        });
+    });
+
+    // Close on outside click (replaces overlay)
+    document.addEventListener('click', (e) => {
+        if (dropdown.classList.contains('open') && !dropdown.contains(e.target)) {
+            closeDropdown();
+        }
     });
 
     // Keyboard support
