@@ -1,0 +1,70 @@
+{
+    "Educazione Civica": {
+        "Costituzione e Ordinamento": {
+            "Le Fonti del Diritto": [
+                {
+                    "id": "10_1",
+                    "question": "Cosa disciplinano le 'fonti sulla produzione' del diritto?",
+                    "options": [
+                        "Gli organi e le procedure di formazione del diritto stesso",
+                        "I fatti o gli atti da cui traggono origine le norme giuridiche",
+                        "Gli strumenti attraverso cui si conoscono le norme (es. Gazzetta Ufficiale)",
+                        "L'elenco dei reati penali previsti dall'ordinamento"
+                    ],
+                    "correctAnswer": "Gli organi e le procedure di formazione del diritto stesso",
+                    "explanation": "Le fonti sulla produzione stabiliscono 'come' si crea il diritto, ovvero chi è competente a emanarlo e le procedure da seguire."
+                },
+                {
+                    "id": "10_2",
+                    "question": "Quale criterio regola il rapporto tra fonti di pari grado (es. due leggi ordinarie)?",
+                    "options": [
+                        "Criterio temporale (cronologico)",
+                        "Criterio gerarchico",
+                        "Criterio di competenza",
+                        "Criterio spaziale"
+                    ],
+                    "correctAnswer": "Criterio temporale (cronologico)",
+                    "explanation": "Tra fonti dello stesso grado prevale sempre la norma successiva nel tempo, che può modificare o abrogare la precedente."
+                }
+            ],
+            "Caratteri della Costituzione": [
+                {
+                    "id": "10_3",
+                    "question": "Qual è l'unico principio espressamente dichiarato immutabile dalla nostra Costituzione (Art. 139)?",
+                    "options": [
+                        "La forma repubblicana",
+                        "La divisione dei poteri",
+                        "Il numero dei parlamentari",
+                        "L'autonomia delle Regioni"
+                    ],
+                    "correctAnswer": "La forma repubblicana",
+                    "explanation": "L'articolo 139 stabilisce che 'la forma repubblicana non può essere oggetto di revisione costituzionale'."
+                },
+                {
+                    "id": "10_4",
+                    "question": "Che cosa si intende per Costituzione 'materiale'?",
+                    "options": [
+                        "Il complesso di principi e norme effettivamente regolanti la società in un dato momento storico",
+                        "Il documento normativo cartaceo originario firmato nel 1947",
+                        "L'insieme delle leggi ordinarie che regolano l'economia dello Stato",
+                        "La Costituzione che può essere modificata con legge ordinaria"
+                    ],
+                    "correctAnswer": "Il complesso di principi e norme effettivamente regolanti la società in un dato momento storico",
+                    "explanation": "In dottrina, la Costituzione formale è il documento scritto, mentre quella materiale è l'effettivo assetto dei rapporti di forza e dei principi vissuti dalla società."
+                },
+                {
+                    "id": "10_5",
+                    "question": "Perché la Costituzione italiana è definita 'votata'?",
+                    "options": [
+                        "Perché è stata adottata volontariamente e liberamente dal popolo tramite l'Assemblea Costituente",
+                        "Perché i cittadini votano ogni anno per confermarla",
+                        "Perché è stata concessa dal sovrano (come lo Statuto Albertino)",
+                        "Perché i magistrati l'hanno approvata all'unanimità"
+                    ],
+                    "correctAnswer": "Perché è stata adottata volontariamente e liberamente dal popolo tramite l'Assemblea Costituente",
+                    "explanation": "A differenza delle costituzioni 'ottriate' (concesse dal re), la nostra è frutto del voto democratico del 1946 per l'elezione dell'Assemblea Costituente."
+                }
+            ]
+        }
+    }
+}
