@@ -1,683 +1,113 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Studio Offline</title>
-  <style>
-    :root {
-      --primary: #6366F1;
-      --primary-hover: #4F46E5;
-      --bg-gradient: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 100%);
-      --card-bg: rgba(255, 255, 255, 0.95);
-      --text-main: #1f2937;
-      --text-muted: #6b7280;
-      --success-bg: #d1fae5;
-      --success-border: #10b981;
-      --success-text: #065f46;
-      --error-bg: #fee2e2;
-      --error-border: #ef4444;
-      --error-text: #991b1b;
-    }
-    
-    body { 
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-      background: var(--bg-gradient); 
-      padding: 20px 15px; 
-      color: var(--text-main); 
-      max-width: 600px; 
-      margin: 0 auto; 
-      min-height: 100vh;
-      box-sizing: border-box;
-    }
-    
-    h1 { 
-      text-align: center; 
-      color: var(--primary); 
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-    }
-    
-    .card { 
-      background: var(--card-bg); 
-      border-radius: 20px; 
-      padding: 25px 20px; 
-      box-shadow: 0 10px 25px rgba(0,0,0,0.05), 0 4px 10px rgba(0,0,0,0.03); 
-      margin-bottom: 25px; 
-      backdrop-filter: blur(10px);
-    }
-    
-    button { 
-      background: var(--primary); 
-      color: white; 
-      border: none; 
-      padding: 16px 24px; 
-      border-radius: 14px; 
-      font-size: 1.1rem; 
-      font-weight: 600;
-      cursor: pointer; 
-      width: 100%; 
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
-      margin-top: 15px; 
-      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
-    }
-    
-    button:hover { 
-      background: var(--primary-hover); 
-      transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4);
-    }
-    
-    button:active {
-      transform: translateY(0);
-    }
-    
-    .hidden { display: none !important; }
-    
-    .progress-badge {
-      display: inline-block;
-      background: #e0e7ff;
-      color: var(--primary);
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      font-weight: 700;
-      margin-bottom: 15px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    
-    .question-title { 
-      font-size: 1.25rem; 
-      font-weight: 700; 
-      margin-bottom: 25px; 
-      line-height: 1.4; 
-      color: var(--text-main);
-    }
-    
-    .option { 
-      display: flex;
-      align-items: center;
-      padding: 16px 20px; 
-      margin-bottom: 12px; 
-      border: 2px solid #e5e7eb; 
-      border-radius: 14px; 
-      cursor: pointer; 
-      background: #ffffff; 
-      transition: all 0.2s ease; 
-      font-size: 1.05rem;
-      line-height: 1.3;
-    }
-    
-    .option:hover { 
-      border-color: #c7d2fe;
-      background: #f8fafc; 
-    }
-    
-    .option input[type="radio"] { 
-      accent-color: var(--primary);
-      width: 22px;
-      height: 22px;
-      margin-right: 15px; 
-      flex-shrink: 0;
-      cursor: pointer;
-    }
-    
-    .correct { 
-      background: var(--success-bg) !important; 
-      border-color: var(--success-border) !important; 
-      color: var(--success-text); 
-      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
-    }
-    
-    .wrong { 
-      background: var(--error-bg) !important; 
-      border-color: var(--error-border) !important; 
-      color: var(--error-text); 
-    }
-    
-    .stats { 
-      text-align: center; 
-      font-size: 2rem; 
-      font-weight: 800; 
-      color: var(--primary); 
-      margin: 20px 0 30px;
-      padding: 20px;
-      background: #f8fafc;
-      border-radius: 16px;
-      border: 2px dashed #cbd5e1;
-    }
-    
-    .input-group { margin: 25px 0; text-align: center; }
-    
-    .input-group label {
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--text-main);
-    }
-    
-    .input-group input { 
-      padding: 12px 16px; 
-      font-size: 1.2rem; 
-      width: 140px; 
-      text-align: center; 
-      border: 2px solid #e5e7eb; 
-      border-radius: 12px; 
-      margin-top: 15px;
-      transition: border-color 0.2s;
-      outline: none;
-    }
-    
-    .input-group input:focus {
-      border-color: var(--primary);
-    }
-    
-    .review-item { 
-      margin-bottom: 20px; 
-      padding: 20px; 
-      background: #fff; 
-      border: 2px solid #f1f5f9;
-      border-left: 6px solid var(--error-border); 
-      border-radius: 12px; 
-      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-    }
-    
-    .review-item strong { 
-      color: var(--error-text); 
-      display: block;
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-      letter-spacing: 0.5px;
-    }
-    
-    .review-question {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 12px;
-      color: var(--text-main);
-    }
-    
-    .review-correct { 
-      color: var(--success-text); 
-      font-weight: 600; 
-      background: var(--success-bg);
-      padding: 10px 14px;
-      border-radius: 8px;
-      display: block; 
-      font-size: 1rem; 
-      border: 1px solid var(--success-border);
-    }
-    
-    .source-badge {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      text-align: right;
-      margin-top: 20px;
-      font-style: italic;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraTest - The Knowledge Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <h1>AuraTest</h1>
+            </div>
+            <div class="session-stats hidden" id="sessionStats">
+                <div class="stat-pill">
+                    <span class="label">Domanda</span>
+                    <span class="value"><span id="currentQ">1</span>/<span id="totalQ">30</span></span>
+                </div>
+                <div class="stat-pill">
+                    <span class="label">Punteggio</span>
+                    <span class="value" id="scoreDisplay">0</span>
+                </div>
+            </div>
+        </header>
 
-  <div id="start-screen" class="card">
-    <h1>📚 Modalità Studio Offline</h1>
-    <p id="db-status" style="text-align: center; font-weight: bold; font-size: 1.1rem; color: #4F46E5;"></p>
-    
-    <div id="quiz-config" class="hidden">
-      <button id="btn-start" style="padding: 20px; font-size: 1.3rem;">Inizia Sessione</button>
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Home Screen -->
+            <section id="homeScreen" class="screen active">
+                <div class="hero">
+                    <h2>Preparati all'Eccellenza</h2>
+                    <p>Un database di centinaia di domande. Seleziona una materia: il sistema estrarrà 30 quesiti coprendo uniformemente tutti i sotto-argomenti per un ripasso completo e senza ripetizioni.</p>
+                    
+                    <div class="subject-selector">
+                        <select id="subjectSelect" class="styled-select">
+                            <option value="all">🌐 Tutte le materie (Mix)</option>
+                            <option value="Educazione Civica">🏛️ Educazione Civica</option>
+                            <option value="Geografia">🌍 Geografia</option>
+                            <option value="Italiano">📚 Italiano</option>
+                        </select>
+                    </div>
+
+                    <button id="startBtn" class="btn-primary">
+                        <span class="btn-text">Avvia Simulazione</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+                
+                <div class="topics-preview">
+                    <h3>Materie Coperte:</h3>
+                    <div class="topic-tags">
+                        <span class="tag civics">🏛️ Educazione Civica</span>
+                        <span class="tag geo">🌍 Geografia</span>
+                        <span class="tag ita">📚 Italiano</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Screen -->
+            <section id="quizScreen" class="screen">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-meta">
+                        <span class="meta-subject" id="qSubject">Materia</span>
+                        <span class="meta-topic" id="qTopic">Argomento</span>
+                    </div>
+                    
+                    <h2 class="question-text" id="questionText">Testo della domanda...</h2>
+                    
+                    <div class="options-grid" id="optionsGrid">
+                        <!-- Options will be injected here via JS -->
+                    </div>
+                    
+                    <div id="explanationBox" class="explanation-box hidden">
+                        <h4>Spiegazione</h4>
+                        <p id="explanationText"></p>
+                        <button id="nextBtn" class="btn-secondary">Prossima Domanda</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Screen -->
+            <section id="resultScreen" class="screen">
+                <div class="results-card">
+                    <h2>Simulazione Completata</h2>
+                    <div class="score-circle">
+                        <span id="finalScore" class="score-number">0</span>
+                        <span class="score-total">/ 30</span>
+                    </div>
+                    <p id="resultMessage" class="result-message">Ben Fatto!</p>
+                    
+                    <div class="results-breakdown" id="resultsBreakdown">
+                        <!-- Breakdown per subject -->
+                    </div>
+                    
+                    <button id="restartBtn" class="btn-primary">Nuova Sessione</button>
+                </div>
+            </section>
+
+        </main>
     </div>
-  </div>
 
-  <div id="subject-screen" class="card hidden">
-    <h1 style="margin-bottom: 20px;">Scegli la Materia</h1>
-    <div id="subject-buttons" style="display: flex; flex-direction: column; gap: 10px;"></div>
-  </div>
-
-  <div id="quiz-screen" class="hidden">
-    <div class="card" id="question-container"></div>
-    <button id="btn-next">Conferma Risposta</button>
-  </div>
-
-  <div id="results-screen" class="card hidden">
-    <h1>Risultati Finali</h1>
-    <p class="stats" id="final-score"></p>
-    <div id="review-container"></div>
-    <button id="btn-restart" style="margin-top: 20px;">Nuova Sessione di Ripasso</button>
-  </div>
-
-<script>
-  /* INIZIO DATI */
-  const QUESTIONS = [
-    {
-        "question": "Che cosa rappresentano le 'fonti di cognizione' nell'ordinamento giuridico?",
-        "correct_answer": "Gli strumenti ufficiali e conoscitivi attraverso cui è possibile prendere visione e conoscere le fonti di produzione (es. Gazzetta Ufficiale).",
-        "wrong_answers": [
-            "L'insieme degli organi dello Stato che sono materialmente incaricati di elaborare, modificare o abrogare le leggi vigenti.",
-            "I testi storici e filosofici che hanno ispirato i principi cardine e i diritti inalienabili contenuti nell'attuale Costituzione.",
-            "I documenti giurisprudenziali emessi esclusivamente dai Tribunali di merito che creano nuovi precedenti legali vincolanti."
-        ],
-        "source_file": "CamScanner 27-05-26 09.35.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Diritto - Fonti"
-    },
-    {
-        "question": "Secondo il criterio gerarchico delle fonti del diritto, cosa succede in caso di contrasto tra due norme di grado diverso?",
-        "correct_answer": "La norma di grado inferiore non può mai modificare o abrogare quella di grado superiore, che ha sempre prevalenza formale.",
-        "wrong_answers": [
-            "La norma entrata in vigore più recentemente annulla sistematicamente la precedente, indipendentemente dal suo grado e livello.",
-            "La Corte Costituzionale deve temporaneamente sospendere entrambe le norme e demandare una decisione al Presidente della Repubblica.",
-            "La norma di grado superiore viene automaticamente degradata per adeguarsi a quella emanata dal Parlamento in via ordinaria."
-        ],
-        "source_file": "CamScanner 27-05-26 09.35.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Diritto - Fonti"
-    },
-    {
-        "question": "In Italia, da chi viene eletto il Presidente della Repubblica e con quale criterio?",
-        "correct_answer": "Viene eletto dal Parlamento riunito in seduta comune, a cui si aggiungono i delegati regionali scelti dai rispettivi consigli.",
-        "wrong_answers": [
-            "Viene eletto dai cittadini italiani mediante un'elezione a suffragio universale diretto che si tiene ogni sette anni.",
-            "Viene nominato in via diretta dal Presidente del Consiglio uscente di concerto con i vertici della Corte Costituzionale.",
-            "Viene votato esclusivamente dai membri del Senato della Repubblica, in in rappresentanza dell'unità statale e del territorio."
-        ],
-        "source_file": "CamScanner 27-05-26 11.18.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Istituzioni - Presidente della Repubblica"
-    },
-    {
-        "question": "Quali sono i due unici reati per cui il Presidente della Repubblica risulta essere costituzionalmente responsabile?",
-        "correct_answer": "Alto tradimento o attentato alla Costituzione, per i quali può essere messo in stato di accusa dal Parlamento.",
-        "wrong_answers": [
-            "Corruzione in atti d'ufficio e vilipendio alle istituzioni repubblicane o alla bandiera nazionale italiana.",
-            "Peculato aggravato e appropriazione indebita di fondi pubblici destinati al mantenimento della sua carica.",
-            "Qualsiasi infrazione penale commessa durante il mandato e punibile con una reclusione superiore a cinque anni."
-        ],
-        "source_file": "CamScanner 27-05-26 11.18.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Istituzioni - Presidente della Repubblica"
-    },
-    {
-        "question": "Cosa prevedeva storicamente la Dichiarazione Schuman del 1950?",
-        "correct_answer": "La proposta di mettere l'intera produzione franco-tedesca di carbone e acciaio sotto un'Alta Autorità comune e sovranazionale.",
-        "wrong_answers": [
-            "L'istituzione di un esercito unificato europeo volto a contrastare le ingerenze politiche delle nazioni del blocco sovietico.",
-            "La rimozione immediata di tutte le dogane tra Inghilterra e Francia per la libera circolazione di persone e merci industriali.",
-            "La creazione di una moneta unica europea che avrebbe dovuto sostituire i franchi e i marchi in tutto il continente entro 10 anni."
-        ],
-        "source_file": "CamScanner 27-05-26 15.32.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Unione Europea - Storia"
-    },
-    {
-        "question": "In che modo l'ordinamento comunitario (europeo) si relaziona alla sovranità degli Stati membri?",
-        "correct_answer": "Comporta che gli Stati membri limitino parzialmente la loro sovranità, accettando vincoli in settori gestiti da istituzioni sovranazionali.",
-        "wrong_answers": [
-            "Obbliga gli Stati membri a cedere integralmente e definitivamente l'intera sovranità politica ed economica al Parlamento Europeo.",
-            "Agisce esclusivamente con raccomandazioni informali che non sono in alcun caso vincolanti per l'ordinamento giuridico nazionale.",
-            "Prevede che ogni legge europea passi obbligatoriamente da un referendum nazionale per essere accolta dallo Stato membro."
-        ],
-        "source_file": "CamScanner 27-05-26 15.32.pdf",
-        "subject": "EDUCAZIONE_CIVICA",
-        "topic": "Unione Europea - Istituzioni"
-    },
-    {
-        "question": "Quali sono geologicamente le origini delle colline situate sul margine meridionale dell'arco alpino italiano?",
-        "correct_answer": "Hanno origine morenica, generate dall'accumulo di detriti depositati dal lento movimento dei ghiacciai durante l'ultima glaciazione.",
-        "wrong_answers": [
-            "Sono di origine prevalentemente vulcanica, frutto dell'antico innalzamento di crateri inattivi ormai erosi dal tempo.",
-            "Si sono formate a causa del sollevamento e piegamento tettonico della crosta oceanica scontratasi con l'arco dolomitico.",
-            "Sono il risultato del prosciugamento di enormi laghi alpini preistorici che hanno lasciato imponenti rilievi sedimentari."
-        ],
-        "source_file": "CamScanner 09-06-26 09.00.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Italia - Territorio"
-    },
-    {
-        "question": "All'interno del territorio geografico e morfologico dell'Italia si trovano due piccoli Stati indipendenti. Quali sono?",
-        "correct_answer": "La Città del Vaticano e la Repubblica di San Marino, entrambi enclave inserite all'interno della penisola italiana.",
-        "wrong_answers": [
-            "Il Principato di Monaco e la Repubblica di San Marino, posizionati entrambi in specifiche zone collinari e costiere del paese.",
-            "La Città del Vaticano e il Principato del Liechtenstein, nazioni con statuto autonomo completamente esterne all'Unione Europea.",
-            "La Repubblica di San Marino e lo Stato Indipendente di Malta, storicamente distaccati dai domini italiani prima della Repubblica."
-        ],
-        "source_file": "CamScanner 09-06-26 09.00.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Italia - Territorio"
-    },
-    {
-        "question": "Il sistema montuoso alpino-himalaiano (di cui fanno parte Alpi e Appennini) da quale grande movimento tettonico ha avuto origine?",
-        "correct_answer": "Dal possente movimento di compressione e scontro avvenuto tra la zolla africana e quella europea nel corso delle ere geologiche.",
-        "wrong_answers": [
-            "Dalla brusca e inarrestabile espansione del fondale dell'Oceano Atlantico che ha compresso lateralmente il continente euroasiatico.",
-            "Dallo sprofondamento tettonico di un antico blocco continentale emerso noto ai geologi col nome di antico mar Mediterraneo.",
-            "Dall'accumulo inarrestabile di sedimenti vulcanici lungo la cintura di fuoco scaturita durante le glaciazioni dell'era quaternaria."
-        ],
-        "source_file": "CamScanner 09-06-26 09.00.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Italia - Territorio"
-    },
-    {
-        "question": "Quali elementi geografici segnano convenzionalmente i confini fisici tra l'Europa e il continente asiatico?",
-        "correct_answer": "I rilievi montuosi degli Urali e la vasta depressione del Kuma-Manych situata nel settore sud-orientale della Russia.",
-        "wrong_answers": [
-            "Le alte vette della catena del Caucaso e le vaste e inesplorate distese della Siberia centrale ai confini con la Cina.",
-            "La depressione del Mar Caspio e i grandi altipiani desertici della Mongolia che delimitano le steppe del continente europeo.",
-            "La penisola scandinava a nord e lo stretto dei Dardanelli a sud, che da sempre impediscono il contatto terrestre tra i blocchi."
-        ],
-        "source_file": "CamScanner 26-05-26 20.52.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Europa - Territorio"
-    },
-    {
-        "question": "Quali caratteristiche morfologiche contraddistinguono le coste nord-occidentali dell'Europa (Francia nord, Danimarca, Paesi Bassi)?",
-        "correct_answer": "Sono coste marcatamente basse e sabbiose, ampiamente modellate dalla presenza di numerose dune naturali e lagune costiere.",
-        "wrong_answers": [
-            "Sono prevalentemente alte e rocciose, solcate verticalmente da fiordi profondi generati dall'attività millenaria dei ghiacciai.",
-            "Si presentano irregolari e scoscese, punteggiate da innumerevoli golfi vulcanici e promontori aspri e poco accessibili.",
-            "Risultano frastagliate e paludose, interamente dominate da enormi sistemi di barriere coralline fossili del Pleistocene."
-        ],
-        "source_file": "CamScanner 26-05-26 20.52.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Europa - Territorio"
-    },
-    {
-        "question": "In Italia settentrionale, quale bacino lacustre risulta essere il più esteso in termini di superficie totale?",
-        "correct_answer": "Il Lago di Garda, con una superficie totale misurata di circa 370 chilometri quadrati, esteso tra Lombardia, Veneto e Trentino.",
-        "wrong_answers": [
-            "Il Lago Maggiore, che vanta la maggiore ampiezza in larghezza occupando una superficie di gran lunga superiore agli altri bacini.",
-            "Il Lago di Como, famoso per la sua eccezionale profondità che lo rende al contempo anche il più ampio di tutta la penisola italiana.",
-            "Il Lago di Lugano, che pur trovandosi a cavallo con la Svizzera vanta una porzione idrica territoriale vastissima in Lombardia."
-        ],
-        "source_file": "CamScanner 09-06-26 09.08.pdf",
-        "subject": "GEOGRAFIA",
-        "topic": "Italia - Idrografia"
-    },
-    {
-        "question": "Nella disciplina grammaticale, che cosa si intende per 'parti variabili del discorso'?",
-        "correct_answer": "Le parole (nomi, aggettivi, pronomi, articoli, verbi) che subiscono flessioni, ovvero modificano la loro forma in base a genere, numero o tempo.",
-        "wrong_answers": [
-            "Esclusivamente i sostantivi derivati che cambiano costantemente radice e origine etimologica a seconda della regione in cui sono parlati.",
-            "Gli avverbi e le congiunzioni che si legano in modo del tutto aleatorio ai verbi all'interno di proposizioni condizionali e ipotetiche.",
-            "I verbi difettivi e irregolari, così definiti in quanto la loro estrema instabilità impedisce la formazione di una desinenza standardizzata."
-        ],
-        "source_file": "CamScanner 08-06-26 15.33.pdf",
-        "subject": "ITALIANO",
-        "topic": "Grammatica - Classificazione"
-    },
-    {
-        "question": "Quale funzione precipua svolgono gli avverbi all'interno di una proposizione logica?",
-        "correct_answer": "Sono elementi invariabili usati appositamente per modificare e precisare in modo specifico il significato di un verbo, aggettivo o altro avverbio.",
-        "wrong_answers": [
-            "Si comportano come veri e propri sostantivi autonomi che guidano sintatticamente l'intera principale e collegano il discorso.",
-            "Determinano unicamente ed esclusivamente le flessioni di tempo nei verbi al passato remoto per marcare le tempistiche storiche.",
-            "Fungono da congiunzioni coordinate tra proposizioni subordinate relative con lo scopo precipuo di annullarne le ambiguità."
-        ],
-        "source_file": "CamScanner 08-06-26 17.03.pdf",
-        "subject": "ITALIANO",
-        "topic": "Avverbi e Preposizioni"
-    },
-    {
-        "question": "In grammatica, in quale categoria ricade l'espressione formata dall'unione di una preposizione semplice (es. 'in') con un articolo (es. 'il')?",
-        "correct_answer": "Preposizione articolata, la quale fonde sinteticamente il valore della preposizione con le caratteristiche identificative dell'articolo determinativo.",
-        "wrong_answers": [
-            "Avverbio di specificazione temporale, usato in via eccezionale all'interno dei composti lessicali aventi radice pronominale mista.",
-            "Aggettivo dimostrativo improprio, che assorbe la preposizione rendendo del tutto inutile esplicitare la collocazione spaziale esatta.",
-            "Pronome relativo composto, poiché unisce strettamente l'introduzione preposizionale con l'oggetto e il soggetto a cui si relaziona."
-        ],
-        "source_file": "CamScanner 08-06-26 17.03.pdf",
-        "subject": "ITALIANO",
-        "topic": "Avverbi e Preposizioni"
-    },
-    {
-        "question": "Quale caratteristica distingue in modo inequivocabile l'articolo 'indeterminativo' da quello 'determinativo'?",
-        "correct_answer": "L'articolo indeterminativo segnala l'oggetto o l'individuo in forma generica e non specifica, mancando peraltro di una vera e propria declinazione plurale formale.",
-        "wrong_answers": [
-            "L'articolo indeterminativo viene usato esclusivamente dinanzi ai nomi difettivi e sovrabbondanti per mascherarne l'assenza intrinseca di un genere.",
-            "L'articolo indeterminativo sostituisce obbligatoriamente le funzioni logiche proprie dei pronomi personali se impiegati nel mezzo di verbi transitivi o riflessivi.",
-            "A differenza del determinativo, l'indeterminativo concorda rigidamente con la proposizione principale mutando la radice in base all'interlocutore."
-        ],
-        "source_file": "CamScanner 08-06-26 15.33.pdf",
-        "subject": "ITALIANO",
-        "topic": "Articoli"
-    },
-    {
-        "question": "Cos'è che caratterizza la proposizione subordinata detta 'condizionale'?",
-        "correct_answer": "Specifica in maniera netta l'ipotesi o la condizione dalla quale dipende inesorabilmente l'attuarsi dell'azione espressa all'interno della reggente.",
-        "wrong_answers": [
-            "Dichiara una condizione avversa e del tutto in contrasto con la reggente, invalidando così l'azione narrata all'interno del periodo complessivo.",
-            "Indica esplicitamente il fine temporale ultimo da raggiungere affinché le tempistiche espresse nel verbo principale trovino logica collocazione.",
-            "Conferma una realtà puramente descrittiva volta ad affermare qualità stabili dell'azione a prescindere dalle variabili causali espresse dal verbo."
-        ],
-        "source_file": "CamScanner 08-06-26 17.03.pdf",
-        "subject": "ITALIANO",
-        "topic": "Sintassi - Subordinate"
-    },
-    {
-        "question": "Nel periodo ipotetico, quale specifico nome tecnico assume la proposizione dipendente che enuncia la condizione di base?",
-        "correct_answer": "Viene denominata protasi, ed è generalmente introdotta dalla particella 'se' o da costrutti similari che ne determinano il carattere ipotetico.",
-        "wrong_answers": [
-            "Viene chiamata apodosi, e si manifesta esclusivamente sotto le forme implicite per mantenere lo stile conciso e non gravare la reggente.",
-            "Prende il nome di relativa limitativa, poiché circoscrive i limiti materiali dell'azione a un ipotetico e fantasioso universo parallelo astratto.",
-            "È definita incidentale causale, in quanto la sua unica utilità sintattica è chiarire la motivazione fortuita alla base dell'azione principale narrata."
-        ],
-        "source_file": "CamScanner 08-06-26 17.03.pdf",
-        "subject": "ITALIANO",
-        "topic": "Sintassi - Subordinate"
-    }
-];
-  /* FINE DATI */
-
-  let currentQuestions = [];
-  let currentIndex = 0;
-  let score = 0;
-  let currentCorrectIndex = -1;
-  let wrongAnswersReview = [];
-
-  function escapeHtml(unsafe) {
-    if (!unsafe) return '';
-    return unsafe
-      .toString()
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
-  }
-
-  function initApp() {
-    try {
-      const statusEl = document.getElementById('db-status');
-      const configEl = document.getElementById('quiz-config');
-
-      if (QUESTIONS.length > 0) {
-        statusEl.textContent = `Database caricato: ${QUESTIONS.length} domande incorporate.`;
-        configEl.classList.remove('hidden');
-      } else {
-        statusEl.textContent = "Database vuoto. Usa il comando 'riaggiorna' in Antigravity per popolarlo.";
-        configEl.classList.add('hidden');
-      }
-    } catch (e) {
-      document.getElementById('db-status').textContent = "Errore interno: " + e.message;
-    }
-  }
-
-  function shuffle(array) {
-    let arr = [...array];
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
-  document.getElementById('btn-start').addEventListener('click', () => {
-    // Scopri le materie uniche (evitando vuoti o null)
-    const subjects = [...new Set(QUESTIONS.map(q => q.subject).filter(s => s))];
-    
-    document.getElementById('start-screen').classList.add('hidden');
-    
-    if (subjects.length > 0) {
-      document.getElementById('subject-screen').classList.remove('hidden');
-      
-      const container = document.getElementById('subject-buttons');
-      let html = '';
-      
-      subjects.forEach(sub => {
-        // Formatta la stringa per una visualizzazione pulita
-        const label = sub.replace(/_/g, ' ');
-        html += `<button class="subject-btn" data-subject="${sub}" style="text-transform: capitalize;">${label}</button>`;
-      });
-      html += `<button class="subject-btn" data-subject="ALL" style="background: #10B981;">Tutte le materie (Misto)</button>`;
-      
-      container.innerHTML = html;
-      
-      document.querySelectorAll('.subject-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          const sc = e.target.getAttribute('data-subject');
-          startSession(sc);
-        });
-      });
-    } else {
-      // Fallback in caso non ci siano materie definite nei JSON pre-esistenti
-      startSession('ALL');
-    }
-  });
-
-  function startSession(selectedSubject) {
-    let filteredQuestions = QUESTIONS;
-    if (selectedSubject !== 'ALL') {
-      filteredQuestions = QUESTIONS.filter(q => q.subject === selectedSubject);
-    }
-
-    // Raggruppa le domande per topic
-    const topicsMap = {};
-    filteredQuestions.forEach(q => {
-      const t = q.topic || 'Generale';
-      if (!topicsMap[t]) topicsMap[t] = [];
-      topicsMap[t].push(q);
-    });
-
-    let selectedQuestions = [];
-    // Per ogni topic estrae casualmente 2-3 domande
-    for (const t in topicsMap) {
-      let tQs = shuffle(topicsMap[t]);
-      const numToPick = Math.min(tQs.length, Math.floor(Math.random() * 2) + 2); // 2 o 3
-      selectedQuestions = selectedQuestions.concat(tQs.slice(0, numToPick));
-    }
-
-    // Mescola l'ordine finale delle domande selezionate
-    currentQuestions = shuffle(selectedQuestions);
-    currentIndex = 0;
-    score = 0;
-    wrongAnswersReview = [];
-    
-    document.getElementById('subject-screen').classList.add('hidden');
-    document.getElementById('quiz-screen').classList.remove('hidden');
-    showQuestion();
-  }
-
-  function showQuestion() {
-    if (currentIndex >= currentQuestions.length) return endQuiz();
-    
-    const q = currentQuestions[currentIndex];
-    const container = document.getElementById('question-container');
-    
-    // Mescola opzioni a ogni ricaricamento
-    let options = [
-      { text: q.correct_answer, isCorrect: true },
-      { text: q.wrong_answers[0], isCorrect: false },
-      { text: q.wrong_answers[1], isCorrect: false },
-      { text: q.wrong_answers[2], isCorrect: false }
-    ];
-    options = shuffle(options);
-
-    let html = `<div class="progress-badge">Domanda ${currentIndex + 1} di ${currentQuestions.length}</div>
-                <div class="question-title">${escapeHtml(q.question)}</div>`;
-    
-    options.forEach((opt, idx) => {
-      if (opt.isCorrect) currentCorrectIndex = idx;
-      html += `<label class="option" id="opt-${idx}">
-                <input type="radio" name="q" value="${idx}">
-                <span>${escapeHtml(opt.text)}</span>
-               </label>`;
-    });
-    
-    // Informazione tracciante sicura
-    html += `<div class="source-badge">Fonte: ${escapeHtml(q.source_file || 'Sconosciuta')} <br> Argomento: ${escapeHtml(q.topic || '')}</div>`;
-
-    container.innerHTML = html;
-    document.getElementById('btn-next').textContent = "Conferma Risposta";
-    document.getElementById('btn-next').onclick = checkAnswer;
-  }
-
-  function checkAnswer() {
-    const selected = document.querySelector('input[name="q"]:checked');
-    if (!selected) { alert("Seleziona una risposta!"); return; }
-
-    const selectedIdx = parseInt(selected.value);
-    document.querySelectorAll('input[name="q"]').forEach(r => r.disabled = true);
-
-    if (selectedIdx === currentCorrectIndex) {
-      document.getElementById(`opt-${selectedIdx}`).classList.add('correct');
-      score++;
-    } else {
-      document.getElementById(`opt-${selectedIdx}`).classList.add('wrong');
-      document.getElementById(`opt-${currentCorrectIndex}`).classList.add('correct');
-      
-      // Salvo la domanda sbagliata per il riepilogo
-      const userSelectedText = document.querySelector(`#opt-${selectedIdx} span`).textContent;
-      wrongAnswersReview.push({
-        question: currentQuestions[currentIndex].question,
-        correct_answer: currentQuestions[currentIndex].correct_answer,
-        user_answer: userSelectedText
-      });
-    }
-
-    const btn = document.getElementById('btn-next');
-    btn.textContent = currentIndex === currentQuestions.length - 1 ? "Vedi Risultati" : "Prossima Domanda";
-    btn.onclick = () => {
-      currentIndex++;
-      showQuestion();
-    };
-  }
-
-  function endQuiz() {
-    document.getElementById('quiz-screen').classList.add('hidden');
-    document.getElementById('results-screen').classList.remove('hidden');
-    document.getElementById('final-score').textContent = `Hai ottenuto ${score} punti su ${currentQuestions.length}.`;
-    
-    const reviewContainer = document.getElementById('review-container');
-    if (wrongAnswersReview.length > 0) {
-      let reviewHtml = `<h3 style="color: var(--text-main); margin-bottom: 15px;">Da ripassare (${wrongAnswersReview.length} errori):</h3>`;
-      wrongAnswersReview.forEach(item => {
-        reviewHtml += `<div class="review-item">
-                        <strong>Errore</strong>
-                        <div class="review-question">${escapeHtml(item.question)}</div>
-                        <span style="color: var(--error-text); font-weight: 600; background: var(--error-bg); padding: 10px 14px; border-radius: 8px; display: block; font-size: 1rem; border: 1px solid var(--error-border); margin-bottom: 8px;">✗ Tua risposta: ${escapeHtml(item.user_answer)}</span>
-                        <span class="review-correct">✓ Corretta: ${escapeHtml(item.correct_answer)}</span>
-                       </div>`;
-      });
-      reviewContainer.innerHTML = reviewHtml;
-    } else {
-      reviewContainer.innerHTML = `<h3 style="color: #10B981; text-align: center;">Bravissimo! Percorso netto.</h3>`;
-    }
-  }
-
-  document.getElementById('btn-restart').addEventListener('click', () => {
-    document.getElementById('results-screen').classList.add('hidden');
-    document.getElementById('start-screen').classList.remove('hidden');
-    initApp();
-  });
-
-  window.addEventListener('error', function(e) {
-    const statusEl = document.getElementById('db-status');
-    if(statusEl) statusEl.textContent = 'Errore su iPad: ' + e.message;
-  });
-
-  document.addEventListener('DOMContentLoaded', initApp);
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
