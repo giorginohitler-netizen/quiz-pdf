@@ -58,7 +58,8 @@ function initDropdown() {
     // Create overlay for outside-click detection
     const overlay = document.createElement('div');
     overlay.className = 'dropdown-overlay';
-    document.body.appendChild(overlay);
+    // Aggiungiamo l'overlay allo stesso container del dropdown (per non subire lo z-index fixato del body)
+    dropdown.parentElement.appendChild(overlay);
 
     function openDropdown() {
         dropdown.classList.add('open');
