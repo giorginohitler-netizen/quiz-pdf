@@ -625,13 +625,67 @@
                     "explanation": "Il Consiglio d'Europa è un'organizzazione separata dall'UE, nota in particolare per la CEDU (Convenzione Europea dei Diritti dell'Uomo)."
                 }
             ]
+        },
+        "Organizzazione dello Stato": {
+            "La Magistratura e il CSM": [
+                {
+                    "id": 51,
+                    "question": "Qual è il principio fondamentale garantito dalla Costituzione riguardo alla Magistratura?",
+                    "options": [
+                        "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere",
+                        "La Magistratura è subordinata alle direttive del Ministro della Giustizia",
+                        "La Magistratura può modificare le leggi se le ritiene ingiuste",
+                        "I magistrati sono eletti direttamente dai cittadini"
+                    ],
+                    "correctAnswer": "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere",
+                    "explanation": "L'articolo 104 della Costituzione sancisce la netta separazione dei poteri, garantendo che i giudici siano soggetti soltanto alla legge."
+                },
+                {
+                    "id": 52,
+                    "question": "Chi presiede il Consiglio Superiore della Magistratura (CSM)?",
+                    "options": [
+                        "Il Presidente della Repubblica",
+                        "Il Ministro della Giustizia",
+                        "Il Primo Presidente della Corte di Cassazione",
+                        "Il Presidente del Consiglio"
+                    ],
+                    "correctAnswer": "Il Presidente della Repubblica",
+                    "explanation": "Secondo l'art. 104, il CSM è presieduto dal Presidente della Repubblica per garantirne l'indipendenza e il prestigio."
+                }
+            ],
+            "Le Fonti del Diritto": [
+                {
+                    "id": 53,
+                    "question": "Che cosa si intende per 'Fonti di Cognizione'?",
+                    "options": [
+                        "I documenti ufficiali attraverso i quali si conoscono le norme giuridiche (es. Gazzetta Ufficiale)",
+                        "Gli organi autorizzati a emanare le leggi",
+                        "Le consuetudini tramandate oralmente nei secoli",
+                        "Le sentenze della Corte Costituzionale"
+                    ],
+                    "correctAnswer": "I documenti ufficiali attraverso i quali si conoscono le norme giuridiche (es. Gazzetta Ufficiale)",
+                    "explanation": "A differenza delle fonti di produzione (che creano il diritto), le fonti di cognizione servono unicamente a renderlo conoscibile ai cittadini."
+                },
+                {
+                    "id": 54,
+                    "question": "Quale criterio si applica in caso di conflitto tra una norma posta dalla Costituzione e una Legge ordinaria?",
+                    "options": [
+                        "Criterio gerarchico",
+                        "Criterio cronologico",
+                        "Criterio della competenza",
+                        "Criterio spaziale"
+                    ],
+                    "correctAnswer": "Criterio gerarchico",
+                    "explanation": "La Costituzione è al vertice della gerarchia delle fonti: una legge ordinaria non può contraddirla, pena l'annullamento."
+                }
+            ]
         }
     },
     "Geografia": {
         "L'Italia": {
             "Territorio e Clima": [
                 {
-                    "id": 51,
+                    "id": 55,
                     "question": "Qual è la lunghezza approssimativa delle coste italiane, considerando anche le isole?",
                     "options": [
                         "Circa 7.500 - 8.000 km",
@@ -643,7 +697,7 @@
                     "explanation": "L'Italia, essendo una penisola circondata da vari mari (Ligure, Tirreno, Ionio, Adriatico) e includendo le isole maggiori e minori, ha uno sviluppo costiero di quasi 8.000 km."
                 },
                 {
-                    "id": 52,
+                    "id": 56,
                     "question": "Quali mari bagnano le coste della penisola italiana?",
                     "options": [
                         "Ligure, Tirreno, Ionio, Adriatico",
@@ -655,7 +709,7 @@
                     "explanation": "Questi quattro mari sono tutte articolazioni del Mar Mediterraneo che bagnano i diversi versanti dell'Italia."
                 },
                 {
-                    "id": 53,
+                    "id": 57,
                     "question": "Da dove a dove si estende tradizionalmente la catena degli Appennini?",
                     "options": [
                         "Dal Colle di Cadibona (in Liguria) fino allo Stretto di Messina, e prosegue in Sicilia",
@@ -667,7 +721,7 @@
                     "explanation": "Gli Appennini sono la 'spina dorsale' della penisola italiana, estendendosi da nord a sud fino in Sicilia."
                 },
                 {
-                    "id": 54,
+                    "id": 58,
                     "question": "Qual è il fiume più lungo d'Italia e dove sfocia?",
                     "options": [
                         "Il Po, che sfocia nel Mar Adriatico con un ampio delta",
@@ -679,7 +733,7 @@
                     "explanation": "Il Po, lungo circa 652 km, è il fiume più lungo e di maggiore portata in Italia, scorre nella Pianura Padana e sfocia a delta nell'Adriatico."
                 },
                 {
-                    "id": 55,
+                    "id": 59,
                     "question": "Quale tra i seguenti laghi è il più grande per superficie in Italia?",
                     "options": [
                         "Il Lago di Garda",
@@ -693,7 +747,7 @@
             ],
             "Demografia ed Economia": [
                 {
-                    "id": 56,
+                    "id": 60,
                     "question": "Cosa indica il concetto di 'invecchiamento demografico' riscontrato in Italia negli ultimi decenni?",
                     "options": [
                         "Un aumento percentuale della popolazione anziana rispetto ai giovani, dovuto al calo delle nascite e all'aumento dell'aspettativa di vita",
@@ -705,7 +759,7 @@
                     "explanation": "L'Italia presenta uno degli indici di vecchiaia più alti al mondo, a causa di una bassissima natalità e un'alta longevità."
                 },
                 {
-                    "id": 57,
+                    "id": 61,
                     "question": "Quali attività rientrano tipicamente nel 'Settore Primario' dell'economia italiana?",
                     "options": [
                         "Agricoltura, allevamento, pesca e sfruttamento delle risorse forestali",
@@ -717,7 +771,7 @@
                     "explanation": "Il settore primario raggruppa le attività di sfruttamento diretto delle risorse naturali. In Italia occupa circa il 4% degli occupati."
                 },
                 {
-                    "id": 58,
+                    "id": 62,
                     "question": "In base all'art. 114 della Costituzione, cos'è una 'Città Metropolitana'?",
                     "options": [
                         "Un ente territoriale di vasta area che sostituisce la provincia in alcuni dei maggiori poli urbani del Paese (es. Roma, Milano, Napoli)",
@@ -733,7 +787,7 @@
         "Le Regioni d'Italia": {
             "Il Nord Italia": [
                 {
-                    "id": 59,
+                    "id": 63,
                     "question": "Quale regione del Nord Italia è a Statuto Speciale e ha come capoluogo Aosta?",
                     "options": [
                         "Valle d'Aosta",
@@ -745,7 +799,7 @@
                     "explanation": "La Valle d'Aosta è la più piccola regione italiana, è a statuto speciale (bilinguismo italiano-francese) e non ha province, ma solo il capoluogo Aosta."
                 },
                 {
-                    "id": 60,
+                    "id": 64,
                     "question": "Il fiume Po, il più lungo d'Italia, nasce dal Monviso in quale regione?",
                     "options": [
                         "Piemonte",
@@ -757,7 +811,7 @@
                     "explanation": "Il Po nasce in Piemonte (Alpi Cozie) e attraversa la regione prima di scorrere verso la Lombardia."
                 },
                 {
-                    "id": 61,
+                    "id": 65,
                     "question": "Quale regione italiana è bagnata dal Mar Ligure, ha una conformazione 'ad arco' ed è famosa per le Cinque Terre?",
                     "options": [
                         "Liguria",
@@ -769,7 +823,7 @@
                     "explanation": "La Liguria ha un territorio montuoso/collinare affacciato sul mare, diviso tradizionalmente in Riviera di Ponente e Riviera di Levante."
                 },
                 {
-                    "id": 62,
+                    "id": 66,
                     "question": "Qual è il capoluogo della regione Lombardia?",
                     "options": [
                         "Milano",
@@ -781,7 +835,7 @@
                     "explanation": "Milano è il capoluogo della Lombardia, nonché il principale polo finanziario ed economico d'Italia."
                 },
                 {
-                    "id": 63,
+                    "id": 67,
                     "question": "Venezia è il capoluogo di quale regione?",
                     "options": [
                         "Veneto",
@@ -795,7 +849,7 @@
             ],
             "Il Centro Italia": [
                 {
-                    "id": 64,
+                    "id": 68,
                     "question": "Firenze, famosa per il Rinascimento, è il capoluogo di quale regione?",
                     "options": [
                         "Toscana",
@@ -807,7 +861,7 @@
                     "explanation": "La Toscana, nota per l'arte e i paesaggi collinari (es. il Chianti), ha per capoluogo Firenze."
                 },
                 {
-                    "id": 65,
+                    "id": 69,
                     "question": "Quale di queste regioni del Centro Italia è priva di sbocchi sul mare?",
                     "options": [
                         "Umbria",
@@ -819,7 +873,7 @@
                     "explanation": "L'Umbria, definita il 'cuore verde d'Italia', è l'unica regione peninsulare a non essere bagnata dal mare."
                 },
                 {
-                    "id": 66,
+                    "id": 70,
                     "question": "Quale regione ospita Roma, capitale della Repubblica Italiana?",
                     "options": [
                         "Lazio",
@@ -833,7 +887,7 @@
             ],
             "Il Sud Italia e le Isole": [
                 {
-                    "id": 67,
+                    "id": 71,
                     "question": "Napoli, ai piedi del Vesuvio, è il capoluogo di:",
                     "options": [
                         "Campania",
@@ -845,7 +899,7 @@
                     "explanation": "La Campania è una delle regioni più densamente popolate d'Italia, celebre per la Costiera Amalfitana e le isole (Capri, Ischia)."
                 },
                 {
-                    "id": 68,
+                    "id": 72,
                     "question": "Quale regione forma il 'tacco' dello stivale italiano ed ha Bari come capoluogo?",
                     "options": [
                         "Puglia",
@@ -857,7 +911,7 @@
                     "explanation": "La Puglia si protende nel Mar Ionio e Adriatico ed è nota per le sue estese pianure (Tavoliere) e le produzioni agricole."
                 },
                 {
-                    "id": 69,
+                    "id": 73,
                     "question": "Palermo è il capoluogo di quale grande isola italiana (Regione a statuto speciale)?",
                     "options": [
                         "Sicilia",
@@ -869,7 +923,7 @@
                     "explanation": "La Sicilia è l'isola più grande del Mediterraneo ed è una delle 5 regioni italiane a statuto speciale."
                 },
                 {
-                    "id": 70,
+                    "id": 74,
                     "question": "Qual è il capoluogo della Sardegna?",
                     "options": [
                         "Cagliari",
@@ -885,7 +939,7 @@
         "L'Europa e i suoi Stati": {
             "Il Continente Europeo": [
                 {
-                    "id": 71,
+                    "id": 75,
                     "question": "Quali catene montuose segnano convenzionalmente il confine naturale a Est tra Europa e Asia?",
                     "options": [
                         "I Monti Urali e il Caucaso",
@@ -897,7 +951,7 @@
                     "explanation": "L'Europa non è separata dall'Asia da oceani, ma forma l'Eurasia. Il confine convenzionale è segnato dai Monti Urali e dalla catena del Caucaso."
                 },
                 {
-                    "id": 72,
+                    "id": 76,
                     "question": "Qual è il fiume più lungo del continente europeo?",
                     "options": [
                         "Il Volga",
@@ -909,7 +963,7 @@
                     "explanation": "Il Volga, lungo oltre 3.500 km, scorre interamente in Russia prima di sfociare nel Mar Caspio."
                 },
                 {
-                    "id": 73,
+                    "id": 77,
                     "question": "Quale fiume europeo è il secondo per lunghezza e attraversa o sfiora ben 10 nazioni prima di sfociare nel Mar Nero?",
                     "options": [
                         "Il Danubio",
@@ -923,7 +977,7 @@
             ],
             "Aree Geopolitiche e Stati": [
                 {
-                    "id": 74,
+                    "id": 78,
                     "question": "Da quali Stati è composta prevalentemente la Penisola Iberica?",
                     "options": [
                         "Spagna, Portogallo e Andorra",
@@ -935,7 +989,7 @@
                     "explanation": "La Penisola Iberica è l'estremità sud-occidentale dell'Europa e comprende principalmente Spagna e Portogallo, oltre al Principato di Andorra (e Gibilterra)."
                 },
                 {
-                    "id": 75,
+                    "id": 79,
                     "question": "Parigi è la capitale di:",
                     "options": [
                         "Francia",
@@ -947,7 +1001,7 @@
                     "explanation": "Parigi è il fulcro politico, economico e culturale della Repubblica Francese."
                 },
                 {
-                    "id": 76,
+                    "id": 80,
                     "question": "Quali stati formano l'area del Benelux?",
                     "options": [
                         "Belgio, Paesi Bassi (Nederland) e Lussemburgo",
@@ -959,7 +1013,7 @@
                     "explanation": "Il termine Benelux nasce dalle iniziali di Belgium, Netherlands e Luxembourg."
                 },
                 {
-                    "id": 77,
+                    "id": 81,
                     "question": "Qual è la capitale della Germania, Paese cardine dell'Europa Centrale?",
                     "options": [
                         "Berlino",
@@ -971,7 +1025,7 @@
                     "explanation": "Berlino è la capitale e la città più popolosa della Germania, tornata tale dopo la riunificazione."
                 },
                 {
-                    "id": 78,
+                    "id": 82,
                     "question": "Quali nazioni fanno parte del Regno Unito (UK)?",
                     "options": [
                         "Inghilterra, Scozia, Galles e Irlanda del Nord",
@@ -983,13 +1037,29 @@
                     "explanation": "Il Regno Unito comprende la Gran Bretagna (Inghilterra, Scozia, Galles) e la parte nord dell'isola d'Irlanda."
                 }
             ]
+        },
+        "Il Territorio Italiano": {
+            "I Confini e i Mari": [
+                {
+                    "id": 83,
+                    "question": "Quale principio stabilisce il limite delle 'acque territoriali' per uno Stato costiero secondo il diritto internazionale (es. Montego Bay)?",
+                    "options": [
+                        "Fino a 12 miglia marine dalla costa",
+                        "Fino a 200 miglia marine",
+                        "Tutto il bacino chiuso in cui si affaccia",
+                        "3 miglia marine dalla costa"
+                    ],
+                    "correctAnswer": "Fino a 12 miglia marine dalla costa",
+                    "explanation": "Le acque territoriali si estendono tipicamente per 12 miglia marine, oltre le quali inizia la zona contigua o le acque internazionali."
+                }
+            ]
         }
     },
     "Italiano": {
         "Morfologia": {
             "Articolo e Nome": [
                 {
-                    "id": 79,
+                    "id": 84,
                     "question": "Quale funzione svolgono gli articoli determinativi (il, lo, la, i, gli, le)?",
                     "options": [
                         "Indicano persone, animali o cose ben precisi e noti a chi parla o ascolta",
@@ -1001,7 +1071,7 @@
                     "explanation": "L'articolo determinativo si usa per nomi che si riferiscono a entità specifiche e già conosciute nel contesto."
                 },
                 {
-                    "id": 80,
+                    "id": 85,
                     "question": "Nella frase 'Ho comprato DEL pane', la parola 'del' funziona come:",
                     "options": [
                         "Articolo partitivo",
@@ -1013,7 +1083,7 @@
                     "explanation": "Gli articoli partitivi (del, dello, della, dei, degli, delle) indicano una quantità imprecisata, equivalente a 'un po' di'."
                 },
                 {
-                    "id": 81,
+                    "id": 86,
                     "question": "Qual è la differenza strutturale tra un nome primitivo e un nome derivato?",
                     "options": [
                         "Il nome primitivo è formato solo da radice e desinenza (es. libr-o), il nome derivato aggiunge prefissi o suffissi alla radice (es. libr-eri-a)",
@@ -1025,7 +1095,7 @@
                     "explanation": "I nomi primitivi non derivano da nessun'altra parola; da essi derivano gli altri inserendo elementi morfologici."
                 },
                 {
-                    "id": 82,
+                    "id": 87,
                     "question": "Come si definisce un nome come 'flotta', che al singolare indica un insieme di navi?",
                     "options": [
                         "Nome collettivo",
@@ -1039,7 +1109,7 @@
             ],
             "Aggettivo e Pronome": [
                 {
-                    "id": 83,
+                    "id": 88,
                     "question": "Quale aggettivo qualificativo si trova al grado superlativo assoluto?",
                     "options": [
                         "Bellissimo",
@@ -1051,7 +1121,7 @@
                     "explanation": "Il superlativo assoluto esprime la qualità al massimo grado senza fare confronti (es. suffisso -issimo, prefissi come arci-, stra-)."
                 },
                 {
-                    "id": 84,
+                    "id": 89,
                     "question": "In grammatica, qual è la differenza essenziale tra un aggettivo e un pronome determinativo?",
                     "options": [
                         "L'aggettivo accompagna sempre un nome, il pronome lo sostituisce",
@@ -1063,7 +1133,7 @@
                     "explanation": "L'aggettivo si aggiunge al nome per meglio determinarlo; il pronome (pro-nomen, al posto del nome) sostituisce il nome per non ripeterlo."
                 },
                 {
-                    "id": 85,
+                    "id": 90,
                     "question": "Nella frase 'Mio fratello è più alto del tuo', le parole 'Mio' e 'tuo' sono rispettivamente:",
                     "options": [
                         "Aggettivo possessivo (Mio) e pronome possessivo (tuo)",
@@ -1077,7 +1147,7 @@
             ],
             "Verbo": [
                 {
-                    "id": 86,
+                    "id": 91,
                     "question": "Cosa indica il verbo di 'forma passiva'?",
                     "options": [
                         "Che il soggetto subisce l'azione compiuta da altri",
@@ -1089,7 +1159,7 @@
                     "explanation": "Nella forma passiva (es. 'La mela è mangiata da me'), il soggetto grammaticale (la mela) subisce l'azione."
                 },
                 {
-                    "id": 87,
+                    "id": 92,
                     "question": "Quali sono i verbi 'ausiliari' nella lingua italiana?",
                     "options": [
                         "Essere e Avere",
@@ -1101,7 +1171,7 @@
                     "explanation": "Essere e avere aiutano (fungono da ausiliari) gli altri verbi per formare i tempi composti e la forma passiva."
                 },
                 {
-                    "id": 88,
+                    "id": 93,
                     "question": "Come si definiscono i verbi che richiedono un complemento oggetto diretto (es. leggere un libro)?",
                     "options": [
                         "Transitivi",
@@ -1117,7 +1187,7 @@
         "Sintassi e Invariabili": {
             "Parti Invariabili": [
                 {
-                    "id": 89,
+                    "id": 94,
                     "question": "Quali sono le quattro parti INVARIABILI del discorso?",
                     "options": [
                         "Avverbio, preposizione, congiunzione, interiezione",
@@ -1129,7 +1199,7 @@
                     "explanation": "Queste parti si dicono invariabili perché non subiscono flessioni, ossia non cambiano per genere (maschile/femminile) e numero (singolare/plurale)."
                 },
                 {
-                    "id": 90,
+                    "id": 95,
                     "question": "Nella frase 'Luigi corre VELOCEMENTE', la parola 'velocemente' è:",
                     "options": [
                         "Un avverbio di modo",
@@ -1141,7 +1211,7 @@
                     "explanation": "L'avverbio si affianca al verbo (in questo caso 'corre') per modificarne o precisarne il significato (indica come corre)."
                 },
                 {
-                    "id": 91,
+                    "id": 96,
                     "question": "Le parole 'di, a, da, in, con, su, per, tra, fra' sono:",
                     "options": [
                         "Preposizioni semplici",
@@ -1155,7 +1225,7 @@
             ],
             "Sintassi della Frase": [
                 {
-                    "id": 92,
+                    "id": 97,
                     "question": "Qual è l'elemento fondamentale della frase che indica l'azione compiuta o subita dal soggetto?",
                     "options": [
                         "Il Predicato (verbale o nominale)",
@@ -1167,7 +1237,7 @@
                     "explanation": "Il predicato è il 'motore' della frase; senza un verbo non può esistere una frase completa (proposizione)."
                 },
                 {
-                    "id": 93,
+                    "id": 98,
                     "question": "A quale domanda risponde il Complemento di Specificazione?",
                     "options": [
                         "Di chi? Di che cosa?",
@@ -1179,7 +1249,7 @@
                     "explanation": "Il complemento di specificazione (introdotto tipicamente dalla preposizione 'di') specifica e precisa il significato del termine cui si riferisce."
                 },
                 {
-                    "id": 94,
+                    "id": 99,
                     "question": "Nella frase 'Ho regalato un libro A MARCO', 'A Marco' è:",
                     "options": [
                         "Complemento di Termine",
@@ -1193,7 +1263,7 @@
             ],
             "Sintassi del Periodo": [
                 {
-                    "id": 95,
+                    "id": 100,
                     "question": "In un periodo, la proposizione che non dipende grammaticalmente da nessun'altra frase si chiama:",
                     "options": [
                         "Proposizione Principale (indipendente)",
@@ -1205,7 +1275,7 @@
                     "explanation": "La proposizione principale ha un senso compiuto e regge l'intera architettura del periodo."
                 },
                 {
-                    "id": 96,
+                    "id": 101,
                     "question": "Come si chiama una proposizione collegata alla principale (o ad un'altra subordinata) tramite congiunzioni come 'e, o, ma, perciò' mettendola sullo stesso piano sintattico?",
                     "options": [
                         "Proposizione Coordinata",
@@ -1217,7 +1287,7 @@
                     "explanation": "La coordinazione (paratassi) unisce due frasi di pari grado gerarchico."
                 },
                 {
-                    "id": 97,
+                    "id": 102,
                     "question": "Nel periodo ipotetico, come si chiamano la proposizione che esprime la condizione e quella che esprime la conseguenza?",
                     "options": [
                         "Protasi (condizione) e Apodosi (conseguenza)",

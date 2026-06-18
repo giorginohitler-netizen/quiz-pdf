@@ -1,0 +1,76 @@
+{
+    "Educazione Civica": {
+        "Organizzazione dello Stato": {
+            "La Magistratura e il CSM": [
+                {
+                    "id": "9_1",
+                    "question": "Qual è il principio fondamentale garantito dalla Costituzione riguardo alla Magistratura?",
+                    "options": [
+                        "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere",
+                        "La Magistratura è subordinata alle direttive del Ministro della Giustizia",
+                        "La Magistratura può modificare le leggi se le ritiene ingiuste",
+                        "I magistrati sono eletti direttamente dai cittadini"
+                    ],
+                    "correctAnswer": "La Magistratura costituisce un ordine autonomo e indipendente da ogni altro potere",
+                    "explanation": "L'articolo 104 della Costituzione sancisce la netta separazione dei poteri, garantendo che i giudici siano soggetti soltanto alla legge."
+                },
+                {
+                    "id": "9_2",
+                    "question": "Chi presiede il Consiglio Superiore della Magistratura (CSM)?",
+                    "options": [
+                        "Il Presidente della Repubblica",
+                        "Il Ministro della Giustizia",
+                        "Il Primo Presidente della Corte di Cassazione",
+                        "Il Presidente del Consiglio"
+                    ],
+                    "correctAnswer": "Il Presidente della Repubblica",
+                    "explanation": "Secondo l'art. 104, il CSM è presieduto dal Presidente della Repubblica per garantirne l'indipendenza e il prestigio."
+                }
+            ],
+            "Le Fonti del Diritto": [
+                {
+                    "id": "9_3",
+                    "question": "Che cosa si intende per 'Fonti di Cognizione'?",
+                    "options": [
+                        "I documenti ufficiali attraverso i quali si conoscono le norme giuridiche (es. Gazzetta Ufficiale)",
+                        "Gli organi autorizzati a emanare le leggi",
+                        "Le consuetudini tramandate oralmente nei secoli",
+                        "Le sentenze della Corte Costituzionale"
+                    ],
+                    "correctAnswer": "I documenti ufficiali attraverso i quali si conoscono le norme giuridiche (es. Gazzetta Ufficiale)",
+                    "explanation": "A differenza delle fonti di produzione (che creano il diritto), le fonti di cognizione servono unicamente a renderlo conoscibile ai cittadini."
+                },
+                {
+                    "id": "9_4",
+                    "question": "Quale criterio si applica in caso di conflitto tra una norma posta dalla Costituzione e una Legge ordinaria?",
+                    "options": [
+                        "Criterio gerarchico",
+                        "Criterio cronologico",
+                        "Criterio della competenza",
+                        "Criterio spaziale"
+                    ],
+                    "correctAnswer": "Criterio gerarchico",
+                    "explanation": "La Costituzione è al vertice della gerarchia delle fonti: una legge ordinaria non può contraddirla, pena l'annullamento."
+                }
+            ]
+        }
+    },
+    "Geografia": {
+        "Il Territorio Italiano": {
+            "I Confini e i Mari": [
+                {
+                    "id": "9_5",
+                    "question": "Quale principio stabilisce il limite delle 'acque territoriali' per uno Stato costiero secondo il diritto internazionale (es. Montego Bay)?",
+                    "options": [
+                        "Fino a 12 miglia marine dalla costa",
+                        "Fino a 200 miglia marine",
+                        "Tutto il bacino chiuso in cui si affaccia",
+                        "3 miglia marine dalla costa"
+                    ],
+                    "correctAnswer": "Fino a 12 miglia marine dalla costa",
+                    "explanation": "Le acque territoriali si estendono tipicamente per 12 miglia marine, oltre le quali inizia la zona contigua o le acque internazionali."
+                }
+            ]
+        }
+    }
+}
