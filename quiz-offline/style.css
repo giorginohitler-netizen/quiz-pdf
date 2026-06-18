@@ -228,6 +228,7 @@ h1, h2, h3, h4 {
     max-width: 420px;
     user-select: none;
     -webkit-user-select: none;
+    z-index: 100;
 }
 
 .dropdown-trigger {
@@ -362,11 +363,13 @@ h1, h2, h3, h4 {
 }
 
 /* Overlay to close dropdown on outside click */
+/* z-index must be LOWER than custom-dropdown (100) */
 .dropdown-overlay {
     position: fixed;
     inset: 0;
-    z-index: 999;
+    z-index: 50;
     display: none;
+    background: transparent;
 }
 
 .dropdown-overlay.active {
