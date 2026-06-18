@@ -1,0 +1,302 @@
+{
+    "Educazione Civica": {
+        "La Costituzione e le Fonti del Diritto": {
+            "Lo Stato e la Costituzione": [
+                {
+                    "id": "1_1_1",
+                    "question": "Quali sono i tre elementi costitutivi fondamentali dello Stato?",
+                    "options": [
+                        "Popolo, territorio e sovranità",
+                        "Cittadini, governo e confini",
+                        "Nazione, parlamento e costituzione",
+                        "Ordinamento, magistratura e territorio"
+                    ],
+                    "correctAnswer": "Popolo, territorio e sovranità",
+                    "explanation": "Secondo il diritto costituzionale, uno Stato si compone di tre elementi essenziali: il popolo, il territorio e la sovranità."
+                },
+                {
+                    "id": "1_1_2",
+                    "question": "La forma di governo delineata dalla Costituzione italiana è:",
+                    "options": [
+                        "Una Repubblica Parlamentare",
+                        "Una Repubblica Presidenziale",
+                        "Una Repubblica Semi-presidenziale",
+                        "Una Monarchia Costituzionale"
+                    ],
+                    "correctAnswer": "Una Repubblica Parlamentare",
+                    "explanation": "L'Italia è una Repubblica in cui il Governo deve godere della fiducia del Parlamento, tipico del sistema parlamentare."
+                },
+                {
+                    "id": "1_1_3",
+                    "question": "Gli articoli che compongono la sezione dei 'Principi Fondamentali' della Costituzione italiana vanno:",
+                    "options": [
+                        "Dall'articolo 1 all'articolo 12",
+                        "Dall'articolo 1 all'articolo 10",
+                        "Dall'articolo 13 all'articolo 54",
+                        "Dall'articolo 1 all'articolo 5"
+                    ],
+                    "correctAnswer": "Dall'articolo 1 all'articolo 12",
+                    "explanation": "I Principi Fondamentali della Repubblica sono racchiusi nei primi dodici articoli della Costituzione."
+                },
+                {
+                    "id": "1_1_4",
+                    "question": "L'articolo 1 della Costituzione italiana afferma che L'Italia è una Repubblica democratica, fondata:",
+                    "options": [
+                        "Sul lavoro",
+                        "Sulla libertà",
+                        "Sull'uguaglianza",
+                        "Sulla pace"
+                    ],
+                    "correctAnswer": "Sul lavoro",
+                    "explanation": "L'art. 1 recita: 'L'Italia è una Repubblica democratica, fondata sul lavoro'."
+                },
+                {
+                    "id": "1_1_5",
+                    "question": "Il principio di uguaglianza, sia formale che sostanziale, è sancito in quale articolo della Costituzione?",
+                    "options": [
+                        "Articolo 3",
+                        "Articolo 1",
+                        "Articolo 2",
+                        "Articolo 7"
+                    ],
+                    "correctAnswer": "Articolo 3",
+                    "explanation": "L'art. 3 stabilisce l'uguaglianza formale (tutti i cittadini hanno pari dignità sociale) e sostanziale (è compito della Repubblica rimuovere gli ostacoli economici e sociali)."
+                },
+                {
+                    "id": "1_1_6",
+                    "question": "Quale articolo della Costituzione stabilisce il ripudio della guerra come strumento di offesa alla libertà degli altri popoli?",
+                    "options": [
+                        "Articolo 11",
+                        "Articolo 10",
+                        "Articolo 9",
+                        "Articolo 12"
+                    ],
+                    "correctAnswer": "Articolo 11",
+                    "explanation": "L'art. 11 sancisce il ripudio della guerra come strumento di offesa alla libertà e come mezzo di risoluzione delle controversie internazionali."
+                },
+                {
+                    "id": "1_1_7",
+                    "question": "Cosa descrive l'articolo 12 della Costituzione?",
+                    "options": [
+                        "La bandiera della Repubblica",
+                        "Il riconoscimento delle autonomie locali",
+                        "La tutela delle minoranze linguistiche",
+                        "Il rapporto tra Stato e Chiesa Cattolica"
+                    ],
+                    "correctAnswer": "La bandiera della Repubblica",
+                    "explanation": "L'art. 12 descrive il tricolore italiano: verde, bianco e rosso, a tre bande verticali di eguali dimensioni."
+                }
+            ],
+            "Diritti e Doveri dei Cittadini": [
+                {
+                    "id": "1_2_1",
+                    "question": "Secondo l'articolo 13 della Costituzione, la libertà personale è:",
+                    "options": [
+                        "Inviolabile",
+                        "Limitabile liberamente dalla polizia",
+                        "Garantita solo per i cittadini italiani",
+                        "Non menzionata"
+                    ],
+                    "correctAnswer": "Inviolabile",
+                    "explanation": "L'art. 13 dichiara che la libertà personale è inviolabile. Limitazioni sono ammesse solo per atto motivato dell'Autorità Giudiziaria e nei soli casi previsti dalla legge."
+                },
+                {
+                    "id": "1_2_2",
+                    "question": "L'articolo 14 definisce il domicilio come inviolabile. Sono ammesse ispezioni o perquisizioni?",
+                    "options": [
+                        "Sì, ma solo nei casi e modi stabiliti dalla legge secondo le garanzie per la libertà personale",
+                        "Sì, senza alcun preavviso o mandato",
+                        "No, in nessun caso",
+                        "Solo se il domicilio appartiene a un soggetto non cittadino"
+                    ],
+                    "correctAnswer": "Sì, ma solo nei casi e modi stabiliti dalla legge secondo le garanzie per la libertà personale",
+                    "explanation": "Come per la libertà personale, le perquisizioni o ispezioni nel domicilio privato necessitano di specifiche garanzie legali e giudiziarie."
+                },
+                {
+                    "id": "1_2_3",
+                    "question": "La libertà di riunione in un luogo pubblico (art. 17):",
+                    "options": [
+                        "Richiede un preavviso alle autorità, che possono vietarla solo per comprovati motivi di sicurezza",
+                        "È assolutamente libera e non richiede mai alcun preavviso",
+                        "È consentita solo previa autorizzazione scritta del Sindaco",
+                        "È vietata in ogni caso"
+                    ],
+                    "correctAnswer": "Richiede un preavviso alle autorità, che possono vietarla solo per comprovati motivi di sicurezza",
+                    "explanation": "Le riunioni in luogo pubblico prevedono l'obbligo di preavviso per questioni di sicurezza o incolumità pubblica."
+                },
+                {
+                    "id": "1_2_4",
+                    "question": "In merito alla libertà di associazione (art. 18), quali associazioni sono vietate dalla Costituzione?",
+                    "options": [
+                        "Le associazioni segrete e quelle che perseguono scopi politici mediante organizzazioni di carattere militare",
+                        "I partiti politici non riconosciuti",
+                        "Le associazioni religiose non cattoliche",
+                        "I sindacati senza statuto approvato"
+                    ],
+                    "correctAnswer": "Le associazioni segrete e quelle che perseguono scopi politici mediante organizzazioni di carattere militare",
+                    "explanation": "L'art. 18 vieta esplicitamente le associazioni segrete e le organizzazioni a carattere militare che perseguono fini politici."
+                },
+                {
+                    "id": "1_2_5",
+                    "question": "Quale articolo della Costituzione tutela la salute come 'fondamentale diritto dell'individuo e interesse della collettività'?",
+                    "options": [
+                        "Articolo 32",
+                        "Articolo 34",
+                        "Articolo 21",
+                        "Articolo 13"
+                    ],
+                    "correctAnswer": "Articolo 32",
+                    "explanation": "L'art. 32 garantisce cure gratuite agli indigenti e tutela la salute della collettività."
+                },
+                {
+                    "id": "1_2_6",
+                    "question": "Riguardo all'istruzione (art. 34), per quanti anni minimo l'istruzione inferiore è obbligatoria e gratuita?",
+                    "options": [
+                        "Almeno otto anni",
+                        "Almeno cinque anni",
+                        "Fino al compimento della maggiore età",
+                        "Dieci anni"
+                    ],
+                    "correctAnswer": "Almeno otto anni",
+                    "explanation": "L'art. 34 stabilisce che l'istruzione inferiore, impartita per almeno otto anni, è obbligatoria e gratuita."
+                }
+            ],
+            "Il Parlamento e la Legge": [
+                {
+                    "id": "1_3_1",
+                    "question": "Come si definisce il sistema parlamentare italiano, in cui Camera e Senato hanno gli stessi poteri e funzioni?",
+                    "options": [
+                        "Bicameralismo perfetto",
+                        "Bicameralismo imperfetto",
+                        "Monocameralismo",
+                        "Bicameralismo asimmetrico"
+                    ],
+                    "correctAnswer": "Bicameralismo perfetto",
+                    "explanation": "Nel bicameralismo perfetto (o paritario), la Camera dei Deputati e il Senato della Repubblica esercitano collettivamente la stessa funzione legislativa e di controllo politico."
+                },
+                {
+                    "id": "1_3_2",
+                    "question": "Quali di questi soggetti NON ha il potere di iniziativa legislativa (presentazione di una proposta di legge)?",
+                    "options": [
+                        "Il Presidente della Repubblica",
+                        "Il Governo",
+                        "Singoli Parlamentari",
+                        "50.000 elettori (iniziativa popolare)"
+                    ],
+                    "correctAnswer": "Il Presidente della Repubblica",
+                    "explanation": "Il Presidente della Repubblica promulga le leggi, ma non ha l'iniziativa legislativa. Questa spetta al Governo, a ciascun membro del Parlamento, ai cittadini (50.000 firme), al CNEL e alle Regioni."
+                },
+                {
+                    "id": "1_3_3",
+                    "question": "Dopo che una legge è stata approvata nello stesso testo da entrambe le Camere, a chi spetta la sua promulgazione?",
+                    "options": [
+                        "Al Presidente della Repubblica",
+                        "Al Presidente del Consiglio",
+                        "Alla Corte Costituzionale",
+                        "Ai Presidenti delle due Camere"
+                    ],
+                    "correctAnswer": "Al Presidente della Repubblica",
+                    "explanation": "La promulgazione è l'atto con cui il Capo dello Stato attesta che la legge è stata approvata dalle Camere e ne ordina la pubblicazione."
+                },
+                {
+                    "id": "1_3_4",
+                    "question": "Dove avviene la pubblicazione di una legge prima della sua entrata in vigore?",
+                    "options": [
+                        "Sulla Gazzetta Ufficiale",
+                        "Sui principali quotidiani nazionali",
+                        "Nell'albo pretorio del Parlamento",
+                        "Sul sito web del Governo"
+                    ],
+                    "correctAnswer": "Sulla Gazzetta Ufficiale",
+                    "explanation": "La pubblicazione nella Gazzetta Ufficiale è la fase necessaria per rendere la legge conoscibile a tutti i cittadini."
+                }
+            ],
+            "Le Fonti del Diritto": [
+                {
+                    "id": "1_4_1",
+                    "question": "Che cosa si intende per 'Fonti di Produzione' del diritto?",
+                    "options": [
+                        "Tutti quegli atti e fatti idonei a creare, modificare o estinguere norme giuridiche",
+                        "I documenti ufficiali dove si possono leggere le leggi",
+                        "Le norme che stabiliscono quali organi possono emanare le leggi",
+                        "Le sentenze emesse dai giudici di pace"
+                    ],
+                    "correctAnswer": "Tutti quegli atti e fatti idonei a creare, modificare o estinguere norme giuridiche",
+                    "explanation": "Le fonti di produzione sono l'insieme di strumenti, siano essi atti o fatti, che generano il diritto oggettivo."
+                },
+                {
+                    "id": "1_4_2",
+                    "question": "Qual è la differenza fondamentale tra 'Fonti Atto' e 'Fonti Fatto'?",
+                    "options": [
+                        "Le Fonti Atto sono norme scritte prodotte da organi competenti, le Fonti Fatto sono norme non scritte derivanti da comportamenti ripetuti nel tempo (consuetudini)",
+                        "Le Fonti Atto riguardano il diritto civile, le Fonti Fatto il diritto penale",
+                        "Le Fonti Atto sono decreti del governo, le Fonti Fatto sono leggi del Parlamento",
+                        "Le Fonti Atto sono attuali, le Fonti Fatto sono leggi abrogate"
+                    ],
+                    "correctAnswer": "Le Fonti Atto sono norme scritte prodotte da organi competenti, le Fonti Fatto sono norme non scritte derivanti da comportamenti ripetuti nel tempo (consuetudini)",
+                    "explanation": "Un esempio di fonte atto è la legge del Parlamento; un esempio di fonte fatto è la consuetudine internazionale o locale."
+                },
+                {
+                    "id": "1_4_3",
+                    "question": "Cosa sono le 'Fonti di Cognizione'?",
+                    "options": [
+                        "Gli strumenti o documenti attraverso i quali si viene a conoscenza delle norme giuridiche (es. Gazzetta Ufficiale)",
+                        "Le procedure parlamentari per approvare una legge",
+                        "Le norme che stabiliscono chi può legiferare",
+                        "Le sentenze della Corte Costituzionale"
+                    ],
+                    "correctAnswer": "Gli strumenti o documenti attraverso i quali si viene a conoscenza delle norme giuridiche (es. Gazzetta Ufficiale)",
+                    "explanation": "Le fonti di cognizione non creano il diritto, ma lo rendono conoscibile (come i Testi Unici meramente compilativi o le gazzette)."
+                },
+                {
+                    "id": "1_4_4",
+                    "question": "In caso di conflitto tra una norma posta dalla Costituzione e una Legge ordinaria, quale criterio si applica?",
+                    "options": [
+                        "Il criterio gerarchico",
+                        "Il criterio cronologico",
+                        "Il criterio di competenza",
+                        "Nessuno, si applicano entrambe"
+                    ],
+                    "correctAnswer": "Il criterio gerarchico",
+                    "explanation": "Il criterio gerarchico stabilisce che la norma prodotta dalla fonte di grado superiore prevale su quella inferiore."
+                },
+                {
+                    "id": "1_4_5",
+                    "question": "Il criterio cronologico per la risoluzione dei conflitti tra fonti del diritto prevede che:",
+                    "options": [
+                        "Tra due norme di pari grado, la norma emanata successivamente abroga quella precedente",
+                        "La norma più antica prevale sempre perché più consolidata",
+                        "La norma statale prevale sulla norma regionale indipendentemente dalla data",
+                        "La norma inferiore, se successiva, abroga la norma superiore"
+                    ],
+                    "correctAnswer": "Tra due norme di pari grado, la norma emanata successivamente abroga quella precedente",
+                    "explanation": "Il criterio cronologico (lex posterior derogat priori) opera abrogando la norma precedente di pari grado gerarchico."
+                },
+                {
+                    "id": "1_4_6",
+                    "question": "A quale tipo di fonte appartiene l'antico principio 'pacta sunt servanda'?",
+                    "options": [
+                        "A una fonte sulla produzione",
+                        "A una fonte di cognizione",
+                        "A una direttiva europea",
+                        "A un regolamento governativo"
+                    ],
+                    "correctAnswer": "A una fonte sulla produzione",
+                    "explanation": "I princìpi che regolano come vengono creati o rispettati gli atti (come i trattati internazionali) rientrano spesso nelle fonti 'sulla' produzione."
+                },
+                {
+                    "id": "1_4_7",
+                    "question": "Il criterio della competenza interviene quando:",
+                    "options": [
+                        "La Costituzione riserva la disciplina di una certa materia a una specifica fonte o organo escludendo le altre",
+                        "Ci sono due leggi ordinarie contrastanti emanate dallo stesso organo",
+                        "Il Parlamento deve decidere quale legge approvare per prima",
+                        "Un giudice non è competente territorialmente"
+                    ],
+                    "correctAnswer": "La Costituzione riserva la disciplina di una certa materia a una specifica fonte o organo escludendo le altre",
+                    "explanation": "Ad esempio, il riparto di competenze tra Stato e Regioni stabilito dall'art. 117 della Costituzione si basa sul criterio della competenza."
+                }
+            ]
+        }
+    }
+}

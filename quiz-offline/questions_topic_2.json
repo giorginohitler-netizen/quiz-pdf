@@ -1,0 +1,206 @@
+{
+    "Educazione Civica": {
+        "Gli Organi dello Stato": {
+            "Il Presidente della Repubblica": [
+                {
+                    "id": "2_1_1",
+                    "question": "Da chi viene eletto il Presidente della Repubblica in Italia?",
+                    "options": [
+                        "Dal Parlamento in seduta comune, integrato dai delegati regionali",
+                        "Direttamente dal popolo a suffragio universale",
+                        "Dai soli componenti del Senato della Repubblica",
+                        "Dal Consiglio dei Ministri"
+                    ],
+                    "correctAnswer": "Dal Parlamento in seduta comune, integrato dai delegati regionali",
+                    "explanation": "L'elezione del Capo dello Stato spetta al Parlamento in seduta comune, a cui partecipano anche 3 delegati per ogni Regione (1 per la Valle d'Aosta) per garantire la rappresentanza delle minoranze."
+                },
+                {
+                    "id": "2_1_2",
+                    "question": "Qual è la maggioranza richiesta per l'elezione del Presidente della Repubblica nei primi tre scrutini?",
+                    "options": [
+                        "La maggioranza dei due terzi (2/3) dell'assemblea",
+                        "La maggioranza assoluta (metà più uno degli aventi diritto)",
+                        "La maggioranza relativa (chi ottiene più voti)",
+                        "L'unanimità"
+                    ],
+                    "correctAnswer": "La maggioranza dei due terzi (2/3) dell'assemblea",
+                    "explanation": "Nei primi tre scrutini è richiesta la maggioranza qualificata dei 2/3. A partire dal quarto scrutinio è sufficiente la maggioranza assoluta."
+                },
+                {
+                    "id": "2_1_3",
+                    "question": "Quali sono i requisiti di età per essere eletti alla carica di Presidente della Repubblica?",
+                    "options": [
+                        "Aver compiuto 50 anni d'età",
+                        "Aver compiuto 40 anni d'età",
+                        "Aver compiuto 25 anni d'età",
+                        "Aver compiuto 60 anni d'età"
+                    ],
+                    "correctAnswer": "Aver compiuto 50 anni d'età",
+                    "explanation": "L'art. 84 della Costituzione fissa a 50 anni compiuti l'età minima, oltre al godimento dei diritti civili e politici."
+                },
+                {
+                    "id": "2_1_4",
+                    "question": "In caso di impedimento temporaneo, chi fa le veci del Presidente della Repubblica (supplenza)?",
+                    "options": [
+                        "Il Presidente del Senato",
+                        "Il Presidente della Camera dei Deputati",
+                        "Il Presidente del Consiglio dei Ministri",
+                        "Il Presidente della Corte Costituzionale"
+                    ],
+                    "correctAnswer": "Il Presidente del Senato",
+                    "explanation": "Secondo l'art. 86 della Costituzione, le funzioni del Presidente della Repubblica, in ogni caso in cui non possa adempierle, sono esercitate dal Presidente del Senato."
+                },
+                {
+                    "id": "2_1_5",
+                    "question": "Il Presidente della Repubblica non è responsabile degli atti compiuti nell'esercizio delle sue funzioni, tranne che per:",
+                    "options": [
+                        "Alto tradimento o attentato alla Costituzione",
+                        "Qualsiasi reato penale comune",
+                        "Concorso esterno in associazione mafiosa",
+                        "Vilipendio alle istituzioni"
+                    ],
+                    "correctAnswer": "Alto tradimento o attentato alla Costituzione",
+                    "explanation": "L'art. 90 prevede che il Presidente non sia responsabile degli atti compiuti nell'esercizio delle funzioni, se non per i reati gravissimi di alto tradimento e attentato alla Costituzione."
+                },
+                {
+                    "id": "2_1_6",
+                    "question": "Nessun atto del Presidente della Repubblica è valido se non reca:",
+                    "options": [
+                        "La controfirma dei Ministri proponenti, che ne assumono la responsabilità",
+                        "L'approvazione formale della Corte Costituzionale",
+                        "Il timbro ufficiale del Senato della Repubblica",
+                        "La firma del solo Presidente del Consiglio"
+                    ],
+                    "correctAnswer": "La controfirma dei Ministri proponenti, che ne assumono la responsabilità",
+                    "explanation": "L'istituto della controfirma ministeriale (art. 89) trasferisce la responsabilità dell'atto dal Capo dello Stato (irresponsabile) al Governo."
+                }
+            ],
+            "Il Governo": [
+                {
+                    "id": "2_2_1",
+                    "question": "Da quali organi è composto il Governo della Repubblica Italiana?",
+                    "options": [
+                        "Dal Presidente del Consiglio e dai Ministri, che insieme formano il Consiglio dei Ministri",
+                        "Solo dal Presidente del Consiglio e dai Vicepremier",
+                        "Dal Capo dello Stato e dai Ministri",
+                        "Da tutti i deputati e senatori della coalizione vincente"
+                    ],
+                    "correctAnswer": "Dal Presidente del Consiglio e dai Ministri, che insieme formano il Consiglio dei Ministri",
+                    "explanation": "Il Governo è un organo complesso ineguale, formato dal Presidente del Consiglio, dai singoli Ministri, e dal loro organo collegiale (Consiglio dei Ministri)."
+                },
+                {
+                    "id": "2_2_2",
+                    "question": "Chi nomina il Presidente del Consiglio dei Ministri?",
+                    "options": [
+                        "Il Presidente della Repubblica",
+                        "Viene eletto direttamente dai cittadini",
+                        "Il Parlamento in seduta comune",
+                        "Il partito di maggioranza"
+                    ],
+                    "correctAnswer": "Il Presidente della Repubblica",
+                    "explanation": "Il Presidente della Repubblica nomina il Presidente del Consiglio dei Ministri e, su proposta di questo, i Ministri (art. 92)."
+                },
+                {
+                    "id": "2_2_3",
+                    "question": "Entro quanti giorni dalla sua formazione il Governo deve presentarsi alle Camere per ottenere la fiducia?",
+                    "options": [
+                        "10 giorni",
+                        "15 giorni",
+                        "30 giorni",
+                        "Non ha un termine perentorio"
+                    ],
+                    "correctAnswer": "10 giorni",
+                    "explanation": "L'art. 94 stabilisce che il Governo, entro dieci giorni dalla formazione, deve presentarsi alle Camere per ottenerne la fiducia."
+                },
+                {
+                    "id": "2_2_4",
+                    "question": "I Decreti Legislativi (D.Lgs.) vengono emanati:",
+                    "options": [
+                        "Dal Governo su previa delega del Parlamento, che stabilisce principi e criteri direttivi",
+                        "Dal Governo in casi di straordinaria necessità e urgenza",
+                        "Dal Presidente della Repubblica autonomamente",
+                        "Dai Ministri per disciplinare il funzionamento interno dei Ministeri"
+                    ],
+                    "correctAnswer": "Dal Governo su previa delega del Parlamento, che stabilisce principi e criteri direttivi",
+                    "explanation": "Il decreto legislativo presuppone una legge di delegazione approvata dal Parlamento (art. 76), che definisce ambito, principi e termini."
+                }
+            ],
+            "La Magistratura e la Corte Costituzionale": [
+                {
+                    "id": "2_3_1",
+                    "question": "Qual è la funzione del Consiglio Superiore della Magistratura (CSM)?",
+                    "options": [
+                        "Garantire l'autonomia e l'indipendenza della Magistratura dagli altri poteri dello Stato",
+                        "Giudicare i reati commessi dai Ministri",
+                        "Emanare sentenze di ultimo grado per reati civili e penali",
+                        "Votare la sfiducia al Governo in caso di violazioni legali"
+                    ],
+                    "correctAnswer": "Garantire l'autonomia e l'indipendenza della Magistratura dagli altri poteri dello Stato",
+                    "explanation": "Il CSM è l'organo di autogoverno della Magistratura: si occupa di assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari dei magistrati."
+                },
+                {
+                    "id": "2_3_2",
+                    "question": "Da chi è presieduto il Consiglio Superiore della Magistratura (CSM)?",
+                    "options": [
+                        "Dal Presidente della Repubblica",
+                        "Dal Ministro della Giustizia",
+                        "Dal Primo Presidente della Corte di Cassazione",
+                        "Da un magistrato eletto al suo interno"
+                    ],
+                    "correctAnswer": "Dal Presidente della Repubblica",
+                    "explanation": "L'art. 104 stabilisce che la presidenza del CSM spetta al Presidente della Repubblica, sottolineando l'importanza costituzionale dell'organo."
+                },
+                {
+                    "id": "2_3_3",
+                    "question": "Da quanti giudici è composta la Corte Costituzionale italiana?",
+                    "options": [
+                        "15",
+                        "11",
+                        "21",
+                        "9"
+                    ],
+                    "correctAnswer": "15",
+                    "explanation": "La Corte Costituzionale è composta da 15 giudici: un terzo nominati dal Presidente della Repubblica, un terzo dal Parlamento e un terzo dalle supreme magistrature."
+                },
+                {
+                    "id": "2_3_4",
+                    "question": "Tra le seguenti funzioni, quale NON spetta alla Corte Costituzionale?",
+                    "options": [
+                        "Promulgare le leggi approvate dal Parlamento",
+                        "Giudicare sulle controversie relative alla legittimità costituzionale delle leggi",
+                        "Giudicare sui conflitti di attribuzione tra i poteri dello Stato",
+                        "Giudicare sulle accuse promosse contro il Presidente della Repubblica"
+                    ],
+                    "correctAnswer": "Promulgare le leggi approvate dal Parlamento",
+                    "explanation": "La promulgazione delle leggi spetta al Presidente della Repubblica. La Corte Costituzionale vigila unicamente sul rispetto della Costituzione."
+                }
+            ],
+            "Le Autonomie Locali": [
+                {
+                    "id": "2_4_1",
+                    "question": "Secondo l'art. 114 della Costituzione, da quali enti è costituita la Repubblica?",
+                    "options": [
+                        "Dai Comuni, dalle Province, dalle Città metropolitane, dalle Regioni e dallo Stato",
+                        "Esclusivamente dallo Stato e dalle Regioni",
+                        "Dallo Stato, dalle Prefetture e dai Comuni",
+                        "Solo dallo Stato Centrale"
+                    ],
+                    "correctAnswer": "Dai Comuni, dalle Province, dalle Città metropolitane, dalle Regioni e dallo Stato",
+                    "explanation": "A seguito della riforma del Titolo V, gli enti territoriali locali sono stati posti su un piano di equiordinazione formale con lo Stato."
+                },
+                {
+                    "id": "2_4_2",
+                    "question": "Cos'è il Principio di Sussidiarietà?",
+                    "options": [
+                        "Il principio secondo cui le funzioni amministrative sono attribuite all'ente più vicino ai cittadini (es. il Comune), affidando livelli superiori solo in caso di necessità",
+                        "Il principio per cui lo Stato sussidia economicamente le Regioni in deficit",
+                        "Il principio secondo cui il Governo centrale assorbe tutte le funzioni dei Comuni piccoli",
+                        "La regola per cui solo le Regioni a statuto speciale hanno poteri legislativi"
+                    ],
+                    "correctAnswer": "Il principio secondo cui le funzioni amministrative sono attribuite all'ente più vicino ai cittadini (es. il Comune), affidando livelli superiori solo in caso di necessità",
+                    "explanation": "Sancito dall'art. 118, stabilisce che le funzioni amministrative spettano in primis ai Comuni, per garantirne lo svolgimento vicino al cittadino."
+                }
+            ]
+        }
+    }
+}

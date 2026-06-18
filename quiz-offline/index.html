@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Theme & Status Bar -->
+    <meta name="theme-color" content="#6C5CE7">
+    <meta name="msapplication-TileColor" content="#0B0E14">
+
+    <!-- iOS Safari PWA (fullscreen senza barra indirizzi) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AuraTest">
+
+    <!-- Android Chrome PWA -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Icone per iOS (apple-touch-icon OBBLIGATORIA per Safari) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/icon-192.png">
+
+    <!-- Favicon browser desktop -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon.png">
+    <link rel="shortcut icon" href="icons/favicon.png">
+
+    <!-- SEO -->
+    <meta name="description" content="AuraTest - Ripassa Educazione Civica, Geografia e Italiano con 265+ quiz dinamici. Funziona anche offline.">
+    <title>AuraTest - The Knowledge Engine</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <h1>AuraTest</h1>
+            </div>
+            <div class="session-stats hidden" id="sessionStats">
+                <div class="stat-pill">
+                    <span class="label">Domanda</span>
+                    <span class="value"><span id="currentQ">1</span>/<span id="totalQ">30</span></span>
+                </div>
+                <div class="stat-pill">
+                    <span class="label">Punteggio</span>
+                    <span class="value" id="scoreDisplay">0</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Home Screen -->
+            <section id="homeScreen" class="screen active">
+                <div class="hero">
+                    <h2>Preparati all'Eccellenza</h2>
+                    <p>Un database di centinaia di domande. Seleziona una materia: il sistema estrarrà 30 quesiti coprendo uniformemente tutti i sotto-argomenti per un ripasso completo e senza ripetizioni.</p>
+                    
+                    <!-- Custom Dropdown (no native <select>) -->
+                    <div class="subject-selector">
+                        <div class="custom-dropdown" id="customDropdown">
+                            <button class="dropdown-trigger" id="dropdownTrigger" aria-haspopup="listbox" aria-expanded="false" type="button">
+                                <span class="dropdown-icon" id="dropdownIcon">🌐</span>
+                                <span class="dropdown-label" id="dropdownLabel">Tutte le materie (Mix)</span>
+                                <span class="dropdown-arrow" id="dropdownArrow">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </button>
+
+                            <div class="dropdown-menu" id="dropdownMenu" role="listbox" aria-label="Seleziona materia">
+                                <div class="dropdown-option selected" data-value="all" role="option" aria-selected="true">
+                                    <span class="opt-icon">🌐</span>
+                                    <span class="opt-text">Tutte le materie (Mix)</span>
+                                    <span class="opt-check">✓</span>
+                                </div>
+                                <div class="dropdown-option" data-value="Educazione Civica" role="option" aria-selected="false">
+                                    <span class="opt-icon">🏛️</span>
+                                    <span class="opt-text">Educazione Civica</span>
+                                    <span class="opt-check">✓</span>
+                                </div>
+                                <div class="dropdown-option" data-value="Geografia" role="option" aria-selected="false">
+                                    <span class="opt-icon">🌍</span>
+                                    <span class="opt-text">Geografia</span>
+                                    <span class="opt-check">✓</span>
+                                </div>
+                                <div class="dropdown-option" data-value="Italiano" role="option" aria-selected="false">
+                                    <span class="opt-icon">📚</span>
+                                    <span class="opt-text">Italiano</span>
+                                    <span class="opt-check">✓</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hidden input to store value, used by JS -->
+                        <input type="hidden" id="subjectSelect" value="all">
+                    </div>
+
+                    <button id="startBtn" class="btn-primary">
+                        <span class="btn-text">Avvia Simulazione</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+                
+                <div class="topics-preview">
+                    <h3>Materie Coperte:</h3>
+                    <div class="topic-tags">
+                        <span class="tag civics">🏛️ Educazione Civica</span>
+                        <span class="tag geo">🌍 Geografia</span>
+                        <span class="tag ita">📚 Italiano</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Screen -->
+            <section id="quizScreen" class="screen">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-meta">
+                        <span class="meta-subject" id="qSubject">Materia</span>
+                        <span class="meta-topic" id="qTopic">Argomento</span>
+                    </div>
+                    
+                    <h2 class="question-text" id="questionText">Testo della domanda...</h2>
+                    
+                    <div class="options-grid" id="optionsGrid">
+                        <!-- Options injected via JS -->
+                    </div>
+                    
+                    <div id="explanationBox" class="explanation-box hidden">
+                        <h4>Spiegazione</h4>
+                        <p id="explanationText"></p>
+                        <button id="nextBtn" class="btn-secondary">Prossima Domanda →</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Screen -->
+            <section id="resultScreen" class="screen">
+                <div class="results-card">
+                    <h2>Simulazione Completata</h2>
+                    <div class="score-circle">
+                        <span id="finalScore" class="score-number">0</span>
+                        <span class="score-total">/ 30</span>
+                    </div>
+                    <p id="resultMessage" class="result-message">Ben Fatto!</p>
+                    
+                    <div class="results-breakdown" id="resultsBreakdown">
+                        <!-- Breakdown per subject -->
+                    </div>
+                    
+                    <button id="restartBtn" class="btn-primary">🔄 Nuova Sessione</button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Registrazione Service Worker per PWA offline -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .then(reg => console.log('[PWA] Service Worker registrato:', reg.scope))
+                    .catch(err => console.warn('[PWA] SW registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

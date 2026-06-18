@@ -1,0 +1,132 @@
+{
+    "Italiano": {
+        "Morfologia": {
+            "Articolo e Nome": [
+                {
+                    "id": "7_1_1",
+                    "question": "Quale funzione svolgono gli articoli determinativi (il, lo, la, i, gli, le)?",
+                    "options": [
+                        "Indicano persone, animali o cose ben precisi e noti a chi parla o ascolta",
+                        "Indicano quantità indefinite di un oggetto",
+                        "Sostituiscono il nome per evitare ripetizioni",
+                        "Indicano il grado di parentela tra soggetti"
+                    ],
+                    "correctAnswer": "Indicano persone, animali o cose ben precisi e noti a chi parla o ascolta",
+                    "explanation": "L'articolo determinativo si usa per nomi che si riferiscono a entità specifiche e già conosciute nel contesto."
+                },
+                {
+                    "id": "7_1_2",
+                    "question": "Nella frase 'Ho comprato DEL pane', la parola 'del' funziona come:",
+                    "options": [
+                        "Articolo partitivo",
+                        "Preposizione semplice",
+                        "Articolo determinativo",
+                        "Pronome relativo"
+                    ],
+                    "correctAnswer": "Articolo partitivo",
+                    "explanation": "Gli articoli partitivi (del, dello, della, dei, degli, delle) indicano una quantità imprecisata, equivalente a 'un po' di'."
+                },
+                {
+                    "id": "7_1_3",
+                    "question": "Qual è la differenza strutturale tra un nome primitivo e un nome derivato?",
+                    "options": [
+                        "Il nome primitivo è formato solo da radice e desinenza (es. libr-o), il nome derivato aggiunge prefissi o suffissi alla radice (es. libr-eri-a)",
+                        "Il nome primitivo indica cose del passato, il derivato cose moderne",
+                        "Il nome primitivo è sempre maschile, il derivato è sempre femminile",
+                        "Non c'è differenza, sono sinonimi"
+                    ],
+                    "correctAnswer": "Il nome primitivo è formato solo da radice e desinenza (es. libr-o), il nome derivato aggiunge prefissi o suffissi alla radice (es. libr-eri-a)",
+                    "explanation": "I nomi primitivi non derivano da nessun'altra parola; da essi derivano gli altri inserendo elementi morfologici."
+                },
+                {
+                    "id": "7_1_4",
+                    "question": "Come si definisce un nome come 'flotta', che al singolare indica un insieme di navi?",
+                    "options": [
+                        "Nome collettivo",
+                        "Nome astratto",
+                        "Nome alterato",
+                        "Nome proprio"
+                    ],
+                    "correctAnswer": "Nome collettivo",
+                    "explanation": "I nomi collettivi sono nomi che, pur essendo al singolare, indicano una pluralità di individui, animali o cose dello stesso tipo."
+                }
+            ],
+            "Aggettivo e Pronome": [
+                {
+                    "id": "7_2_1",
+                    "question": "Quale aggettivo qualificativo si trova al grado superlativo assoluto?",
+                    "options": [
+                        "Bellissimo",
+                        "Più bello",
+                        "Meno bello",
+                        "Il più bello di tutti"
+                    ],
+                    "correctAnswer": "Bellissimo",
+                    "explanation": "Il superlativo assoluto esprime la qualità al massimo grado senza fare confronti (es. suffisso -issimo, prefissi come arci-, stra-)."
+                },
+                {
+                    "id": "7_2_2",
+                    "question": "In grammatica, qual è la differenza essenziale tra un aggettivo e un pronome determinativo?",
+                    "options": [
+                        "L'aggettivo accompagna sempre un nome, il pronome lo sostituisce",
+                        "L'aggettivo è sempre invariabile, il pronome è variabile",
+                        "L'aggettivo indica azioni, il pronome no",
+                        "Il pronome precede il verbo, l'aggettivo lo segue"
+                    ],
+                    "correctAnswer": "L'aggettivo accompagna sempre un nome, il pronome lo sostituisce",
+                    "explanation": "L'aggettivo si aggiunge al nome per meglio determinarlo; il pronome (pro-nomen, al posto del nome) sostituisce il nome per non ripeterlo."
+                },
+                {
+                    "id": "7_2_3",
+                    "question": "Nella frase 'Mio fratello è più alto del tuo', le parole 'Mio' e 'tuo' sono rispettivamente:",
+                    "options": [
+                        "Aggettivo possessivo (Mio) e pronome possessivo (tuo)",
+                        "Entrambi pronomi possessivi",
+                        "Entrambi aggettivi possessivi",
+                        "Pronome personale e pronome possessivo"
+                    ],
+                    "correctAnswer": "Aggettivo possessivo (Mio) e pronome possessivo (tuo)",
+                    "explanation": "'Mio' accompagna il nome 'fratello' (aggettivo), 'tuo' sta al posto di 'tuo fratello' (pronome)."
+                }
+            ],
+            "Verbo": [
+                {
+                    "id": "7_3_1",
+                    "question": "Cosa indica il verbo di 'forma passiva'?",
+                    "options": [
+                        "Che il soggetto subisce l'azione compiuta da altri",
+                        "Che il soggetto compie l'azione e questa ricade su un oggetto",
+                        "Che il soggetto compie l'azione e questa ricade su se stesso",
+                        "Che l'azione avviene nel passato remoto"
+                    ],
+                    "correctAnswer": "Che il soggetto subisce l'azione compiuta da altri",
+                    "explanation": "Nella forma passiva (es. 'La mela è mangiata da me'), il soggetto grammaticale (la mela) subisce l'azione."
+                },
+                {
+                    "id": "7_3_2",
+                    "question": "Quali sono i verbi 'ausiliari' nella lingua italiana?",
+                    "options": [
+                        "Essere e Avere",
+                        "Fare e Dire",
+                        "Potere e Volere",
+                        "Andare e Venire"
+                    ],
+                    "correctAnswer": "Essere e Avere",
+                    "explanation": "Essere e avere aiutano (fungono da ausiliari) gli altri verbi per formare i tempi composti e la forma passiva."
+                },
+                {
+                    "id": "7_3_3",
+                    "question": "Come si definiscono i verbi che richiedono un complemento oggetto diretto (es. leggere un libro)?",
+                    "options": [
+                        "Transitivi",
+                        "Intransitivi",
+                        "Riflessivi",
+                        "Impersonali"
+                    ],
+                    "correctAnswer": "Transitivi",
+                    "explanation": "I verbi transitivi permettono all'azione di 'transitare' direttamente dal soggetto all'oggetto (rispondono a chi? che cosa?)."
+                }
+            ]
+        }
+    }
+}

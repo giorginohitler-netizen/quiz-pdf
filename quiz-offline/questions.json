@@ -1,0 +1,3220 @@
+{
+  "Educazione Civica": {
+    "La Costituzione e le Fonti del Diritto": {
+      "Lo Stato e la Costituzione": [
+        {
+          "id": 1,
+          "question": "Quali sono i tre elementi costitutivi fondamentali dello Stato?",
+          "options": [
+            "Popolo, territorio e sovranità",
+            "Cittadini, governo e confini",
+            "Nazione, parlamento e costituzione",
+            "Ordinamento, magistratura e territorio"
+          ],
+          "correctAnswer": "Popolo, territorio e sovranità",
+          "explanation": "Secondo il diritto costituzionale, uno Stato si compone di tre elementi essenziali: il popolo, il territorio e la sovranità."
+        },
+        {
+          "id": 2,
+          "question": "La forma di governo delineata dalla Costituzione italiana è:",
+          "options": [
+            "Una Repubblica Parlamentare",
+            "Una Repubblica Presidenziale",
+            "Una Repubblica Semi-presidenziale",
+            "Una Monarchia Costituzionale"
+          ],
+          "correctAnswer": "Una Repubblica Parlamentare",
+          "explanation": "L'Italia è una Repubblica in cui il Governo deve godere della fiducia del Parlamento, tipico del sistema parlamentare."
+        },
+        {
+          "id": 3,
+          "question": "Gli articoli che compongono la sezione dei 'Principi Fondamentali' della Costituzione italiana vanno:",
+          "options": [
+            "Dall'articolo 1 all'articolo 12",
+            "Dall'articolo 1 all'articolo 10",
+            "Dall'articolo 13 all'articolo 54",
+            "Dall'articolo 1 all'articolo 5"
+          ],
+          "correctAnswer": "Dall'articolo 1 all'articolo 12",
+          "explanation": "I Principi Fondamentali della Repubblica sono racchiusi nei primi dodici articoli della Costituzione."
+        },
+        {
+          "id": 4,
+          "question": "L'articolo 1 della Costituzione italiana afferma che L'Italia è una Repubblica democratica, fondata:",
+          "options": [
+            "Sul lavoro",
+            "Sulla libertà",
+            "Sull'uguaglianza",
+            "Sulla pace"
+          ],
+          "correctAnswer": "Sul lavoro",
+          "explanation": "L'art. 1 recita: 'L'Italia è una Repubblica democratica, fondata sul lavoro'."
+        },
+        {
+          "id": 5,
+          "question": "Il principio di uguaglianza, sia formale che sostanziale, è sancito in quale articolo della Costituzione?",
+          "options": [
+            "Articolo 3",
+            "Articolo 1",
+            "Articolo 2",
+            "Articolo 7"
+          ],
+          "correctAnswer": "Articolo 3",
+          "explanation": "L'art. 3 stabilisce l'uguaglianza formale (tutti i cittadini hanno pari dignità sociale) e sostanziale (è compito della Repubblica rimuovere gli ostacoli economici e sociali)."
+        },
+        {
+          "id": 6,
+          "question": "Quale articolo della Costituzione stabilisce il ripudio della guerra come strumento di offesa alla libertà degli altri popoli?",
+          "options": [
+            "Articolo 11",
+            "Articolo 10",
+            "Articolo 9",
+            "Articolo 12"
+          ],
+          "correctAnswer": "Articolo 11",
+          "explanation": "L'art. 11 sancisce il ripudio della guerra come strumento di offesa alla libertà e come mezzo di risoluzione delle controversie internazionali."
+        },
+        {
+          "id": 7,
+          "question": "Cosa descrive l'articolo 12 della Costituzione?",
+          "options": [
+            "La bandiera della Repubblica",
+            "Il riconoscimento delle autonomie locali",
+            "La tutela delle minoranze linguistiche",
+            "Il rapporto tra Stato e Chiesa Cattolica"
+          ],
+          "correctAnswer": "La bandiera della Repubblica",
+          "explanation": "L'art. 12 descrive il tricolore italiano: verde, bianco e rosso, a tre bande verticali di eguali dimensioni."
+        },
+        {
+          "id": 201,
+          "question": "Quale articolo della Costituzione tutela la lingua e la cultura delle minoranze linguistiche presenti in Italia?",
+          "options": [
+            "Articolo 6",
+            "Articolo 2",
+            "Articolo 9",
+            "Articolo 14"
+          ],
+          "correctAnswer": "Articolo 6",
+          "explanation": "L'art. 6 stabilisce che 'La Repubblica tutela le minoranze linguistiche', riconoscendo la diversità linguistica come valore culturale."
+        },
+        {
+          "id": 202,
+          "question": "Il principio democratico sancito dall'art. 1 stabilisce che la sovranità appartiene al popolo, ma con quali limiti?",
+          "options": [
+            "Nelle forme e nei limiti della Costituzione",
+            "Senza alcun limite, il popolo è sovrano assoluto",
+            "Nei limiti imposti dal Parlamento",
+            "Nei limiti fissati dall'Unione Europea"
+          ],
+          "correctAnswer": "Nelle forme e nei limiti della Costituzione",
+          "explanation": "L'art. 1 recita: 'La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione'."
+        },
+        {
+          "id": 203,
+          "question": "L'art. 9 tutela il paesaggio e il patrimonio storico e artistico della Nazione. A chi ne è affidata la promozione?",
+          "options": [
+            "Alla Repubblica",
+            "Al solo Ministero della Cultura",
+            "Alle Regioni",
+            "Ai Comuni"
+          ],
+          "correctAnswer": "Alla Repubblica",
+          "explanation": "L'art. 9 attribuisce alla Repubblica (intesa come ente complessivo) la promozione dello sviluppo della cultura e la ricerca scientifica, oltre alla tutela del patrimonio."
+        },
+        {
+          "id": 204,
+          "question": "Cosa stabilisce il principio personalista contenuto nell'art. 2 della Costituzione?",
+          "options": [
+            "La Repubblica riconosce i diritti inviolabili dell'uomo sia come singolo sia nelle formazioni sociali",
+            "Ogni persona deve svolgere un lavoro per contribuire alla società",
+            "La personalità giuridica è riconosciuta solo ai cittadini maggiorenni",
+            "I diritti individuali cedono sempre di fronte agli interessi collettivi"
+          ],
+          "correctAnswer": "La Repubblica riconosce i diritti inviolabili dell'uomo sia come singolo sia nelle formazioni sociali",
+          "explanation": "L'art. 2 sancisce il principio personalista: la persona umana è al centro dell'ordinamento e i suoi diritti fondamentali sono inviolabili."
+        },
+        {
+          "id": 205,
+          "question": "La Costituzione italiana è entrata in vigore il:",
+          "options": [
+            "1° gennaio 1948",
+            "2 giugno 1946",
+            "22 dicembre 1947",
+            "28 ottobre 1948"
+          ],
+          "correctAnswer": "1° gennaio 1948",
+          "explanation": "La Costituzione fu approvata dall'Assemblea Costituente il 22 dicembre 1947, promulgata il 27 dicembre e entrata in vigore il 1° gennaio 1948."
+        },
+        {
+          "id": 206,
+          "question": "Come si definisce una Costituzione che può essere modificata solo con procedimenti speciali aggravati, come quella italiana?",
+          "options": [
+            "Rigida",
+            "Flessibile",
+            "Consuetudinaria",
+            "Octroyée"
+          ],
+          "correctAnswer": "Rigida",
+          "explanation": "La Costituzione italiana è rigida: per modificarla occorre una legge costituzionale approvata due volte da entrambe le Camere (artt. 138-139)."
+        }
+      ],
+      "Diritti e Doveri dei Cittadini": [
+        {
+          "id": 8,
+          "question": "Secondo l'articolo 13 della Costituzione, la libertà personale è:",
+          "options": [
+            "Inviolabile",
+            "Limitabile liberamente dalla polizia",
+            "Garantita solo per i cittadini italiani",
+            "Non menzionata"
+          ],
+          "correctAnswer": "Inviolabile",
+          "explanation": "L'art. 13 dichiara che la libertà personale è inviolabile. Limitazioni sono ammesse solo per atto motivato dell'Autorità Giudiziaria e nei soli casi previsti dalla legge."
+        },
+        {
+          "id": 9,
+          "question": "L'articolo 14 definisce il domicilio come inviolabile. Sono ammesse ispezioni o perquisizioni?",
+          "options": [
+            "Sì, ma solo nei casi e modi stabiliti dalla legge secondo le garanzie per la libertà personale",
+            "Sì, senza alcun preavviso o mandato",
+            "No, in nessun caso",
+            "Solo se il domicilio appartiene a un soggetto non cittadino"
+          ],
+          "correctAnswer": "Sì, ma solo nei casi e modi stabiliti dalla legge secondo le garanzie per la libertà personale",
+          "explanation": "Come per la libertà personale, le perquisizioni o ispezioni nel domicilio privato necessitano di specifiche garanzie legali e giudiziarie."
+        },
+        {
+          "id": 10,
+          "question": "La libertà di riunione in un luogo pubblico (art. 17):",
+          "options": [
+            "Richiede un preavviso alle autorità, che possono vietarla solo per comprovati motivi di sicurezza",
+            "È assolutamente libera e non richiede mai alcun preavviso",
+            "È consentita solo previa autorizzazione scritta del Sindaco",
+            "È vietata in ogni caso"
+          ],
+          "correctAnswer": "Richiede un preavviso alle autorità, che possono vietarla solo per comprovati motivi di sicurezza",
+          "explanation": "Le riunioni in luogo pubblico prevedono l'obbligo di preavviso per questioni di sicurezza o incolumità pubblica."
+        },
+        {
+          "id": 11,
+          "question": "In merito alla libertà di associazione (art. 18), quali associazioni sono vietate dalla Costituzione?",
+          "options": [
+            "Le associazioni segrete e quelle che perseguono scopi politici mediante organizzazioni di carattere militare",
+            "I partiti politici non riconosciuti",
+            "Le associazioni religiose non cattoliche",
+            "I sindacati senza statuto approvato"
+          ],
+          "correctAnswer": "Le associazioni segrete e quelle che perseguono scopi politici mediante organizzazioni di carattere militare",
+          "explanation": "L'art. 18 vieta esplicitamente le associazioni segrete e le organizzazioni a carattere militare che perseguono fini politici."
+        },
+        {
+          "id": 12,
+          "question": "Quale articolo della Costituzione tutela la salute come 'fondamentale diritto dell'individuo e interesse della collettività'?",
+          "options": [
+            "Articolo 32",
+            "Articolo 34",
+            "Articolo 21",
+            "Articolo 13"
+          ],
+          "correctAnswer": "Articolo 32",
+          "explanation": "L'art. 32 garantisce cure gratuite agli indigenti e tutela la salute della collettività."
+        },
+        {
+          "id": 13,
+          "question": "Riguardo all'istruzione (art. 34), per quanti anni minimo l'istruzione inferiore è obbligatoria e gratuita?",
+          "options": [
+            "Almeno otto anni",
+            "Almeno cinque anni",
+            "Fino al compimento della maggiore età",
+            "Dieci anni"
+          ],
+          "correctAnswer": "Almeno otto anni",
+          "explanation": "L'art. 34 stabilisce che l'istruzione inferiore, impartita per almeno otto anni, è obbligatoria e gratuita."
+        },
+        {
+          "id": 207,
+          "question": "L'art. 21 tutela la libertà di manifestazione del pensiero. Quali limiti pone esplicitamente la Costituzione?",
+          "options": [
+            "È vietato il buon costume; la stampa non può essere sottoposta ad autorizzazioni o censure",
+            "È vietato criticare le istituzioni pubbliche",
+            "Richiede l'autorizzazione preventiva del Garante delle Comunicazioni",
+            "È limitata al solo ambito privato"
+          ],
+          "correctAnswer": "È vietato il buon costume; la stampa non può essere sottoposta ad autorizzazioni o censure",
+          "explanation": "L'art. 21 vieta le pubblicazioni contrarie al buon costume e garantisce la libertà di stampa senza censura preventiva."
+        },
+        {
+          "id": 208,
+          "question": "Quale articolo sancisce il diritto-dovere di voto dei cittadini italiani maggiorenni?",
+          "options": [
+            "Articolo 48",
+            "Articolo 49",
+            "Articolo 51",
+            "Articolo 56"
+          ],
+          "correctAnswer": "Articolo 48",
+          "explanation": "L'art. 48 afferma che sono elettori tutti i cittadini, uomini e donne, che hanno raggiunto la maggiore età. Il voto è personale, eguale, libero e segreto."
+        },
+        {
+          "id": 209,
+          "question": "L'art. 36 tutela il lavoro stabilendo che il lavoratore ha diritto a una retribuzione proporzionata e sufficiente. Cosa deve garantire questa retribuzione?",
+          "options": [
+            "Un'esistenza libera e dignitosa per lui e la sua famiglia",
+            "Solo il minimo vitale per il singolo lavoratore",
+            "L'acquisto di un'abitazione di proprietà",
+            "Una pensione anticipata dopo 20 anni di lavoro"
+          ],
+          "correctAnswer": "Un'esistenza libera e dignitosa per lui e la sua famiglia",
+          "explanation": "L'art. 36 introduce il concetto di 'giusta retribuzione': deve essere proporzionata alla quantità e qualità del lavoro, e sufficiente a garantire un'esistenza dignitosa."
+        },
+        {
+          "id": 210,
+          "question": "Quale articolo della Costituzione riconosce il diritto di sciopero?",
+          "options": [
+            "Articolo 40",
+            "Articolo 39",
+            "Articolo 41",
+            "Articolo 35"
+          ],
+          "correctAnswer": "Articolo 40",
+          "explanation": "L'art. 40 stabilisce che 'Il diritto di sciopero si esercita nell'ambito delle leggi che lo regolano'. La legge disciplina i servizi pubblici essenziali."
+        },
+        {
+          "id": 211,
+          "question": "Cosa prevede l'art. 27 della Costituzione riguardo alla pena di morte?",
+          "options": [
+            "Non è ammessa la pena di morte",
+            "È ammessa solo per i crimini di guerra",
+            "È ammessa ma mai applicata",
+            "Non viene menzionata"
+          ],
+          "correctAnswer": "Non è ammessa la pena di morte",
+          "explanation": "L'art. 27 stabilisce che le pene non possono consistere in trattamenti contrari al senso di umanità, e che non è ammessa la pena di morte."
+        },
+        {
+          "id": 212,
+          "question": "L'art. 53 stabilisce il principio della contribuzione alle spese pubbliche. Su quale base deve avvenire questa contribuzione?",
+          "options": [
+            "In ragione della loro capacità contributiva, con sistema progressivo",
+            "In misura uguale per tutti i cittadini (tassa fissa)",
+            "Solo per chi possiede redditi superiori a una soglia fissa",
+            "In base al numero di figli a carico"
+          ],
+          "correctAnswer": "In ragione della loro capacità contributiva, con sistema progressivo",
+          "explanation": "L'art. 53 sancisce il principio di progressività fiscale: chi guadagna di più deve contribuire proporzionalmente di più."
+        }
+      ],
+      "Il Parlamento e la Legge": [
+        {
+          "id": 14,
+          "question": "Come si definisce il sistema parlamentare italiano, in cui Camera e Senato hanno gli stessi poteri e funzioni?",
+          "options": [
+            "Bicameralismo perfetto",
+            "Bicameralismo imperfetto",
+            "Monocameralismo",
+            "Bicameralismo asimmetrico"
+          ],
+          "correctAnswer": "Bicameralismo perfetto",
+          "explanation": "Nel bicameralismo perfetto (o paritario), la Camera dei Deputati e il Senato della Repubblica esercitano collettivamente la stessa funzione legislativa e di controllo politico."
+        },
+        {
+          "id": 15,
+          "question": "Quali di questi soggetti NON ha il potere di iniziativa legislativa (presentazione di una proposta di legge)?",
+          "options": [
+            "Il Presidente della Repubblica",
+            "Il Governo",
+            "Singoli Parlamentari",
+            "50.000 elettori (iniziativa popolare)"
+          ],
+          "correctAnswer": "Il Presidente della Repubblica",
+          "explanation": "Il Presidente della Repubblica promulga le leggi, ma non ha l'iniziativa legislativa. Questa spetta al Governo, a ciascun membro del Parlamento, ai cittadini (50.000 firme), al CNEL e alle Regioni."
+        },
+        {
+          "id": 16,
+          "question": "Dopo che una legge è stata approvata nello stesso testo da entrambe le Camere, a chi spetta la sua promulgazione?",
+          "options": [
+            "Al Presidente della Repubblica",
+            "Al Presidente del Consiglio",
+            "Alla Corte Costituzionale",
+            "Ai Presidenti delle due Camere"
+          ],
+          "correctAnswer": "Al Presidente della Repubblica",
+          "explanation": "La promulgazione è l'atto con cui il Capo dello Stato attesta che la legge è stata approvata dalle Camere e ne ordina la pubblicazione."
+        },
+        {
+          "id": 17,
+          "question": "Dove avviene la pubblicazione di una legge prima della sua entrata in vigore?",
+          "options": [
+            "Sulla Gazzetta Ufficiale",
+            "Sui principali quotidiani nazionali",
+            "Nell'albo pretorio del Parlamento",
+            "Sul sito web del Governo"
+          ],
+          "correctAnswer": "Sulla Gazzetta Ufficiale",
+          "explanation": "La pubblicazione nella Gazzetta Ufficiale è la fase necessaria per rendere la legge conoscibile a tutti i cittadini."
+        },
+        {
+          "id": 213,
+          "question": "Per essere eletti alla Camera dei Deputati, qual è l'età minima richiesta ai candidati?",
+          "options": [
+            "25 anni",
+            "18 anni",
+            "30 anni",
+            "40 anni"
+          ],
+          "correctAnswer": "25 anni",
+          "explanation": "Per essere eletti alla Camera occorrono 25 anni; per il Senato 40 anni. L'elettorato passivo alla Camera è a 18 anni (art. 56), quello attivo al Senato a 25 anni (art. 58)."
+        },
+        {
+          "id": 214,
+          "question": "Ogni quanto anni si rinnovano le Camere del Parlamento italiano?",
+          "options": [
+            "5 anni",
+            "4 anni",
+            "6 anni",
+            "Ogni anno"
+          ],
+          "correctAnswer": "5 anni",
+          "explanation": "La Camera e il Senato durano in carica 5 anni (art. 60), salvo scioglimento anticipato da parte del Presidente della Repubblica."
+        },
+        {
+          "id": 215,
+          "question": "Cosa si intende per 'referendum abrogativo' (art. 75 Cost.)?",
+          "options": [
+            "Un voto popolare per cancellare totalmente o parzialmente una legge già in vigore",
+            "Una votazione parlamentare per approvare una nuova legge",
+            "La raccolta di firme per presentare una proposta di legge",
+            "Un voto per modificare la Costituzione"
+          ],
+          "correctAnswer": "Un voto popolare per cancellare totalmente o parzialmente una legge già in vigore",
+          "explanation": "Il referendum abrogativo è richiesto da 500.000 elettori o 5 consigli regionali e permette di eliminare norme già vigenti; non può riguardare leggi tributarie, di bilancio, di amnistia o di autorizzazione a ratificare trattati."
+        },
+        {
+          "id": 216,
+          "question": "Come si chiama l'atto con cui il Presidente della Repubblica può rimandare una legge alle Camere, chiedendo una nuova deliberazione?",
+          "options": [
+            "Rinvio presidenziale (o promulgazione con riserva)",
+            "Veto assoluto",
+            "Abrogazione",
+            "Promulgazione condizionata"
+          ],
+          "correctAnswer": "Rinvio presidenziale (o promulgazione con riserva)",
+          "explanation": "Il Presidente può, con messaggio motivato, rinviare la legge al Parlamento (art. 74). Se le Camere la approvano di nuovo, è obbligato a promulgarla."
+        },
+        {
+          "id": 217,
+          "question": "I Decreti Legge (D.L.) possono essere emanati dal Governo solo in presenza di:",
+          "options": [
+            "Casi straordinari di necessità e urgenza",
+            "Un mandato ricevuto dal Parlamento con legge delega",
+            "Una crisi economica ufficialmente dichiarata",
+            "Una richiesta formale di almeno 3 Regioni"
+          ],
+          "correctAnswer": "Casi straordinari di necessità e urgenza",
+          "explanation": "L'art. 77 permette al Governo di emanare D.L. provvisori con forza di legge solo in casi di necessità e urgenza, ma devono essere convertiti in legge dal Parlamento entro 60 giorni."
+        }
+      ],
+      "Le Fonti del Diritto": [
+        {
+          "id": 18,
+          "question": "Che cosa si intende per 'Fonti di Produzione' del diritto?",
+          "options": [
+            "Tutti quegli atti e fatti idonei a creare, modificare o estinguere norme giuridiche",
+            "I documenti ufficiali dove si possono leggere le leggi",
+            "Le norme che stabiliscono quali organi possono emanare le leggi",
+            "Le sentenze emesse dai giudici di pace"
+          ],
+          "correctAnswer": "Tutti quegli atti e fatti idonei a creare, modificare o estinguere norme giuridiche",
+          "explanation": "Le fonti di produzione sono l'insieme di strumenti, siano essi atti o fatti, che generano il diritto oggettivo."
+        },
+        {
+          "id": 19,
+          "question": "Qual è la differenza fondamentale tra 'Fonti Atto' e 'Fonti Fatto'?",
+          "options": [
+            "Le Fonti Atto sono norme scritte prodotte da organi competenti, le Fonti Fatto sono norme non scritte derivanti da comportamenti ripetuti nel tempo (consuetudini)",
+            "Le Fonti Atto riguardano il diritto civile, le Fonti Fatto il diritto penale",
+            "Le Fonti Atto sono decreti del governo, le Fonti Fatto sono leggi del Parlamento",
+            "Le Fonti Atto sono attuali, le Fonti Fatto sono leggi abrogate"
+          ],
+          "correctAnswer": "Le Fonti Atto sono norme scritte prodotte da organi competenti, le Fonti Fatto sono norme non scritte derivanti da comportamenti ripetuti nel tempo (consuetudini)",
+          "explanation": "Un esempio di fonte atto è la legge del Parlamento; un esempio di fonte fatto è la consuetudine internazionale o locale."
+        },
+        {
+          "id": 20,
+          "question": "Cosa sono le 'Fonti di Cognizione'?",
+          "options": [
+            "Gli strumenti o documenti attraverso i quali si viene a conoscenza delle norme giuridiche (es. Gazzetta Ufficiale)",
+            "Le procedure parlamentari per approvare una legge",
+            "Le norme che stabiliscono chi può legiferare",
+            "Le sentenze della Corte Costituzionale"
+          ],
+          "correctAnswer": "Gli strumenti o documenti attraverso i quali si viene a conoscenza delle norme giuridiche (es. Gazzetta Ufficiale)",
+          "explanation": "Le fonti di cognizione non creano il diritto, ma lo rendono conoscibile (come i Testi Unici meramente compilativi o le gazzette)."
+        },
+        {
+          "id": 21,
+          "question": "In caso di conflitto tra una norma posta dalla Costituzione e una Legge ordinaria, quale criterio si applica?",
+          "options": [
+            "Il criterio gerarchico",
+            "Il criterio cronologico",
+            "Il criterio di competenza",
+            "Nessuno, si applicano entrambe"
+          ],
+          "correctAnswer": "Il criterio gerarchico",
+          "explanation": "Il criterio gerarchico stabilisce che la norma prodotta dalla fonte di grado superiore prevale su quella inferiore."
+        },
+        {
+          "id": 22,
+          "question": "Il criterio cronologico per la risoluzione dei conflitti tra fonti del diritto prevede che:",
+          "options": [
+            "Tra due norme di pari grado, la norma emanata successivamente abroga quella precedente",
+            "La norma più antica prevale sempre perché più consolidata",
+            "La norma statale prevale sulla norma regionale indipendentemente dalla data",
+            "La norma inferiore, se successiva, abroga la norma superiore"
+          ],
+          "correctAnswer": "Tra due norme di pari grado, la norma emanata successivamente abroga quella precedente",
+          "explanation": "Il criterio cronologico (lex posterior derogat priori) opera abrogando la norma precedente di pari grado gerarchico."
+        },
+        {
+          "id": 23,
+          "question": "A quale tipo di fonte appartiene l'antico principio 'pacta sunt servanda'?",
+          "options": [
+            "A una fonte sulla produzione",
+            "A una fonte di cognizione",
+            "A una direttiva europea",
+            "A un regolamento governativo"
+          ],
+          "correctAnswer": "A una fonte sulla produzione",
+          "explanation": "I princìpi che regolano come vengono creati o rispettati gli atti (come i trattati internazionali) rientrano spesso nelle fonti 'sulla' produzione."
+        },
+        {
+          "id": 24,
+          "question": "Il criterio della competenza interviene quando:",
+          "options": [
+            "La Costituzione riserva la disciplina di una certa materia a una specifica fonte o organo escludendo le altre",
+            "Ci sono due leggi ordinarie contrastanti emanate dallo stesso organo",
+            "Il Parlamento deve decidere quale legge approvare per prima",
+            "Un giudice non è competente territorialmente"
+          ],
+          "correctAnswer": "La Costituzione riserva la disciplina di una certa materia a una specifica fonte o organo escludendo le altre",
+          "explanation": "Ad esempio, il riparto di competenze tra Stato e Regioni stabilito dall'art. 117 della Costituzione si basa sul criterio della competenza."
+        },
+        {
+          "id": 218,
+          "question": "Quale tipo di fonte dell'UE è direttamente applicabile in tutti gli Stati membri senza necessità di recepimento nazionale?",
+          "options": [
+            "Il Regolamento europeo",
+            "La Direttiva europea",
+            "La Decisione della Commissione",
+            "La Raccomandazione"
+          ],
+          "correctAnswer": "Il Regolamento europeo",
+          "explanation": "Il Regolamento UE ha portata generale, è obbligatorio in tutti i suoi elementi ed è direttamente applicabile in ciascuno Stato membro (art. 288 TFUE)."
+        },
+        {
+          "id": 219,
+          "question": "Le leggi regionali si collocano nella gerarchia delle fonti del diritto italiano allo stesso livello di:",
+          "options": [
+            "Le leggi ordinarie dello Stato",
+            "La Costituzione",
+            "I regolamenti governativi",
+            "I decreti ministeriali"
+          ],
+          "correctAnswer": "Le leggi ordinarie dello Stato",
+          "explanation": "Le leggi regionali hanno la stessa forza formale delle leggi statali, ma si distinguono per il criterio di competenza materiale stabilito dall'art. 117 della Costituzione."
+        },
+        {
+          "id": 220,
+          "question": "Cosa si intende per 'abrogazione tacita' di una norma giuridica?",
+          "options": [
+            "Avviene quando una legge successiva disciplina l'intera materia già regolata dalla precedente, anche senza dichiarare esplicitamente l'abrogazione",
+            "Avviene quando una legge è dichiarata incostituzionale dalla Corte",
+            "Avviene quando il Parlamento vota esplicitamente per eliminare una norma",
+            "È l'automatica decadenza di una norma dopo 10 anni dalla promulgazione"
+          ],
+          "correctAnswer": "Avviene quando una legge successiva disciplina l'intera materia già regolata dalla precedente, anche senza dichiarare esplicitamente l'abrogazione",
+          "explanation": "L'abrogazione può essere espressa (dichiarata), tacita (per incompatibilità) o implicita (quando la nuova legge disciplina l'intera materia)."
+        }
+      ]
+    },
+    "Gli Organi dello Stato": {
+      "Il Presidente della Repubblica": [
+        {
+          "id": 25,
+          "question": "Da chi viene eletto il Presidente della Repubblica in Italia?",
+          "options": [
+            "Dal Parlamento in seduta comune, integrato dai delegati regionali",
+            "Direttamente dal popolo a suffragio universale",
+            "Dai soli componenti del Senato della Repubblica",
+            "Dal Consiglio dei Ministri"
+          ],
+          "correctAnswer": "Dal Parlamento in seduta comune, integrato dai delegati regionali",
+          "explanation": "L'elezione del Capo dello Stato spetta al Parlamento in seduta comune, a cui partecipano anche 3 delegati per ogni Regione (1 per la Valle d'Aosta) per garantire la rappresentanza delle minoranze."
+        },
+        {
+          "id": 26,
+          "question": "Qual è la maggioranza richiesta per l'elezione del Presidente della Repubblica nei primi tre scrutini?",
+          "options": [
+            "La maggioranza dei due terzi (2/3) dell'assemblea",
+            "La maggioranza assoluta (metà più uno degli aventi diritto)",
+            "La maggioranza relativa (chi ottiene più voti)",
+            "L'unanimità"
+          ],
+          "correctAnswer": "La maggioranza dei due terzi (2/3) dell'assemblea",
+          "explanation": "Nei primi tre scrutini è richiesta la maggioranza qualificata dei 2/3. A partire dal quarto scrutinio è sufficiente la maggioranza assoluta."
+        },
+        {
+          "id": 27,
+          "question": "Quali sono i requisiti di età per essere eletti alla carica di Presidente della Repubblica?",
+          "options": [
+            "Aver compiuto 50 anni d'età",
+            "Aver compiuto 40 anni d'età",
+            "Aver compiuto 25 anni d'età",
+            "Aver compiuto 60 anni d'età"
+          ],
+          "correctAnswer": "Aver compiuto 50 anni d'età",
+          "explanation": "L'art. 84 della Costituzione fissa a 50 anni compiuti l'età minima, oltre al godimento dei diritti civili e politici."
+        },
+        {
+          "id": 28,
+          "question": "In caso di impedimento temporaneo, chi fa le veci del Presidente della Repubblica (supplenza)?",
+          "options": [
+            "Il Presidente del Senato",
+            "Il Presidente della Camera dei Deputati",
+            "Il Presidente del Consiglio dei Ministri",
+            "Il Presidente della Corte Costituzionale"
+          ],
+          "correctAnswer": "Il Presidente del Senato",
+          "explanation": "Secondo l'art. 86 della Costituzione, le funzioni del Presidente della Repubblica, in ogni caso in cui non possa adempierle, sono esercitate dal Presidente del Senato."
+        },
+        {
+          "id": 29,
+          "question": "Il Presidente della Repubblica non è responsabile degli atti compiuti nell'esercizio delle sue funzioni, tranne che per:",
+          "options": [
+            "Alto tradimento o attentato alla Costituzione",
+            "Qualsiasi reato penale comune",
+            "Concorso esterno in associazione mafiosa",
+            "Vilipendio alle istituzioni"
+          ],
+          "correctAnswer": "Alto tradimento o attentato alla Costituzione",
+          "explanation": "L'art. 90 prevede che il Presidente non sia responsabile degli atti compiuti nell'esercizio delle funzioni, se non per i reati gravissimi di alto tradimento e attentato alla Costituzione."
+        },
+        {
+          "id": 30,
+          "question": "Nessun atto del Presidente della Repubblica è valido se non reca:",
+          "options": [
+            "La controfirma dei Ministri proponenti, che ne assumono la responsabilità",
+            "L'approvazione formale della Corte Costituzionale",
+            "Il timbro ufficiale del Senato della Repubblica",
+            "La firma del solo Presidente del Consiglio"
+          ],
+          "correctAnswer": "La controfirma dei Ministri proponenti, che ne assumono la responsabilità",
+          "explanation": "L'istituto della controfirma ministeriale (art. 89) trasferisce la responsabilità dell'atto dal Capo dello Stato (irresponsabile) al Governo."
+        },
+        {
+          "id": 221,
+          "question": "Quanti anni dura il mandato del Presidente della Repubblica italiana?",
+          "options": [
+            "7 anni",
+            "5 anni",
+            "6 anni",
+            "9 anni"
+          ],
+          "correctAnswer": "7 anni",
+          "explanation": "L'art. 85 stabilisce che il Presidente della Repubblica è eletto per sette anni. Questa durata è volutamente superiore a quella delle Camere (5 anni) per garantire autonomia politica."
+        },
+        {
+          "id": 222,
+          "question": "Il Presidente della Repubblica può sciogliere le Camere in qualsiasi momento?",
+          "options": [
+            "No, non può farlo negli ultimi sei mesi del suo mandato (salvo coincidenza con scadenza naturale)",
+            "Sì, in qualsiasi momento e senza condizioni",
+            "Sì, ma solo con il voto del Consiglio dei Ministri",
+            "No, non può mai sciogliere le Camere anticipatamente"
+          ],
+          "correctAnswer": "No, non può farlo negli ultimi sei mesi del suo mandato (salvo coincidenza con scadenza naturale)",
+          "explanation": "L'art. 88 vieta lo scioglimento delle Camere negli ultimi sei mesi del settennato presidenziale (il cosiddetto 'semestre bianco'), per evitare interferenze politiche."
+        }
+      ],
+      "Il Governo": [
+        {
+          "id": 31,
+          "question": "Da quali organi è composto il Governo della Repubblica Italiana?",
+          "options": [
+            "Dal Presidente del Consiglio e dai Ministri, che insieme formano il Consiglio dei Ministri",
+            "Solo dal Presidente del Consiglio e dai Vicepremier",
+            "Dal Capo dello Stato e dai Ministri",
+            "Da tutti i deputati e senatori della coalizione vincente"
+          ],
+          "correctAnswer": "Dal Presidente del Consiglio e dai Ministri, che insieme formano il Consiglio dei Ministri",
+          "explanation": "Il Governo è un organo complesso ineguale, formato dal Presidente del Consiglio, dai singoli Ministri, e dal loro organo collegiale (Consiglio dei Ministri)."
+        },
+        {
+          "id": 32,
+          "question": "Chi nomina il Presidente del Consiglio dei Ministri?",
+          "options": [
+            "Il Presidente della Repubblica",
+            "Viene eletto direttamente dai cittadini",
+            "Il Parlamento in seduta comune",
+            "Il partito di maggioranza"
+          ],
+          "correctAnswer": "Il Presidente della Repubblica",
+          "explanation": "Il Presidente della Repubblica nomina il Presidente del Consiglio dei Ministri e, su proposta di questo, i Ministri (art. 92)."
+        },
+        {
+          "id": 33,
+          "question": "Entro quanti giorni dalla sua formazione il Governo deve presentarsi alle Camere per ottenere la fiducia?",
+          "options": [
+            "10 giorni",
+            "15 giorni",
+            "30 giorni",
+            "Non ha un termine perentorio"
+          ],
+          "correctAnswer": "10 giorni",
+          "explanation": "L'art. 94 stabilisce che il Governo, entro dieci giorni dalla formazione, deve presentarsi alle Camere per ottenerne la fiducia."
+        },
+        {
+          "id": 34,
+          "question": "I Decreti Legislativi (D.Lgs.) vengono emanati:",
+          "options": [
+            "Dal Governo su previa delega del Parlamento, che stabilisce principi e criteri direttivi",
+            "Dal Governo in casi di straordinaria necessità e urgenza",
+            "Dal Presidente della Repubblica autonomamente",
+            "Dai Ministri per disciplinare il funzionamento interno dei Ministeri"
+          ],
+          "correctAnswer": "Dal Governo su previa delega del Parlamento, che stabilisce principi e criteri direttivi",
+          "explanation": "Il decreto legislativo presuppone una legge di delegazione approvata dal Parlamento (art. 76), che definisce ambito, principi e termini."
+        },
+        {
+          "id": 223,
+          "question": "Come si chiama la procedura attraverso cui le Camere possono togliere la fiducia al Governo?",
+          "options": [
+            "Mozione di sfiducia",
+            "Interpellanza",
+            "Interrogazione parlamentare",
+            "Disegno di legge di sfiducia"
+          ],
+          "correctAnswer": "Mozione di sfiducia",
+          "explanation": "La mozione di sfiducia deve essere firmata da almeno un decimo dei componenti della Camera, è discussa dopo tre giorni dalla sua presentazione e approvata per appello nominale a maggioranza assoluta (art. 94)."
+        },
+        {
+          "id": 224,
+          "question": "Cosa si intende per 'questione di fiducia' posta dal Governo sul voto di un disegno di legge?",
+          "options": [
+            "Il Governo lega la sua sopravvivenza all'approvazione di quel provvedimento, costringendo il Parlamento a votare compattamente",
+            "Il Governo chiede al Parlamento di rinviare il voto a data successiva",
+            "Il Governo richiede un'analisi giuridica preventiva da parte della Corte Costituzionale",
+            "Il Governo dichiara lo stato di emergenza nazionale"
+          ],
+          "correctAnswer": "Il Governo lega la sua sopravvivenza all'approvazione di quel provvedimento, costringendo il Parlamento a votare compattamente",
+          "explanation": "Ponendo la fiducia, il Governo fa sì che la bocciatura del disegno di legge equivalga a una mozione di sfiducia, portando alle dimissioni del Governo stesso."
+        },
+        {
+          "id": 225,
+          "question": "Quale organo del Governo coordina l'attività dei Ministri e mantiene l'unità di indirizzo politico?",
+          "options": [
+            "Il Presidente del Consiglio dei Ministri",
+            "Il Vicepresidente del Consiglio",
+            "Il Consiglio dei Ministri collegialmente",
+            "Il Ministro dell'Economia"
+          ],
+          "correctAnswer": "Il Presidente del Consiglio dei Ministri",
+          "explanation": "L'art. 95 stabilisce che il Presidente del Consiglio dirige la politica generale del Governo, ne è responsabile e mantiene l'unità di indirizzo politico e amministrativo."
+        }
+      ],
+      "La Magistratura e la Corte Costituzionale": [
+        {
+          "id": 35,
+          "question": "Qual è la funzione del Consiglio Superiore della Magistratura (CSM)?",
+          "options": [
+            "Garantire l'autonomia e l'indipendenza della Magistratura dagli altri poteri dello Stato",
+            "Giudicare i reati commessi dai Ministri",
+            "Emanare sentenze di ultimo grado per reati civili e penali",
+            "Votare la sfiducia al Governo in caso di violazioni legali"
+          ],
+          "correctAnswer": "Garantire l'autonomia e l'indipendenza della Magistratura dagli altri poteri dello Stato",
+          "explanation": "Il CSM è l'organo di autogoverno della Magistratura: si occupa di assunzioni, assegnazioni, trasferimenti, promozioni e provvedimenti disciplinari dei magistrati."
+        },
+        {
+          "id": 36,
+          "question": "Da chi è presieduto il Consiglio Superiore della Magistratura (CSM)?",
+          "options": [
+            "Dal Presidente della Repubblica",
+            "Dal Ministro della Giustizia",
+            "Dal Primo Presidente della Corte di Cassazione",
+            "Da un magistrato eletto al suo interno"
+          ],
+          "correctAnswer": "Dal Presidente della Repubblica",
+          "explanation": "L'art. 104 stabilisce che la presidenza del CSM spetta al Presidente della Repubblica, sottolineando l'importanza costituzionale dell'organo."
+        },
+        {
+          "id": 37,
+          "question": "Da quanti giudici è composta la Corte Costituzionale italiana?",
+          "options": [
+            "15",
+            "11",
+            "21",
+            "9"
+          ],
+          "correctAnswer": "15",
+          "explanation": "La Corte Costituzionale è composta da 15 giudici: un terzo nominati dal Presidente della Repubblica, un terzo dal Parlamento e un terzo dalle supreme magistrature."
+        },
+        {
+          "id": 38,
+          "question": "Tra le seguenti funzioni, quale NON spetta alla Corte Costituzionale?",
+          "options": [
+            "Promulgare le leggi approvate dal Parlamento",
+            "Giudicare sulle controversie relative alla legittimità costituzionale delle leggi",
+            "Giudicare sui conflitti di attribuzione tra i poteri dello Stato",
+            "Giudicare sulle accuse promosse contro il Presidente della Repubblica"
+          ],
+          "correctAnswer": "Promulgare le leggi approvate dal Parlamento",
+          "explanation": "La promulgazione delle leggi spetta al Presidente della Repubblica. La Corte Costituzionale vigila unicamente sul rispetto della Costituzione."
+        },
+        {
+          "id": 226,
+          "question": "Cosa significa il principio 'nulla poena sine lege' garantito dall'art. 25 della Costituzione?",
+          "options": [
+            "Nessuno può essere punito se non in forza di una legge che sia già in vigore prima del fatto commesso",
+            "Le pene devono essere proporzionali al reato commesso",
+            "Il giudice può punire qualsiasi comportamento che ritenga moralmente sbagliato",
+            "La pena detentiva è l'unica forma di sanzione ammessa"
+          ],
+          "correctAnswer": "Nessuno può essere punito se non in forza di una legge che sia già in vigore prima del fatto commesso",
+          "explanation": "Il principio di legalità penale vieta la retroattività della legge penale sfavorevole (nessuno può essere punito per un fatto che non era reato quando è stato commesso)."
+        },
+        {
+          "id": 227,
+          "question": "Quale è la durata del mandato dei giudici della Corte Costituzionale?",
+          "options": [
+            "9 anni non rinnovabili",
+            "7 anni rinnovabili una volta",
+            "5 anni non rinnovabili",
+            "12 anni non rinnovabili"
+          ],
+          "correctAnswer": "9 anni non rinnovabili",
+          "explanation": "I giudici della Corte Costituzionale durano in carica 9 anni e il mandato non è prorogabile, per garantirne l'indipendenza."
+        }
+      ],
+      "Le Autonomie Locali": [
+        {
+          "id": 39,
+          "question": "Secondo l'art. 114 della Costituzione, da quali enti è costituita la Repubblica?",
+          "options": [
+            "Dai Comuni, dalle Province, dalle Città metropolitane, dalle Regioni e dallo Stato",
+            "Esclusivamente dallo Stato e dalle Regioni",
+            "Dallo Stato, dalle Prefetture e dai Comuni",
+            "Solo dallo Stato Centrale"
+          ],
+          "correctAnswer": "Dai Comuni, dalle Province, dalle Città metropolitane, dalle Regioni e dallo Stato",
+          "explanation": "A seguito della riforma del Titolo V, gli enti territoriali locali sono stati posti su un piano di equiordinazione formale con lo Stato."
+        },
+        {
+          "id": 40,
+          "question": "Cos'è il Principio di Sussidiarietà?",
+          "options": [
+            "Il principio secondo cui le funzioni amministrative sono attribuite all'ente più vicino ai cittadini (es. il Comune), affidando livelli superiori solo in caso di necessità",
+            "Il principio per cui lo Stato sussidia economicamente le Regioni in deficit",
+            "Il principio secondo cui il Governo centrale assorbe tutte le funzioni dei Comuni piccoli",
+            "La regola per cui solo le Regioni a statuto speciale hanno poteri legislativi"
+          ],
+          "correctAnswer": "Il principio secondo cui le funzioni amministrative sono attribuite all'ente più vicino ai cittadini (es. il Comune), affidando livelli superiori solo in caso di necessità",
+          "explanation": "Sancito dall'art. 118, stabilisce che le funzioni amministrative spettano in primis ai Comuni, per garantirne lo svolgimento vicino al cittadino."
+        },
+        {
+          "id": 228,
+          "question": "Quante sono le Regioni a Statuto Speciale in Italia e quali sono?",
+          "options": [
+            "5: Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige e Friuli-Venezia Giulia",
+            "4: Sicilia, Sardegna, Valle d'Aosta e Trentino",
+            "6: più la regione del Molise",
+            "3: Sicilia, Sardegna e Valle d'Aosta"
+          ],
+          "correctAnswer": "5: Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige e Friuli-Venezia Giulia",
+          "explanation": "Le 5 regioni a statuto speciale godono di maggiore autonomia rispetto alle 15 regioni ordinarie, per ragioni storiche, geografiche o di minoranze linguistiche."
+        },
+        {
+          "id": 229,
+          "question": "Cos'è lo Statuto comunale?",
+          "options": [
+            "L'atto normativo fondamentale del Comune che ne regola l'organizzazione e il funzionamento",
+            "Il documento di fondazione storica del Comune",
+            "Il bilancio annuale approvato dal Consiglio comunale",
+            "Il regolamento edilizio del territorio comunale"
+          ],
+          "correctAnswer": "L'atto normativo fondamentale del Comune che ne regola l'organizzazione e il funzionamento",
+          "explanation": "Lo Statuto comunale è la 'costituzione' del Comune: stabilisce i principi fondamentali dell'organizzazione, le forme di partecipazione dei cittadini e i rapporti con gli altri enti."
+        },
+        {
+          "id": 230,
+          "question": "Chi è il Sindaco e come viene eletto?",
+          "options": [
+            "È il capo dell'amministrazione comunale, eletto direttamente dai cittadini del Comune",
+            "È un funzionario statale nominato dal Prefetto",
+            "È eletto dal Consiglio Comunale tra i propri componenti",
+            "È nominato dal Presidente della Regione"
+          ],
+          "correctAnswer": "È il capo dell'amministrazione comunale, eletto direttamente dai cittadini del Comune",
+          "explanation": "Dal 1993 il Sindaco viene eletto direttamente dai cittadini con voto popolare, conferendogli una legittimazione democratica diretta."
+        }
+      ]
+    },
+    "Diritto Internazionale ed Europeo": {
+      "L'Unione Europea": [
+        {
+          "id": 41,
+          "question": "Quale storico trattato del 1951 ha istituito la CECA (Comunità Europea del Carbone e dell'Acciaio), considerata il primo nucleo della futura UE?",
+          "options": [
+            "Il Trattato di Parigi",
+            "Il Trattato di Roma",
+            "Il Trattato di Maastricht",
+            "Il Trattato di Lisbona"
+          ],
+          "correctAnswer": "Il Trattato di Parigi",
+          "explanation": "La CECA, firmata a Parigi nel 1951 da 6 paesi fondatori, mise in comune la produzione di carbone e acciaio."
+        },
+        {
+          "id": 42,
+          "question": "Quanti e quali erano i paesi fondatori delle prime Comunità Europee (CEE, EURATOM, CECA)?",
+          "options": [
+            "6: Italia, Francia, Germania Ovest, Belgio, Paesi Bassi e Lussemburgo",
+            "4: Italia, Francia, Germania Ovest, Spagna",
+            "12: i paesi dell'Europa occidentale al termine della Seconda Guerra Mondiale",
+            "5: Francia, Regno Unito, Italia, Belgio, Germania Ovest"
+          ],
+          "correctAnswer": "6: Italia, Francia, Germania Ovest, Belgio, Paesi Bassi e Lussemburgo",
+          "explanation": "I sei paesi originali (la 'Piccola Europa') avviarono il processo di integrazione economica ed europea."
+        },
+        {
+          "id": 43,
+          "question": "Quale trattato, firmato nel 1992, ha ufficialmente istituito l'Unione Europea (UE) e gettato le basi per l'unione economica e monetaria (Euro)?",
+          "options": [
+            "Il Trattato di Maastricht",
+            "Il Trattato di Nizza",
+            "Il Trattato di Amsterdam",
+            "L'Atto Unico Europeo"
+          ],
+          "correctAnswer": "Il Trattato di Maastricht",
+          "explanation": "Il Trattato di Maastricht (1992) ha sancito la nascita dell'Unione Europea, introducendo la cittadinanza europea e le tappe per la moneta unica."
+        },
+        {
+          "id": 44,
+          "question": "Quale istituzione dell'UE è l'unica ad essere eletta direttamente dai cittadini europei a suffragio universale?",
+          "options": [
+            "Il Parlamento Europeo",
+            "La Commissione Europea",
+            "Il Consiglio dell'Unione Europea",
+            "Il Consiglio Europeo"
+          ],
+          "correctAnswer": "Il Parlamento Europeo",
+          "explanation": "Il Parlamento Europeo, con sede a Strasburgo e Bruxelles, è composto dai rappresentanti dei cittadini dell'Unione ed è eletto ogni 5 anni."
+        },
+        {
+          "id": 45,
+          "question": "La Commissione Europea, spesso definita il 'governo' dell'UE, quale compito principale svolge?",
+          "options": [
+            "Detiene il potere esecutivo, propone nuove leggi e vigila sul rispetto dei trattati (guardiana dei trattati)",
+            "Approva definitivamente tutte le leggi europee",
+            "Giudica sulle violazioni dei diritti civili nei tribunali europei",
+            "Gestisce la politica monetaria e stampa le banconote Euro"
+          ],
+          "correctAnswer": "Detiene il potere esecutivo, propone nuove leggi e vigila sul rispetto dei trattati (guardiana dei trattati)",
+          "explanation": "La Commissione è l'organo indipendente che tutela gli interessi generali dell'UE e detiene il monopolio dell'iniziativa legislativa."
+        },
+        {
+          "id": 46,
+          "question": "Come si chiama l'organo dell'UE che riunisce i Capi di Stato o di Governo dei paesi membri per definire gli orientamenti e le priorità politiche generali?",
+          "options": [
+            "Il Consiglio Europeo",
+            "Il Consiglio dell'Unione Europea (o dei Ministri)",
+            "La Commissione Europea",
+            "Il Parlamento Europeo"
+          ],
+          "correctAnswer": "Il Consiglio Europeo",
+          "explanation": "Il Consiglio Europeo dà all'UE gli impulsi necessari al suo sviluppo e ne definisce gli orientamenti politici, senza però esercitare funzioni legislative."
+        },
+        {
+          "id": 231,
+          "question": "Quale trattato, in vigore dal 2009, ha riformato l'assetto istituzionale dell'UE, istituendo tra l'altro il presidente stabile del Consiglio Europeo?",
+          "options": [
+            "Il Trattato di Lisbona",
+            "Il Trattato di Nizza",
+            "Il Trattato di Amsterdam",
+            "Il Trattato di Roma"
+          ],
+          "correctAnswer": "Il Trattato di Lisbona",
+          "explanation": "Il Trattato di Lisbona (2007, in vigore 2009) ha rinominato i trattati fondanti, creato il presidente fisso del Consiglio Europeo e introdotto la figura dell'Alto Rappresentante per la politica estera."
+        },
+        {
+          "id": 232,
+          "question": "Cos'è la Banca Centrale Europea (BCE) e qual è il suo compito principale?",
+          "options": [
+            "È l'istituzione monetaria dell'UE che gestisce la politica monetaria della zona euro e mira alla stabilità dei prezzi",
+            "È la banca che finanzia i prestiti agli Stati membri in difficoltà tramite aiuti a fondo perduto",
+            "È un organo del Parlamento Europeo che controlla i bilanci degli Stati",
+            "È un'istituzione privata indipendente che gestisce gli investimenti europei"
+          ],
+          "correctAnswer": "È l'istituzione monetaria dell'UE che gestisce la politica monetaria della zona euro e mira alla stabilità dei prezzi",
+          "explanation": "La BCE, con sede a Francoforte, è indipendente dai governi e ha come obiettivo primario mantenere l'inflazione vicino al 2% nella zona euro."
+        },
+        {
+          "id": 233,
+          "question": "Quanti sono gli Stati membri dell'Unione Europea dopo la Brexit (uscita del Regno Unito)?",
+          "options": [
+            "27",
+            "28",
+            "26",
+            "30"
+          ],
+          "correctAnswer": "27",
+          "explanation": "Con l'uscita del Regno Unito (Brexit, effettiva dal 1° febbraio 2020), l'UE è composta da 27 Stati membri."
+        }
+      ],
+      "Organizzazioni Internazionali": [
+        {
+          "id": 47,
+          "question": "L'Organizzazione delle Nazioni Unite (ONU) ha come scopo principale:",
+          "options": [
+            "Mantenere la pace e la sicurezza internazionale e sviluppare relazioni amichevoli tra le nazioni",
+            "Stabilire un governo mondiale unico con un proprio esercito",
+            "Regolare i dazi commerciali tra Europa e Stati Uniti",
+            "Fornire assistenza tecnica per la produzione agricola (che è lo scopo della FAO, un'agenzia ONU, ma non dell'ONU in generale)"
+          ],
+          "correctAnswer": "Mantenere la pace e la sicurezza internazionale e sviluppare relazioni amichevoli tra le nazioni",
+          "explanation": "Nata nel 1945 con la Carta di San Francisco, l'ONU persegue la pace mondiale e la cooperazione internazionale."
+        },
+        {
+          "id": 48,
+          "question": "Qual è l'organo dell'ONU che ha la responsabilità principale del mantenimento della pace e che può adottare risoluzioni vincolanti (comprese sanzioni o uso della forza)?",
+          "options": [
+            "Il Consiglio di Sicurezza",
+            "L'Assemblea Generale",
+            "Il Segretariato Generale",
+            "La Corte Internazionale di Giustizia"
+          ],
+          "correctAnswer": "Il Consiglio di Sicurezza",
+          "explanation": "Il Consiglio di Sicurezza è composto da 15 membri, di cui 5 permanenti con diritto di veto (USA, Russia, Cina, Francia, Regno Unito)."
+        },
+        {
+          "id": 49,
+          "question": "Cos'è la NATO (Organizzazione del Trattato dell'Atlantico del Nord)?",
+          "options": [
+            "Un'alleanza politica e militare difensiva tra paesi dell'Europa e del Nord America",
+            "Un'organizzazione commerciale globale per favorire il libero scambio",
+            "Un'agenzia dell'ONU specializzata nell'intervento umanitario",
+            "L'organizzazione che unisce i paesi non allineati"
+          ],
+          "correctAnswer": "Un'alleanza politica e militare difensiva tra paesi dell'Europa e del Nord America",
+          "explanation": "Fondata nel 1949, la NATO si basa sul principio della difesa collettiva (art. 5): un attacco a un membro è un attacco a tutti."
+        },
+        {
+          "id": 50,
+          "question": "Da non confondere con le istituzioni dell'UE, cos'è il Consiglio d'Europa?",
+          "options": [
+            "Un'organizzazione internazionale focalizzata sulla difesa dei diritti umani, la democrazia e lo stato di diritto in Europa",
+            "L'organo legislativo dell'Unione Europea",
+            "Una banca centrale che emette fondi per le nazioni europee",
+            "Un'associazione temporanea di paesi per il commercio del carbone"
+          ],
+          "correctAnswer": "Un'organizzazione internazionale focalizzata sulla difesa dei diritti umani, la democrazia e lo stato di diritto in Europa",
+          "explanation": "Il Consiglio d'Europa è un'organizzazione separata dall'UE, nota in particolare per la CEDU (Convenzione Europea dei Diritti dell'Uomo)."
+        },
+        {
+          "id": 234,
+          "question": "Quale agenzia specializzata dell'ONU si occupa di salute pubblica globale e ha coordinato la risposta alla pandemia di COVID-19?",
+          "options": [
+            "L'OMS (Organizzazione Mondiale della Sanità / WHO)",
+            "L'UNICEF",
+            "L'UNESCO",
+            "L'FAO"
+          ],
+          "correctAnswer": "L'OMS (Organizzazione Mondiale della Sanità / WHO)",
+          "explanation": "L'OMS/WHO è l'agenzia dell'ONU che dirige e coordina la salute internazionale, pubblica linee guida e monitora le malattie a livello globale."
+        },
+        {
+          "id": 235,
+          "question": "La Corte Penale Internazionale (CPI), con sede all'Aia, ha il potere di giudicare individui per:",
+          "options": [
+            "Genocidio, crimini contro l'umanità, crimini di guerra e crimine di aggressione",
+            "Solo reati economici e di corruzione internazionale",
+            "Qualsiasi reato commesso in territorio straniero",
+            "Violazioni dei diritti d'autore a livello internazionale"
+          ],
+          "correctAnswer": "Genocidio, crimini contro l'umanità, crimini di guerra e crimine di aggressione",
+          "explanation": "La CPI, istituita dallo Statuto di Roma nel 1998, giudica individui (non Stati) per i crimini più gravi che toccano la comunità internazionale."
+        }
+      ]
+    },
+    "Fonti del Diritto e UE": {
+      "Atti dell'Unione Europea": [
+        {
+          "question": "Quale atto dell'UE ha portata generale, è obbligatorio in tutti i suoi elementi e direttamente applicabile in ciascuno Stato membro?",
+          "options": [
+            "Il regolamento",
+            "La direttiva",
+            "La decisione",
+            "La raccomandazione"
+          ],
+          "correctAnswer": "Il regolamento",
+          "explanation": "L'art. 288 TFUE distingue: il regolamento ha portata generale ed è direttamente applicabile; la direttiva vincola solo quanto al risultato; la decisione è obbligatoria solo per i destinatari."
+        },
+        {
+          "question": "La direttiva europea vincola lo Stato membro cui è rivolta rispetto a…",
+          "options": [
+            "Il risultato da raggiungere",
+            "La forma e i mezzi da usare",
+            "Ogni singolo elemento dell'atto",
+            "Nessun obbligo concreto"
+          ],
+          "correctAnswer": "Il risultato da raggiungere",
+          "explanation": "La direttiva fissa l'obiettivo lasciando agli organi nazionali libertà di scelta sulla forma e sui mezzi per raggiungerlo."
+        },
+        {
+          "question": "Le raccomandazioni e i pareri dell'UE hanno…",
+          "options": [
+            "Efficacia precettiva e vincolante",
+            "Solo efficacia verso lo Stato destinatario",
+            "Nessuna efficacia vincolante",
+            "La stessa forza delle direttive"
+          ],
+          "correctAnswer": "Nessuna efficacia vincolante",
+          "explanation": "A differenza di regolamenti, direttive e decisioni, le raccomandazioni e i pareri sono sforniti di efficacia precettiva e vincolante."
+        },
+        {
+          "question": "Con quale legge è stata introdotta la distinzione tra 'legge di delegazione europea' e 'legge europea' per adeguare l'ordinamento italiano all'UE?",
+          "options": [
+            "L. 86/1989 (legge La Pergola)",
+            "L. 11/2005 (legge Buttiglione)",
+            "L. 234/2012",
+            "L. 183/1987 (legge Fabbri)"
+          ],
+          "correctAnswer": "L. 234/2012",
+          "explanation": "La L. 24 dicembre 2012, n. 234 ha abrogato la L. 11/2005 e introdotto due strumenti distinti: la legge di delegazione europea (da presentare entro il 28 febbraio) e la legge europea."
+        },
+        {
+          "question": "Quale articolo della Costituzione italiana è stato ritenuto il principale fondamento costituzionale della partecipazione italiana alle Comunità europee?",
+          "options": [
+            "Art. 11 Cost.",
+            "Art. 117 Cost.",
+            "Art. 10 Cost.",
+            "Art. 72 Cost."
+          ],
+          "correctAnswer": "Art. 11 Cost.",
+          "explanation": "L'art. 11 Cost., che consente limitazioni di sovranità in condizioni di parità con altri Stati, è stato invocato come copertura costituzionale per i trattati comunitari."
+        }
+      ]
+    },
+    "Organi dello Stato": {
+      "NATO e Organizzazioni Internazionali": [
+        {
+          "question": "Qual è l'organo dell'ONU responsabile del mantenimento della pace e della sicurezza internazionale?",
+          "options": [
+            "Il Consiglio di Sicurezza",
+            "L'Assemblea Generale",
+            "Il Segretario Generale",
+            "La Corte Internazionale di Giustizia"
+          ],
+          "correctAnswer": "Il Consiglio di Sicurezza",
+          "explanation": "Il Consiglio di Sicurezza è l'organo cui spetta la responsabilità principale del mantenimento della pace e della sicurezza internazionale."
+        },
+        {
+          "question": "Quanti membri permanenti siede nel Consiglio di Sicurezza dell'ONU, e qual è il loro privilegio?",
+          "options": [
+            "Cinque, con diritto di veto",
+            "Dieci, con doppio voto",
+            "Quindici, senza privilegi speciali",
+            "Tre, con potere di veto"
+          ],
+          "correctAnswer": "Cinque, con diritto di veto",
+          "explanation": "Il Consiglio di Sicurezza è composto da 15 membri: 5 permanenti (USA, Russia, Francia, Gran Bretagna, Cina) con diritto di veto, e 10 eletti a rotazione ogni 2 anni."
+        },
+        {
+          "question": "La Dichiarazione Universale dei Diritti dell'Uomo è stata adottata dall'Assemblea Generale dell'ONU il…",
+          "options": [
+            "10 dicembre 1948",
+            "24 ottobre 1945",
+            "26 giugno 1945",
+            "4 aprile 1949"
+          ],
+          "correctAnswer": "10 dicembre 1948",
+          "explanation": "Il 10 dicembre 1948 l'Assemblea Generale adottò la Dichiarazione Universale dei Diritti dell'Uomo, contenente i principi essenziali della dignità umana."
+        },
+        {
+          "question": "Chi nomina il Segretario Generale dell'ONU e per quanti anni rimane in carica?",
+          "options": [
+            "L'Assemblea Generale, ogni cinque anni",
+            "Il Consiglio di Sicurezza, ogni tre anni",
+            "I cinque membri permanenti, a vita",
+            "Il Consiglio di Sicurezza, ogni cinque anni"
+          ],
+          "correctAnswer": "L'Assemblea Generale, ogni cinque anni",
+          "explanation": "Il Segretario Generale è eletto ogni cinque anni dall'Assemblea Generale su raccomandazione del Consiglio di Sicurezza."
+        },
+        {
+          "question": "La Corte Penale Internazionale (CPI) ha il compito di…",
+          "options": [
+            "Giudicare le persone fisiche responsabili di crimini internazionali gravi",
+            "Risolvere le controversie tra Stati",
+            "Emanare sanzioni economiche",
+            "Gestire le operazioni di peacekeeping"
+          ],
+          "correctAnswer": "Giudicare le persone fisiche responsabili di crimini internazionali gravi",
+          "explanation": "La Corte Penale Internazionale, con sede all'Aja, giudica le persone fisiche responsabili di genocidio, crimini contro l'umanità e crimini di guerra."
+        },
+        {
+          "question": "Il Consiglio d'Europa ha sede in quale città?",
+          "options": [
+            "Strasburgo",
+            "Bruxelles",
+            "L'Aja",
+            "Ginevra"
+          ],
+          "correctAnswer": "Strasburgo",
+          "explanation": "Il Consiglio d'Europa ha sede a Strasburgo. Non va confuso con il Consiglio dell'Unione Europea o il Consiglio Europeo."
+        },
+        {
+          "question": "Quale tra i seguenti non è un obiettivo principale del Consiglio d'Europa?",
+          "options": [
+            "Gestione della moneta unica europea",
+            "Promozione dei diritti umani",
+            "Sostenere la democrazia parlamentare",
+            "Rafforzare lo Stato di diritto"
+          ],
+          "correctAnswer": "Gestione della moneta unica europea",
+          "explanation": "Il Consiglio d'Europa si occupa di diritti umani, democrazia e Stato di diritto. La gestione della moneta unica è competenza dell'UE tramite la BCE."
+        }
+      ]
+    }
+  },
+  "Geografia": {
+    "L'Italia": {
+      "Territorio e Clima": [
+        {
+          "id": 55,
+          "question": "Qual è la lunghezza approssimativa delle coste italiane, considerando anche le isole?",
+          "options": [
+            "Circa 7.500 - 8.000 km",
+            "Circa 2.000 km",
+            "Oltre 15.000 km",
+            "Circa 4.500 km"
+          ],
+          "correctAnswer": "Circa 7.500 - 8.000 km",
+          "explanation": "L'Italia, essendo una penisola circondata da vari mari (Ligure, Tirreno, Ionio, Adriatico) e includendo le isole maggiori e minori, ha uno sviluppo costiero di quasi 8.000 km."
+        },
+        {
+          "id": 56,
+          "question": "Quali mari bagnano le coste della penisola italiana?",
+          "options": [
+            "Ligure, Tirreno, Ionio, Adriatico",
+            "Mediterraneo, Egeo, Nero, Rosso",
+            "Tirreno, Ionio, Egeo, Adriatico",
+            "Ligure, Baltico, Tirreno, Ionio"
+          ],
+          "correctAnswer": "Ligure, Tirreno, Ionio, Adriatico",
+          "explanation": "Questi quattro mari sono tutte articolazioni del Mar Mediterraneo che bagnano i diversi versanti dell'Italia."
+        },
+        {
+          "id": 57,
+          "question": "Da dove a dove si estende tradizionalmente la catena degli Appennini?",
+          "options": [
+            "Dal Colle di Cadibona (in Liguria) fino allo Stretto di Messina, e prosegue in Sicilia",
+            "Dalla Valle d'Aosta al Friuli-Venezia Giulia",
+            "Esclusivamente lungo le coste del Mar Adriatico",
+            "Dal Piemonte fino al Lazio"
+          ],
+          "correctAnswer": "Dal Colle di Cadibona (in Liguria) fino allo Stretto di Messina, e prosegue in Sicilia",
+          "explanation": "Gli Appennini sono la 'spina dorsale' della penisola italiana, estendendosi da nord a sud fino in Sicilia."
+        },
+        {
+          "id": 58,
+          "question": "Qual è il fiume più lungo d'Italia e dove sfocia?",
+          "options": [
+            "Il Po, che sfocia nel Mar Adriatico con un ampio delta",
+            "Il Tevere, che sfocia nel Mar Tirreno",
+            "L'Adige, che sfocia nel Mar Ionio",
+            "L'Arno, che sfocia nel Mar Ligure"
+          ],
+          "correctAnswer": "Il Po, che sfocia nel Mar Adriatico con un ampio delta",
+          "explanation": "Il Po, lungo circa 652 km, è il fiume più lungo e di maggiore portata in Italia, scorre nella Pianura Padana e sfocia a delta nell'Adriatico."
+        },
+        {
+          "id": 59,
+          "question": "Quale tra i seguenti laghi è il più grande per superficie in Italia?",
+          "options": [
+            "Il Lago di Garda",
+            "Il Lago Maggiore",
+            "Il Lago di Como",
+            "Il Lago Trasimeno"
+          ],
+          "correctAnswer": "Il Lago di Garda",
+          "explanation": "Il Lago di Garda (o Benaco) è il più grande lago italiano, situato tra Lombardia, Veneto e Trentino-Alto Adige."
+        },
+        {
+          "id": 301,
+          "question": "Qual è la cima più alta delle Alpi italiane e dell'intera catena alpina?",
+          "options": [
+            "Monte Bianco (4.808 m)",
+            "Monte Rosa (4.634 m)",
+            "Gran Paradiso (4.061 m)",
+            "Monte Cervino (4.478 m)"
+          ],
+          "correctAnswer": "Monte Bianco (4.808 m)",
+          "explanation": "Il Monte Bianco, al confine tra Italia e Francia, è la vetta più alta delle Alpi e dell'Europa occidentale."
+        },
+        {
+          "id": 302,
+          "question": "Quale pianura alluvionale è la più grande d'Italia e una delle più fertili d'Europa?",
+          "options": [
+            "La Pianura Padana",
+            "La Piana di Sibari",
+            "La Pianura Campana",
+            "Il Tavoliere delle Puglie"
+          ],
+          "correctAnswer": "La Pianura Padana",
+          "explanation": "La Pianura Padana, estesa per circa 46.000 km², è il maggiore distretto industriale e agricolo d'Italia."
+        },
+        {
+          "id": 303,
+          "question": "Il vulcano Etna, il più alto e attivo d'Europa, si trova in:",
+          "options": [
+            "Sicilia",
+            "Campania",
+            "Calabria",
+            "Sardegna"
+          ],
+          "correctAnswer": "Sicilia",
+          "explanation": "L'Etna si trova in Sicilia, nella città metropolitana di Catania, e con i suoi oltre 3.300 m è il vulcano attivo più alto d'Europa."
+        },
+        {
+          "id": 304,
+          "question": "Quale clima caratterizza prevalentemente le coste del Sud Italia e le isole maggiori?",
+          "options": [
+            "Clima mediterraneo (estati calde e secche, inverni miti e piovosi)",
+            "Clima continentale (freddo rigido d'inverno, caldo umido d'estate)",
+            "Clima alpino (freddo con abbondanti nevicate)",
+            "Clima oceanico (piovoso e mite tutto l'anno)"
+          ],
+          "correctAnswer": "Clima mediterraneo (estati calde e secche, inverni miti e piovosi)",
+          "explanation": "Il clima mediterraneo tipico del Sud e delle isole è caratterizzato da estate calda e secca e inverno mite con precipitazioni concentrate nel periodo freddo."
+        },
+        {
+          "id": 305,
+          "question": "Qual è il lago più grande d'Italia per superficie?",
+          "options": [
+            "Il Lago di Garda",
+            "Il Lago Maggiore",
+            "Il Lago di Como",
+            "Il Lago Trasimeno"
+          ],
+          "correctAnswer": "Il Lago di Garda",
+          "explanation": "Il Lago di Garda (368 km²) è il più grande lago italiano per superficie, condiviso tra Veneto, Lombardia e Trentino."
+        }
+      ],
+      "Demografia ed Economia": [
+        {
+          "id": 60,
+          "question": "Cosa indica il concetto di 'invecchiamento demografico' riscontrato in Italia negli ultimi decenni?",
+          "options": [
+            "Un aumento percentuale della popolazione anziana rispetto ai giovani, dovuto al calo delle nascite e all'aumento dell'aspettativa di vita",
+            "Un calo dell'aspettativa di vita totale",
+            "L'aumento dell'emigrazione giovanile all'estero, senza alcuna variazione delle nascite",
+            "Un fenomeno che riguarda solo il Sud Italia"
+          ],
+          "correctAnswer": "Un aumento percentuale della popolazione anziana rispetto ai giovani, dovuto al calo delle nascite e all'aumento dell'aspettativa di vita",
+          "explanation": "L'Italia presenta uno degli indici di vecchiaia più alti al mondo, a causa di una bassissima natalità e un'alta longevità."
+        },
+        {
+          "id": 61,
+          "question": "Quali attività rientrano tipicamente nel 'Settore Primario' dell'economia italiana?",
+          "options": [
+            "Agricoltura, allevamento, pesca e sfruttamento delle risorse forestali",
+            "Industria manifatturiera, edilizia e produzione di energia",
+            "Servizi, commercio, turismo e finanza",
+            "Ricerca scientifica, informatica e telecomunicazioni avanzate"
+          ],
+          "correctAnswer": "Agricoltura, allevamento, pesca e sfruttamento delle risorse forestali",
+          "explanation": "Il settore primario raggruppa le attività di sfruttamento diretto delle risorse naturali. In Italia occupa circa il 4% degli occupati."
+        },
+        {
+          "id": 62,
+          "question": "In base all'art. 114 della Costituzione, cos'è una 'Città Metropolitana'?",
+          "options": [
+            "Un ente territoriale di vasta area che sostituisce la provincia in alcuni dei maggiori poli urbani del Paese (es. Roma, Milano, Napoli)",
+            "Un semplice termine geografico per indicare una città con più di un milione di abitanti",
+            "Una regione speciale che include diverse province",
+            "Un quartiere autonomo all'interno di una grande città"
+          ],
+          "correctAnswer": "Un ente territoriale di vasta area che sostituisce la provincia in alcuni dei maggiori poli urbani del Paese (es. Roma, Milano, Napoli)",
+          "explanation": "La Città Metropolitana è un vero e proprio ente amministrativo previsto dalla Costituzione per le grandi aree urbane."
+        },
+        {
+          "id": 306,
+          "question": "Come si chiama il fenomeno storico dello spostamento di lavoratori dal Sud verso il Nord Italia e l'estero, avvenuto principalmente negli anni '50 e '60?",
+          "options": [
+            "Migrazione interna (o esodo meridionale)",
+            "Urbanesimo settentrionale",
+            "La diaspora italiana",
+            "Il boom demografico"
+          ],
+          "correctAnswer": "Migrazione interna (o esodo meridionale)",
+          "explanation": "Il miracolo economico italiano degli anni '50-'60 attirò milioni di lavoratori dal Sud e dal Nordest verso le fabbriche del triangolo industriale (Milano, Torino, Genova)."
+        },
+        {
+          "id": 307,
+          "question": "Cosa si intende per 'triangolo industriale' italiano?",
+          "options": [
+            "L'area tra Milano, Torino e Genova, cuore dell'industria manifatturiera italiana nel dopoguerra",
+            "La zona tra Roma, Napoli e Bari, nota per l'industria alimentare",
+            "L'area tra Venezia, Trieste e Bologna, nota per l'export",
+            "La regione tra Firenze, Bologna e Prato, capitale del fashion"
+          ],
+          "correctAnswer": "L'area tra Milano, Torino e Genova, cuore dell'industria manifatturiera italiana nel dopoguerra",
+          "explanation": "Il triangolo industriale è storicamente il polo manifatturiero dell'Italia, con l'industria automobilistica (FIAT a Torino), siderurgica e chimica."
+        },
+        {
+          "id": 308,
+          "question": "Qual è la regione italiana con il maggior numero di abitanti?",
+          "options": [
+            "Lombardia",
+            "Lazio",
+            "Campania",
+            "Sicilia"
+          ],
+          "correctAnswer": "Lombardia",
+          "explanation": "La Lombardia è la regione più popolosa d'Italia con circa 10 milioni di abitanti, seguita da Lazio e Campania."
+        }
+      ]
+    },
+    "Le Regioni d'Italia": {
+      "Il Nord Italia": [
+        {
+          "id": 63,
+          "question": "Quale regione del Nord Italia è a Statuto Speciale e ha come capoluogo Aosta?",
+          "options": [
+            "Valle d'Aosta",
+            "Trentino-Alto Adige",
+            "Friuli-Venezia Giulia",
+            "Piemonte"
+          ],
+          "correctAnswer": "Valle d'Aosta",
+          "explanation": "La Valle d'Aosta è la più piccola regione italiana, è a statuto speciale (bilinguismo italiano-francese) e non ha province, ma solo il capoluogo Aosta."
+        },
+        {
+          "id": 64,
+          "question": "Il fiume Po, il più lungo d'Italia, nasce dal Monviso in quale regione?",
+          "options": [
+            "Piemonte",
+            "Lombardia",
+            "Emilia-Romagna",
+            "Veneto"
+          ],
+          "correctAnswer": "Piemonte",
+          "explanation": "Il Po nasce in Piemonte (Alpi Cozie) e attraversa la regione prima di scorrere verso la Lombardia."
+        },
+        {
+          "id": 65,
+          "question": "Quale regione italiana è bagnata dal Mar Ligure, ha una conformazione 'ad arco' ed è famosa per le Cinque Terre?",
+          "options": [
+            "Liguria",
+            "Toscana",
+            "Emilia-Romagna",
+            "Campania"
+          ],
+          "correctAnswer": "Liguria",
+          "explanation": "La Liguria ha un territorio montuoso/collinare affacciato sul mare, diviso tradizionalmente in Riviera di Ponente e Riviera di Levante."
+        },
+        {
+          "id": 66,
+          "question": "Qual è il capoluogo della regione Lombardia?",
+          "options": [
+            "Milano",
+            "Torino",
+            "Brescia",
+            "Bergamo"
+          ],
+          "correctAnswer": "Milano",
+          "explanation": "Milano è il capoluogo della Lombardia, nonché il principale polo finanziario ed economico d'Italia."
+        },
+        {
+          "id": 67,
+          "question": "Venezia è il capoluogo di quale regione?",
+          "options": [
+            "Veneto",
+            "Friuli-Venezia Giulia",
+            "Emilia-Romagna",
+            "Marche"
+          ],
+          "correctAnswer": "Veneto",
+          "explanation": "Il Veneto (capoluogo Venezia) è una vasta regione del Nord-Est, caratterizzata da un'economia florida basata su PMI."
+        },
+        {
+          "id": 309,
+          "question": "Qual è il capoluogo del Piemonte, prima capitale del Regno d'Italia?",
+          "options": [
+            "Torino",
+            "Cuneo",
+            "Asti",
+            "Novara"
+          ],
+          "correctAnswer": "Torino",
+          "explanation": "Torino è stata la prima capitale del Regno d'Italia (1861-1864) ed è oggi il principale centro industriale del Piemonte."
+        },
+        {
+          "id": 310,
+          "question": "Il Trentino-Alto Adige è una regione a statuto speciale. Quali sono le due Province autonome che la compongono?",
+          "options": [
+            "Trento e Bolzano",
+            "Trento e Trieste",
+            "Bolzano e Udine",
+            "Verona e Trento"
+          ],
+          "correctAnswer": "Trento e Bolzano",
+          "explanation": "Il Trentino-Alto Adige è suddiviso nelle Province Autonome di Trento e Bolzano (South Tyrol), quest'ultima a prevalenza di lingua tedesca."
+        },
+        {
+          "id": 311,
+          "question": "Qual è il capoluogo del Friuli-Venezia Giulia, importante porto adriatico?",
+          "options": [
+            "Trieste",
+            "Udine",
+            "Gorizia",
+            "Pordenone"
+          ],
+          "correctAnswer": "Trieste",
+          "explanation": "Trieste è il capoluogo del Friuli-Venezia Giulia e ospita uno dei porti più importanti del Mediterraneo orientale."
+        },
+        {
+          "id": 312,
+          "question": "La Valle d'Aosta è la regione italiana più piccola per superficie e la meno popolosa. Quale lingua, oltre all'italiano, è ufficiale?",
+          "options": [
+            "Il francese",
+            "Il tedesco",
+            "Il ladino",
+            "Il provenzale"
+          ],
+          "correctAnswer": "Il francese",
+          "explanation": "In Valle d'Aosta il francese è lingua ufficiale insieme all'italiano, retaggio storico dell'appartenenza alla Casa Savoia e della vicinanza alla Francia."
+        }
+      ],
+      "Il Centro Italia": [
+        {
+          "id": 68,
+          "question": "Firenze, famosa per il Rinascimento, è il capoluogo di quale regione?",
+          "options": [
+            "Toscana",
+            "Umbria",
+            "Marche",
+            "Lazio"
+          ],
+          "correctAnswer": "Toscana",
+          "explanation": "La Toscana, nota per l'arte e i paesaggi collinari (es. il Chianti), ha per capoluogo Firenze."
+        },
+        {
+          "id": 69,
+          "question": "Quale di queste regioni del Centro Italia è priva di sbocchi sul mare?",
+          "options": [
+            "Umbria",
+            "Toscana",
+            "Lazio",
+            "Marche"
+          ],
+          "correctAnswer": "Umbria",
+          "explanation": "L'Umbria, definita il 'cuore verde d'Italia', è l'unica regione peninsulare a non essere bagnata dal mare."
+        },
+        {
+          "id": 70,
+          "question": "Quale regione ospita Roma, capitale della Repubblica Italiana?",
+          "options": [
+            "Lazio",
+            "Campania",
+            "Abruzzo",
+            "Toscana"
+          ],
+          "correctAnswer": "Lazio",
+          "explanation": "Il Lazio ha per capoluogo Roma, la città più popolosa d'Italia e sede delle massime istituzioni statali."
+        },
+        {
+          "id": 313,
+          "question": "Perugia è il capoluogo di quale regione dell'Italia Centrale, priva di sbocchi sul mare?",
+          "options": [
+            "Umbria",
+            "Marche",
+            "Abruzzo",
+            "Toscana"
+          ],
+          "correctAnswer": "Umbria",
+          "explanation": "Perugia è il capoluogo dell'Umbria, l'unica regione peninsulare senza accesso al mare, conosciuta per le sue colline, i borghi medievali e il tartufo nero."
+        },
+        {
+          "id": 314,
+          "question": "Ancona è il capoluogo di quale regione italiana?",
+          "options": [
+            "Marche",
+            "Abruzzo",
+            "Umbria",
+            "Lazio"
+          ],
+          "correctAnswer": "Marche",
+          "explanation": "Le Marche è una regione centro-adriatica con capoluogo Ancona, porto importante sull'Adriatico."
+        },
+        {
+          "id": 315,
+          "question": "Quale piccolo Stato sovrano è completamente circondato dal territorio italiano?",
+          "options": [
+            "La Repubblica di San Marino",
+            "Il Principato di Monaco",
+            "Il Vaticano",
+            "Andorra"
+          ],
+          "correctAnswer": "La Repubblica di San Marino",
+          "explanation": "San Marino, con 61 km², è il più piccolo Stato sovrano del mondo circondato interamente dall'Italia, situato nell'Appennino romagnolo."
+        }
+      ],
+      "Il Sud Italia e le Isole": [
+        {
+          "id": 71,
+          "question": "Napoli, ai piedi del Vesuvio, è il capoluogo di:",
+          "options": [
+            "Campania",
+            "Puglia",
+            "Calabria",
+            "Basilicata"
+          ],
+          "correctAnswer": "Campania",
+          "explanation": "La Campania è una delle regioni più densamente popolate d'Italia, celebre per la Costiera Amalfitana e le isole (Capri, Ischia)."
+        },
+        {
+          "id": 72,
+          "question": "Quale regione forma il 'tacco' dello stivale italiano ed ha Bari come capoluogo?",
+          "options": [
+            "Puglia",
+            "Calabria",
+            "Sicilia",
+            "Molise"
+          ],
+          "correctAnswer": "Puglia",
+          "explanation": "La Puglia si protende nel Mar Ionio e Adriatico ed è nota per le sue estese pianure (Tavoliere) e le produzioni agricole."
+        },
+        {
+          "id": 73,
+          "question": "Palermo è il capoluogo di quale grande isola italiana (Regione a statuto speciale)?",
+          "options": [
+            "Sicilia",
+            "Sardegna",
+            "Corsica",
+            "Isola d'Elba"
+          ],
+          "correctAnswer": "Sicilia",
+          "explanation": "La Sicilia è l'isola più grande del Mediterraneo ed è una delle 5 regioni italiane a statuto speciale."
+        },
+        {
+          "id": 74,
+          "question": "Qual è il capoluogo della Sardegna?",
+          "options": [
+            "Cagliari",
+            "Sassari",
+            "Nuoro",
+            "Olbia"
+          ],
+          "correctAnswer": "Cagliari",
+          "explanation": "La Sardegna è una grande regione insulare a statuto speciale; il suo capoluogo politico-amministrativo è Cagliari."
+        },
+        {
+          "id": 316,
+          "question": "Qual è il capoluogo della Calabria, la regione che forma il 'puntale' dello stivale?",
+          "options": [
+            "Catanzaro",
+            "Reggio Calabria",
+            "Cosenza",
+            "Crotone"
+          ],
+          "correctAnswer": "Catanzaro",
+          "explanation": "Catanzaro è il capoluogo della Calabria, situato sull'istmo tra il Mar Tirreno e il Mar Ionio."
+        },
+        {
+          "id": 317,
+          "question": "Potenza è il capoluogo di quale regione, la meno densamente popolata d'Italia?",
+          "options": [
+            "Basilicata",
+            "Molise",
+            "Calabria",
+            "Abruzzo"
+          ],
+          "correctAnswer": "Basilicata",
+          "explanation": "La Basilicata è la regione meno densamente popolata d'Italia; è nota per Matera, città rupestre patrimonio UNESCO."
+        },
+        {
+          "id": 318,
+          "question": "Qual è il capoluogo della Sardegna e la sua principale città portuale?",
+          "options": [
+            "Cagliari",
+            "Sassari",
+            "Nuoro",
+            "Oristano"
+          ],
+          "correctAnswer": "Cagliari",
+          "explanation": "Cagliari è il capoluogo della Regione Autonoma della Sardegna, con un porto naturale che la rende polo marittimo fondamentale del Mediterraneo."
+        },
+        {
+          "id": 319,
+          "question": "Campobasso è il capoluogo di quale piccola regione del Sud Italia?",
+          "options": [
+            "Molise",
+            "Basilicata",
+            "Abruzzo",
+            "Puglia"
+          ],
+          "correctAnswer": "Molise",
+          "explanation": "Il Molise è la seconda regione più piccola d'Italia (dopo la Valle d'Aosta). È spesso indicata come 'la regione che non esiste', a causa della sua scarsa visibilità mediatica."
+        },
+        {
+          "id": 320,
+          "question": "L'Aquila è il capoluogo di quale regione, nota per i parchi naturali e il massiccio del Gran Sasso?",
+          "options": [
+            "Abruzzo",
+            "Molise",
+            "Lazio",
+            "Marche"
+          ],
+          "correctAnswer": "Abruzzo",
+          "explanation": "L'Abruzzo, con capoluogo L'Aquila, ospita il Gran Sasso d'Italia (2.912 m), la cima più alta dell'Appennino, e il Parco Nazionale d'Abruzzo."
+        }
+      ]
+    },
+    "L'Europa e i suoi Stati": {
+      "Il Continente Europeo": [
+        {
+          "id": 75,
+          "question": "Quali catene montuose segnano convenzionalmente il confine naturale a Est tra Europa e Asia?",
+          "options": [
+            "I Monti Urali e il Caucaso",
+            "Le Alpi e gli Appennini",
+            "I Pirenei e i Carpazi",
+            "Le Ande e le Montagne Rocciose"
+          ],
+          "correctAnswer": "I Monti Urali e il Caucaso",
+          "explanation": "L'Europa non è separata dall'Asia da oceani, ma forma l'Eurasia. Il confine convenzionale è segnato dai Monti Urali e dalla catena del Caucaso."
+        },
+        {
+          "id": 76,
+          "question": "Qual è il fiume più lungo del continente europeo?",
+          "options": [
+            "Il Volga",
+            "Il Danubio",
+            "Il Reno",
+            "Il Tamigi"
+          ],
+          "correctAnswer": "Il Volga",
+          "explanation": "Il Volga, lungo oltre 3.500 km, scorre interamente in Russia prima di sfociare nel Mar Caspio."
+        },
+        {
+          "id": 77,
+          "question": "Quale fiume europeo è il secondo per lunghezza e attraversa o sfiora ben 10 nazioni prima di sfociare nel Mar Nero?",
+          "options": [
+            "Il Danubio",
+            "Il Reno",
+            "La Senna",
+            "Il Po"
+          ],
+          "correctAnswer": "Il Danubio",
+          "explanation": "Il Danubio è una via di comunicazione vitale per l'Europa Centrale e Orientale e sfocia con un ampio delta nel Mar Nero."
+        },
+        {
+          "id": 321,
+          "question": "Quale catena montuosa separa la Francia dalla Spagna?",
+          "options": [
+            "I Pirenei",
+            "Le Alpi",
+            "I Vosgi",
+            "Il Massiccio Centrale"
+          ],
+          "correctAnswer": "I Pirenei",
+          "explanation": "I Pirenei si estendono per circa 430 km dal Golfo di Biscaglia al Mar Mediterraneo, formando un confine naturale quasi invalicabile tra Francia e Spagna."
+        },
+        {
+          "id": 322,
+          "question": "In quale Paese europeo si trova la capitale Amsterdam, famosa per i suoi canali e i suoi musei?",
+          "options": [
+            "Paesi Bassi",
+            "Belgio",
+            "Danimarca",
+            "Svezia"
+          ],
+          "correctAnswer": "Paesi Bassi",
+          "explanation": "Amsterdam è la capitale dei Paesi Bassi (Olanda), sebbene l'Aia sia la sede del governo e del Parlamento."
+        },
+        {
+          "id": 323,
+          "question": "Quale stato dell'Europa del Nord è famoso per i fiordi e ha Oslo come capitale?",
+          "options": [
+            "Norvegia",
+            "Svezia",
+            "Finlandia",
+            "Islanda"
+          ],
+          "correctAnswer": "Norvegia",
+          "explanation": "La Norvegia è famosa per i suoi fiordi (insenature profonde create dai ghiacciai) e l'aurora boreale. Non fa parte dell'UE ma appartiene all'area Schengen."
+        },
+        {
+          "id": 324,
+          "question": "Qual è la capitale della Grecia, culla della democrazia occidentale?",
+          "options": [
+            "Atene",
+            "Salonicco",
+            "Creta",
+            "Rodi"
+          ],
+          "correctAnswer": "Atene",
+          "explanation": "Atene è la capitale e la città più grande della Grecia, sede dell'Acropoli e del Partenone. È considerata la culla della democrazia e della filosofia occidentale."
+        },
+        {
+          "id": 325,
+          "question": "Quale piccolo Stato, privo di sbocco sul mare, si trova tra Italia e San Marino ed è famoso per le sue banche e il Principato?",
+          "options": [
+            "Monaco",
+            "Liechtenstein",
+            "Andorra",
+            "Lussemburgo"
+          ],
+          "correctAnswer": "Monaco",
+          "explanation": "Il Principato di Monaco (2 km²) è il secondo Stato più piccolo al mondo, dopo il Vaticano, affacciato sul Mar Mediterraneo e circondato dalla Francia."
+        }
+      ],
+      "Aree Geopolitiche e Stati": [
+        {
+          "id": 78,
+          "question": "Da quali Stati è composta prevalentemente la Penisola Iberica?",
+          "options": [
+            "Spagna, Portogallo e Andorra",
+            "Francia e Spagna",
+            "Italia e Grecia",
+            "Svezia e Norvegia"
+          ],
+          "correctAnswer": "Spagna, Portogallo e Andorra",
+          "explanation": "La Penisola Iberica è l'estremità sud-occidentale dell'Europa e comprende principalmente Spagna e Portogallo, oltre al Principato di Andorra (e Gibilterra)."
+        },
+        {
+          "id": 79,
+          "question": "Parigi è la capitale di:",
+          "options": [
+            "Francia",
+            "Belgio",
+            "Svizzera",
+            "Olanda"
+          ],
+          "correctAnswer": "Francia",
+          "explanation": "Parigi è il fulcro politico, economico e culturale della Repubblica Francese."
+        },
+        {
+          "id": 80,
+          "question": "Quali stati formano l'area del Benelux?",
+          "options": [
+            "Belgio, Paesi Bassi (Nederland) e Lussemburgo",
+            "Bielorussia, Norvegia e Lettonia",
+            "Belgio, Norvegia e Lituania",
+            "Bosnia, Paesi Bassi e Lussemburgo"
+          ],
+          "correctAnswer": "Belgio, Paesi Bassi (Nederland) e Lussemburgo",
+          "explanation": "Il termine Benelux nasce dalle iniziali di Belgium, Netherlands e Luxembourg."
+        },
+        {
+          "id": 81,
+          "question": "Qual è la capitale della Germania, Paese cardine dell'Europa Centrale?",
+          "options": [
+            "Berlino",
+            "Monaco di Baviera",
+            "Francoforte",
+            "Amburgo"
+          ],
+          "correctAnswer": "Berlino",
+          "explanation": "Berlino è la capitale e la città più popolosa della Germania, tornata tale dopo la riunificazione."
+        },
+        {
+          "id": 82,
+          "question": "Quali nazioni fanno parte del Regno Unito (UK)?",
+          "options": [
+            "Inghilterra, Scozia, Galles e Irlanda del Nord",
+            "Inghilterra, Irlanda del Sud e Scozia",
+            "Solo Inghilterra e Galles",
+            "Inghilterra, Francia e Scozia"
+          ],
+          "correctAnswer": "Inghilterra, Scozia, Galles e Irlanda del Nord",
+          "explanation": "Il Regno Unito comprende la Gran Bretagna (Inghilterra, Scozia, Galles) e la parte nord dell'isola d'Irlanda."
+        },
+        {
+          "id": 326,
+          "question": "Quale Paese è la 'cerniera' geografica tra Europa Occidentale e quella Orientale, con Varsavia come capitale?",
+          "options": [
+            "Polonia",
+            "Repubblica Ceca",
+            "Austria",
+            "Ungheria"
+          ],
+          "correctAnswer": "Polonia",
+          "explanation": "La Polonia è uno dei Paesi più estesi dell'UE (9° per superficie) e rappresenta il ponte geografico tra il centro-ovest e l'est europeo."
+        },
+        {
+          "id": 327,
+          "question": "Vienna è la capitale di quale Paese dell'Europa Centrale, ex cuore dell'Impero Austro-Ungarico?",
+          "options": [
+            "Austria",
+            "Ungheria",
+            "Repubblica Ceca",
+            "Svizzera"
+          ],
+          "correctAnswer": "Austria",
+          "explanation": "Vienna, capitale dell'Austria, è stata per secoli uno dei centri culturali e politici più importanti d'Europa come capitale dell'Impero Asburgico."
+        },
+        {
+          "id": 328,
+          "question": "Quale Paese europeo è l'unico a non far parte dell'UE ma è considerato il cuore geografico dell'Europa, con Berna come capitale?",
+          "options": [
+            "Svizzera",
+            "Norvegia",
+            "Liechtenstein",
+            "Islanda"
+          ],
+          "correctAnswer": "Svizzera",
+          "explanation": "La Svizzera è una confederazione di 26 cantoni con quattro lingue nazionali (tedesco, francese, italiano, romancio) e mantiene la neutralità storica non aderendo all'UE."
+        },
+        {
+          "id": 329,
+          "question": "Quale Paese della Penisola Scandinava ha Stoccolma come capitale?",
+          "options": [
+            "Svezia",
+            "Norvegia",
+            "Danimarca",
+            "Finlandia"
+          ],
+          "correctAnswer": "Svezia",
+          "explanation": "La Svezia è uno dei Paesi più grandi d'Europa, membro dell'UE ma non della zona euro, famosa per il design, l'innovazione e il welfare state."
+        }
+      ]
+    },
+    "Il Territorio Italiano": {
+      "I Confini e i Mari": [
+        {
+          "id": 83,
+          "question": "Quale principio stabilisce il limite delle 'acque territoriali' per uno Stato costiero secondo il diritto internazionale (es. Montego Bay)?",
+          "options": [
+            "Fino a 12 miglia marine dalla costa",
+            "Fino a 200 miglia marine",
+            "Tutto il bacino chiuso in cui si affaccia",
+            "3 miglia marine dalla costa"
+          ],
+          "correctAnswer": "Fino a 12 miglia marine dalla costa",
+          "explanation": "Le acque territoriali si estendono tipicamente per 12 miglia marine, oltre le quali inizia la zona contigua o le acque internazionali."
+        },
+        {
+          "id": 330,
+          "question": "Con quale Paese condivide l'Italia il confine più lungo?",
+          "options": [
+            "Francia",
+            "Svizzera",
+            "Austria",
+            "Slovenia"
+          ],
+          "correctAnswer": "Francia",
+          "explanation": "Il confine italo-francese si estende per circa 488 km lungo l'arco alpino occidentale, dalla Liguria alla Valle d'Aosta."
+        },
+        {
+          "id": 331,
+          "question": "Quale stretto di mare separa la Sicilia dalla penisola italiana (Calabria)?",
+          "options": [
+            "Lo Stretto di Messina",
+            "Lo Stretto di Sicilia",
+            "Il Canale di Sardegna",
+            "Lo Stretto di Otranto"
+          ],
+          "correctAnswer": "Lo Stretto di Messina",
+          "explanation": "Lo Stretto di Messina, largo in alcuni punti meno di 3 km, separa la Sicilia dalla Calabria ed è percorso quotidianamente da traghetti."
+        },
+        {
+          "id": 332,
+          "question": "Quale mare si trova tra la Sardegna e la costa spagnola/francese?",
+          "options": [
+            "Il Mar di Sardegna (o Mare delle Baleari)",
+            "Il Mar Ligure",
+            "Il Mar Tirreno",
+            "Il Mare Adriatico"
+          ],
+          "correctAnswer": "Il Mar di Sardegna (o Mare delle Baleari)",
+          "explanation": "Il Mar di Sardegna è la parte del Mediterraneo occidentale che bagna le coste occidentali della Sardegna, separandola dalle isole Baleari e dalla penisola iberica."
+        }
+      ],
+      "Monti e Fiumi d'Italia": [
+        {
+          "id": 333,
+          "question": "Qual è la cima più alta dell'Appennino italiano?",
+          "options": [
+            "Il Gran Sasso d'Italia (2.912 m)",
+            "Il Monte Pollino (2.248 m)",
+            "Il Monte Vettore (2.476 m)",
+            "La Majella (2.795 m)"
+          ],
+          "correctAnswer": "Il Gran Sasso d'Italia (2.912 m)",
+          "explanation": "Il Gran Sasso d'Italia, in Abruzzo, è il massiccio più alto dell'Appennino. Il Corno Grande (2.912 m) è la sua vetta più alta e ospita il ghiacciaio del Calderone, il più meridionale d'Europa."
+        },
+        {
+          "id": 334,
+          "question": "In quale regione nasce il fiume Tevere, che attraversa Roma?",
+          "options": [
+            "Toscana",
+            "Umbria",
+            "Lazio",
+            "Marche"
+          ],
+          "correctAnswer": "Toscana",
+          "explanation": "Il Tevere nasce dal Monte Fumaiolo in Toscana (Appennino Tosco-Romagnolo), attraversa l'Umbria e poi il Lazio, sfociando nel Mar Tirreno a Ostia."
+        },
+        {
+          "id": 335,
+          "question": "Quale fiume italiano segna per buona parte il confine tra Veneto ed Emilia-Romagna?",
+          "options": [
+            "Il Po",
+            "L'Adige",
+            "Il Reno",
+            "Il Tagliamento"
+          ],
+          "correctAnswer": "Il Po",
+          "explanation": "Il Po, lungo 682 km (il più lungo d'Italia), scorre tra Piemonte, Lombardia, Emilia-Romagna e Veneto prima di sfociare nell'Adriatico con un ampio delta."
+        }
+      ]
+    },
+    "Italia": {
+      "Territorio e Morfologia": [
+        {
+          "question": "La superficie totale dell'Italia è di circa…",
+          "options": [
+            "301.336 km²",
+            "250.000 km²",
+            "350.000 km²",
+            "280.000 km²"
+          ],
+          "correctAnswer": "301.336 km²",
+          "explanation": "Il territorio italiano ha una superficie di circa 301.336 km², comprendendo la penisola, le isole maggiori e minori."
+        },
+        {
+          "question": "Qual è la montagna più alta d'Europa, situata nelle Alpi Graie?",
+          "options": [
+            "Monte Bianco (4.810 m)",
+            "Monte Rosa (4.633 m)",
+            "Gran Paradiso (4.061 m)",
+            "Cervino (4.478 m)"
+          ],
+          "correctAnswer": "Monte Bianco (4.810 m)",
+          "explanation": "Il Monte Bianco, con 4.810 m, è la cima più alta d'Europa e si trova nelle Alpi Graie, al confine tra Valle d'Aosta e Francia."
+        },
+        {
+          "question": "Il Monte Rosa appartiene a quale sezione alpina e qual è la sua altezza?",
+          "options": [
+            "Alpi Pennine, 4.633 m",
+            "Alpi Graie, 4.061 m",
+            "Alpi Retiche, 4.050 m",
+            "Alpi Cozie, 3.841 m"
+          ],
+          "correctAnswer": "Alpi Pennine, 4.633 m",
+          "explanation": "Il Monte Rosa (4.633 m) appartiene alle Alpi Pennine ed è la seconda vetta più alta d'Europa, condiviso tra Piemonte, Valle d'Aosta e Svizzera."
+        },
+        {
+          "question": "Dove nasce il fiume Po e quale caratteristica ha la sua foce?",
+          "options": [
+            "Nasce dal Monviso e ha foce a delta nel Mar Adriatico",
+            "Nasce dal Monte Bianco e sfocia nel Tirreno",
+            "Nasce dalle Alpi Retiche e ha foce a estuario",
+            "Nasce dal Gran Sasso e sfocia nell'Adriatico"
+          ],
+          "correctAnswer": "Nasce dal Monviso e ha foce a delta nel Mar Adriatico",
+          "explanation": "Il Po nasce dal Monviso (Alpi Cozie) e, alimentato da numerosi affluenti alpini e appenninici, sfocia con foce a delta nel Mar Adriatico. È il fiume più lungo d'Italia (652 km)."
+        },
+        {
+          "question": "Quale fiume italiano è il più lungo dopo il Po?",
+          "options": [
+            "Adige (410 km)",
+            "Tevere (405 km)",
+            "Adda (313 km)",
+            "Arno (241 km)"
+          ],
+          "correctAnswer": "Adige (410 km)",
+          "explanation": "L'Adige con 410 km è il secondo fiume più lungo d'Italia, seguito dal Tevere con 405 km."
+        },
+        {
+          "question": "Il Corno Grande, vetta massima dell'Appennino centrale, è situato nel…",
+          "options": [
+            "Gran Sasso (2.912 m)",
+            "Monte Cimone (2.165 m)",
+            "Monte Pollino (2.248 m)",
+            "La Maiella (2.795 m)"
+          ],
+          "correctAnswer": "Gran Sasso (2.912 m)",
+          "explanation": "Il Corno Grande (2.912 m), nel massiccio del Gran Sasso, è la montagna più elevata dell'intera catena appenninica e si trova nell'Appennino Abruzzese."
+        },
+        {
+          "question": "L'Etna è il vulcano più alto della placca euroasiatica e si trova nell'Appennino…",
+          "options": [
+            "Meridionale (Appennino Siculo), 3.323 m",
+            "Centrale, 2.912 m",
+            "Settentrionale, 2.165 m",
+            "Calabrese, 1.955 m"
+          ],
+          "correctAnswer": "Meridionale (Appennino Siculo), 3.323 m",
+          "explanation": "L'Etna (o Mongibello, 3.323 m) si erge nell'Appennino meridionale, nel tratto siculo, ed è il più alto vulcano attivo terrestre della placca euroasiatica."
+        },
+        {
+          "question": "Quale lago italiano ha la profondità massima maggiore?",
+          "options": [
+            "Lago di Como (410 m)",
+            "Lago Maggiore (372 m)",
+            "Lago di Garda (346 m)",
+            "Lago di Lugano (288 m)"
+          ],
+          "correctAnswer": "Lago di Como (410 m)",
+          "explanation": "Il Lago di Como (Lario) raggiunge una profondità massima di 410 m, risultando il più profondo lago italiano."
+        },
+        {
+          "question": "Quante regioni italiane hanno uno statuto speciale?",
+          "options": [
+            "5 regioni",
+            "4 regioni",
+            "6 regioni",
+            "3 regioni"
+          ],
+          "correctAnswer": "5 regioni",
+          "explanation": "Le regioni a statuto speciale sono 5: Valle d'Aosta, Friuli-Venezia Giulia, Trentino-Alto Adige, Sicilia e Sardegna."
+        },
+        {
+          "question": "L'Italia è il terzo Paese dell'UE per numero di abitanti. Quanti abitanti conta (stima al 1° gennaio 2020)?",
+          "options": [
+            "60.244.639",
+            "58.000.000",
+            "63.000.000",
+            "55.000.000"
+          ],
+          "correctAnswer": "60.244.639",
+          "explanation": "Con una popolazione di 60.244.639 unità (stima 2020), l'Italia è il terzo Paese dell'UE per numero di abitanti, dopo Germania e Francia."
+        },
+        {
+          "question": "Quale isola italiana è la più grande del Mediterraneo?",
+          "options": [
+            "Sicilia (25.426 km²)",
+            "Sardegna (23.812 km²)",
+            "Elba (223 km²)",
+            "Pantelleria (83 km²)"
+          ],
+          "correctAnswer": "Sicilia (25.426 km²)",
+          "explanation": "La Sicilia, con circa 25.426 km², è la più grande isola del Mediterraneo. La Sardegna (23.812 km²) è la seconda per dimensione."
+        }
+      ],
+      "Economia Italiana": [
+        {
+          "question": "A quale gruppo intergovernativo appartiene l'Italia insieme a Canada, Francia, Germania, Giappone, Regno Unito e USA?",
+          "options": [
+            "G7",
+            "G20",
+            "OCSE",
+            "NATO"
+          ],
+          "correctAnswer": "G7",
+          "explanation": "L'Italia fa parte del G7 (Gruppo dei Sette), l'organizzazione intergovernativa dei sette Stati economicamente più avanzati del pianeta."
+        },
+        {
+          "question": "In quale anno l'Italia ha adottato l'euro come moneta circolante?",
+          "options": [
+            "2002",
+            "1999",
+            "2001",
+            "1998"
+          ],
+          "correctAnswer": "2002",
+          "explanation": "L'Italia ha aderito all'euro nel 1999 (per le transazioni finanziarie), ma l'euro ha sostituito la lira nella circolazione cartacea a partire dal 2002."
+        },
+        {
+          "question": "Qual è il principale settore dell'economia italiana per numero di occupati e valore aggiunto?",
+          "options": [
+            "Il terziario (servizi), oltre il 70%",
+            "L'industria manifatturiera, 30%",
+            "L'agricoltura, 45%",
+            "Il settore energetico, 25%"
+          ],
+          "correctAnswer": "Il terziario (servizi), oltre il 70%",
+          "explanation": "Il terziario costituisce il settore più importante dell'economia italiana, sia per numero di occupati che per valore aggiunto, con percentuali che in entrambi i casi superano il 70%."
+        },
+        {
+          "question": "Quale regione meridionale ospita i più grandi giacimenti petroliferi dell'Europa continentale?",
+          "options": [
+            "Basilicata (Val d'Agri)",
+            "Sicilia (Ragusa)",
+            "Puglia (Foggia)",
+            "Calabria (Crotone)"
+          ],
+          "correctAnswer": "Basilicata (Val d'Agri)",
+          "explanation": "I giacimenti della Val d'Agri in Basilicata sono i più grandi dell'Europa continentale, scoperti nella prima metà del XX secolo e sfruttati dagli anni '80."
+        },
+        {
+          "question": "Nel 2019, l'Italia si colloca al quinto posto nel mondo per numero di arrivi di turisti stranieri. Quanti erano all'anno?",
+          "options": [
+            "62,1 milioni",
+            "75 milioni",
+            "45 milioni",
+            "90 milioni"
+          ],
+          "correctAnswer": "62,1 milioni",
+          "explanation": "Con 62,1 milioni di turisti stranieri all'anno (dati 2019), l'Italia si collocava al quinto posto nel mondo per arrivi internazionali."
+        },
+        {
+          "question": "Quale casa automobilistica italiana fa parte del gruppo Stellantis, che ha sede legale ad Amsterdam?",
+          "options": [
+            "FIAT",
+            "Ferrari",
+            "Lamborghini",
+            "Maserati"
+          ],
+          "correctAnswer": "FIAT",
+          "explanation": "FIAT (Fabbrica Italiana Automobili Torino) è un marchio automobilistico di Stellantis, impresa multinazionale nata dalla fusione tra PSA e FIAT Chrysler Automobiles, con sede legale ad Amsterdam."
+        }
+      ],
+      "Regioni d'Italia": [
+        {
+          "question": "Qual è il capoluogo della Valle d'Aosta e quanti comuni la compongono?",
+          "options": [
+            "Aosta, 74 comuni",
+            "Aosta, 112 comuni",
+            "Torino, 50 comuni",
+            "Aosta, 8 comuni"
+          ],
+          "correctAnswer": "Aosta, 74 comuni",
+          "explanation": "La Valle d'Aosta ha capoluogo Aosta e non è suddivisa in province, bensì in 74 comuni."
+        },
+        {
+          "question": "Qual è la regione italiana più popolosa?",
+          "options": [
+            "Lombardia (9.742.676 ab.)",
+            "Campania (5.812.962 ab.)",
+            "Lazio (5.626.710 ab.)",
+            "Sicilia (5.037.800 ab.)"
+          ],
+          "correctAnswer": "Lombardia (9.742.676 ab.)",
+          "explanation": "La Lombardia è la regione italiana più popolosa con circa 9,7 milioni di abitanti. Il suo capoluogo è Milano."
+        },
+        {
+          "question": "Quale regione italiana confina con Austria, Svizzera, Lombardia e Veneto?",
+          "options": [
+            "Trentino-Alto Adige",
+            "Friuli-Venezia Giulia",
+            "Piemonte",
+            "Valle d'Aosta"
+          ],
+          "correctAnswer": "Trentino-Alto Adige",
+          "explanation": "Il Trentino-Alto Adige confina a nord con l'Austria, a ovest con la Svizzera, a sud-ovest con la Lombardia e a sud-est con il Veneto."
+        },
+        {
+          "question": "Qual è il capoluogo della Calabria?",
+          "options": [
+            "Catanzaro",
+            "Reggio Calabria",
+            "Cosenza",
+            "Crotone"
+          ],
+          "correctAnswer": "Catanzaro",
+          "explanation": "Catanzaro è il capoluogo della regione Calabria, mentre Reggio Calabria è Città metropolitana."
+        },
+        {
+          "question": "La regione Friuli-Venezia Giulia ha sostituito le province con quali enti?",
+          "options": [
+            "4 Enti di decentramento regionale (EDR)",
+            "18 Comuni capoluogo",
+            "6 Liberi consorzi",
+            "12 Unioni territoriali"
+          ],
+          "correctAnswer": "4 Enti di decentramento regionale (EDR)",
+          "explanation": "Dopo la soppressione delle province (2017-2018) e la soppressione delle 18 UTI (2020), in Friuli-Venezia Giulia sono stati istituiti 4 Enti di decentramento regionale."
+        },
+        {
+          "question": "Quale isola si trova nel Lago d'Iseo, in Lombardia?",
+          "options": [
+            "Monte Isola (4,3 km²)",
+            "Isola Bella",
+            "Isola Polvese",
+            "Isola Maggiore"
+          ],
+          "correctAnswer": "Monte Isola (4,3 km²)",
+          "explanation": "Monte Isola è la principale isola del Lago d'Iseo (Sebino), con una superficie di 4,3 km², ed è la più grande isola lacustre dell'Europa centro-meridionale."
+        }
+      ]
+    },
+    "Europa": {
+      "Morfologia e Idrografia": [
+        {
+          "question": "Quale fiume europeo è il più lungo in assoluto?",
+          "options": [
+            "Volga (3.531 km, Russia)",
+            "Danubio (2.860 km)",
+            "Reno (1.326 km)",
+            "Dnepr (2.201 km)"
+          ],
+          "correctAnswer": "Volga (3.531 km, Russia)",
+          "explanation": "Il Volga, che scorre in Russia e sfocia nel Mar Caspio, è il fiume più lungo d'Europa con 3.531 km."
+        },
+        {
+          "question": "Qual è il lago più esteso d'Europa (escluso il Mar Caspio)?",
+          "options": [
+            "Lago di Ladoga, Russia (18.400 km²)",
+            "Lago di Onega, Russia (9.610 km²)",
+            "Vanern, Svezia (5.585 km²)",
+            "Iso-Saimaa, Finlandia (4.400 km²)"
+          ],
+          "correctAnswer": "Lago di Ladoga, Russia (18.400 km²)",
+          "explanation": "Il Lago di Ladoga in Russia, con circa 18.400 km², è il lago più esteso d'Europa, se si esclude il Mar Caspio."
+        },
+        {
+          "question": "Quale sistema montuoso costituisce il confine naturale tra il continente europeo e quello asiatico?",
+          "options": [
+            "Monti Urali",
+            "Catena del Caucaso",
+            "Alpi Scandinave",
+            "Monti Balcani"
+          ],
+          "correctAnswer": "Monti Urali",
+          "explanation": "I Monti Urali, di modesta altitudine e forme smussate, costituiscono il confine naturale tra Europa e Asia."
+        },
+        {
+          "question": "Quale cima è la più alta d'Europa per il continente nel suo complesso?",
+          "options": [
+            "Monte Bianco (4.810 m)",
+            "Monte Rosa (4.634 m)",
+            "Elbrus (5.642 m, Russia)",
+            "Cervino (4.478 m)"
+          ],
+          "correctAnswer": "Elbrus (5.642 m, Russia)",
+          "explanation": "Se si considera la Russia, l'Elbrus (5.642 m nel Caucaso) è la montagna più alta del continente europeo. Se si considera solo l'Europa occidentale, è il Monte Bianco."
+        }
+      ],
+      "Paesi europei": [
+        {
+          "question": "Qual è la capitale della Svizzera (sede del governo)?",
+          "options": [
+            "Berna",
+            "Zurigo",
+            "Ginevra",
+            "Basilea"
+          ],
+          "correctAnswer": "Berna",
+          "explanation": "La Svizzera è una Repubblica federale. Berna è la sede del governo federale, sebbene Zurigo sia la città più grande."
+        },
+        {
+          "question": "In quale data il Regno Unito ha lasciato ufficialmente l'Unione Europea (Brexit)?",
+          "options": [
+            "31 gennaio 2020",
+            "23 giugno 2016",
+            "1 marzo 2019",
+            "31 dicembre 2020"
+          ],
+          "correctAnswer": "31 gennaio 2020",
+          "explanation": "Il Regno Unito ha lasciato ufficialmente l'Unione Europea il 31 gennaio 2020, dopo il referendum del giugno 2016 che aveva sancito la scelta per la Brexit."
+        },
+        {
+          "question": "Quale Paese della regione scandinava NON fa parte dell'Unione Europea?",
+          "options": [
+            "Norvegia",
+            "Finlandia",
+            "Svezia",
+            "Danimarca"
+          ],
+          "correctAnswer": "Norvegia",
+          "explanation": "La Norvegia non è membro dell'UE, anche se fa parte dello Spazio Economico Europeo (SEE). Finlandia, Svezia e Danimarca sono invece membri UE."
+        },
+        {
+          "question": "In quale Paese si trova il Monte Olimpo, la montagna più alta della Grecia?",
+          "options": [
+            "Grecia (2.917 m)",
+            "Albania (2.753 m)",
+            "Macedonia del Nord (2.754 m)",
+            "Bulgaria (2.925 m)"
+          ],
+          "correctAnswer": "Grecia (2.917 m)",
+          "explanation": "Il Monte Olimpo (2.917 m) è la montagna più alta della Grecia, nella mitologia sede degli dèi greci."
+        },
+        {
+          "question": "Quante lingue ufficiali ha la Svizzera?",
+          "options": [
+            "4 (tedesco, francese, italiano, romancio)",
+            "3 (tedesco, francese, italiano)",
+            "2 (tedesco, francese)",
+            "5"
+          ],
+          "correctAnswer": "4 (tedesco, francese, italiano, romancio)",
+          "explanation": "La Svizzera ha 4 lingue ufficiali: tedesco (la più parlata), francese, italiano e reto-romancio."
+        },
+        {
+          "question": "Il Benelux è un'unione commerciale stipulata nel 1960 tra quali Paesi?",
+          "options": [
+            "Belgio, Paesi Bassi e Lussemburgo",
+            "Belgio, Norvegia e Lussemburgo",
+            "Belgio, Olanda e Liechtenstein",
+            "Bosnia, Paesi Bassi e Lituania"
+          ],
+          "correctAnswer": "Belgio, Paesi Bassi e Lussemburgo",
+          "explanation": "Il nome Benelux deriva dall'unione commerciale del 1960 tra Belgio, Paesi Bassi (Nederland) e Lussemburgo (Luxembourg)."
+        },
+        {
+          "question": "Quale Paese europeo ha la maggiore economia tra tutti i Paesi membri dell'UE?",
+          "options": [
+            "Germania (25% del PIL UE)",
+            "Francia (17%)",
+            "Italia (12,5%)",
+            "Spagna (8,4%)"
+          ],
+          "correctAnswer": "Germania (25% del PIL UE)",
+          "explanation": "La Germania ha l'economia più sviluppata tra gli Stati UE, con un PIL pari a circa 3.332 miliardi di euro, ovvero il 25% del totale UE."
+        },
+        {
+          "question": "I Paesi baltici (Estonia, Lettonia, Lituania) sono entrati nell'Unione Europea in quale anno?",
+          "options": [
+            "2004",
+            "1995",
+            "2000",
+            "2007"
+          ],
+          "correctAnswer": "2004",
+          "explanation": "Dal 2004 Estonia, Lettonia e Lituania sono membri dell'Unione Europea. Dal 1945 al 1991 erano stati sotto il controllo dell'Unione Sovietica."
+        },
+        {
+          "question": "La penisola iberica è separata dall'Africa da quale stretto?",
+          "options": [
+            "Stretto di Gibilterra (14 km)",
+            "Stretto di Otranto",
+            "Stretto di Messina",
+            "Stretto di Sicilia"
+          ],
+          "correctAnswer": "Stretto di Gibilterra (14 km)",
+          "explanation": "La penisola iberica è separata dall'Africa dai soli 14 km dello Stretto di Gibilterra, che collega l'Oceano Atlantico con il Mar Mediterraneo."
+        },
+        {
+          "question": "Qual è la montagna più alta del Regno Unito?",
+          "options": [
+            "Ben Nevis (Scozia)",
+            "Scafell Pike (Inghilterra)",
+            "Snowdon (Galles)",
+            "Slieve Donard (Irlanda del Nord)"
+          ],
+          "correctAnswer": "Ben Nevis (Scozia)",
+          "explanation": "Il Ben Nevis, situato in Scozia nelle Highlands, è la cima più alta dell'intero arcipelago britannico."
+        },
+        {
+          "question": "Quale Stato europeo ha la superficie più piccola dopo la Città del Vaticano?",
+          "options": [
+            "Monaco (2,02 km²)",
+            "San Marino (61,2 km²)",
+            "Liechtenstein (160,5 km²)",
+            "Andorra (468 km²)"
+          ],
+          "correctAnswer": "Monaco (2,02 km²)",
+          "explanation": "Il Principato di Monaco ha una superficie di soli 2,02 km², rendendolo il secondo Stato più piccolo del mondo dopo la Città del Vaticano."
+        },
+        {
+          "question": "Quale Stato si trova nelle enclave all'interno del territorio italiano?",
+          "options": [
+            "San Marino e Città del Vaticano",
+            "Andorra e Monaco",
+            "Liechtenstein e San Marino",
+            "San Marino e Malta"
+          ],
+          "correctAnswer": "San Marino e Città del Vaticano",
+          "explanation": "San Marino (61,2 km², capitale San Marino) e la Città del Vaticano (0,44 km²) sono i due Stati indipendenti situati all'interno del territorio italiano."
+        },
+        {
+          "question": "La guerra civile jugoslava, iniziata nel 1991, quando ha avuto fine (prima fase) e dove è ripresa nel 1998?",
+          "options": [
+            "Fine nel 1995, ripresa in Kosovo",
+            "Fine nel 1993, ripresa in Bosnia",
+            "Fine nel 1999, ripresa in Croazia",
+            "Fine nel 1997, ripresa in Serbia"
+          ],
+          "correctAnswer": "Fine nel 1995, ripresa in Kosovo",
+          "explanation": "La guerra civile jugoslava durò fino al 1995 e riprese in Kosovo nel 1998, a seguito delle spinte autonomistiche e degli odi interetnici dopo la dissoluzione della Jugoslavia."
+        }
+      ]
+    }
+  },
+  "Italiano": {
+    "Morfologia": {
+      "Articolo e Nome": [
+        {
+          "id": 84,
+          "question": "Quale funzione svolgono gli articoli determinativi (il, lo, la, i, gli, le)?",
+          "options": [
+            "Indicano persone, animali o cose ben precisi e noti a chi parla o ascolta",
+            "Indicano quantità indefinite di un oggetto",
+            "Sostituiscono il nome per evitare ripetizioni",
+            "Indicano il grado di parentela tra soggetti"
+          ],
+          "correctAnswer": "Indicano persone, animali o cose ben precisi e noti a chi parla o ascolta",
+          "explanation": "L'articolo determinativo si usa per nomi che si riferiscono a entità specifiche e già conosciute nel contesto."
+        },
+        {
+          "id": 85,
+          "question": "Nella frase 'Ho comprato DEL pane', la parola 'del' funziona come:",
+          "options": [
+            "Articolo partitivo",
+            "Preposizione semplice",
+            "Articolo determinativo",
+            "Pronome relativo"
+          ],
+          "correctAnswer": "Articolo partitivo",
+          "explanation": "Gli articoli partitivi (del, dello, della, dei, degli, delle) indicano una quantità imprecisata, equivalente a 'un po' di'."
+        },
+        {
+          "id": 86,
+          "question": "Qual è la differenza strutturale tra un nome primitivo e un nome derivato?",
+          "options": [
+            "Il nome primitivo è formato solo da radice e desinenza (es. libr-o), il nome derivato aggiunge prefissi o suffissi alla radice (es. libr-eri-a)",
+            "Il nome primitivo indica cose del passato, il derivato cose moderne",
+            "Il nome primitivo è sempre maschile, il derivato è sempre femminile",
+            "Non c'è differenza, sono sinonimi"
+          ],
+          "correctAnswer": "Il nome primitivo è formato solo da radice e desinenza (es. libr-o), il nome derivato aggiunge prefissi o suffissi alla radice (es. libr-eri-a)",
+          "explanation": "I nomi primitivi non derivano da nessun'altra parola; da essi derivano gli altri inserendo elementi morfologici."
+        },
+        {
+          "id": 87,
+          "question": "Come si definisce un nome come 'flotta', che al singolare indica un insieme di navi?",
+          "options": [
+            "Nome collettivo",
+            "Nome astratto",
+            "Nome alterato",
+            "Nome proprio"
+          ],
+          "correctAnswer": "Nome collettivo",
+          "explanation": "I nomi collettivi sono nomi che, pur essendo al singolare, indicano una pluralità di individui, animali o cose dello stesso tipo."
+        },
+        {
+          "id": 401,
+          "question": "Quale articolo indeterminativo si usa davanti a parole maschili che iniziano per vocale o per 's' impura?",
+          "options": [
+            "Uno",
+            "Un",
+            "Il",
+            "Lo"
+          ],
+          "correctAnswer": "Uno",
+          "explanation": "'Uno' si usa davanti a parole maschili che iniziano per vocale (uno zaino, uno specchio) o per s+consonante, ps, pn, z, x, gn (uno studente, uno psicologo)."
+        },
+        {
+          "id": 402,
+          "question": "Come si chiamano i nomi che indicano concetti astratti, qualità o stati d'animo (es. 'amore', 'bellezza', 'libertà')?",
+          "options": [
+            "Nomi astratti",
+            "Nomi concreti",
+            "Nomi collettivi",
+            "Nomi propri"
+          ],
+          "correctAnswer": "Nomi astratti",
+          "explanation": "I nomi astratti non indicano cose percepibili con i sensi, ma concetti, stati d'animo, qualità e azioni (amore, paura, bontà, corsa)."
+        },
+        {
+          "id": 403,
+          "question": "Come si chiama il procedimento per cui unendo due o più parole se ne crea una nuova (es. 'capostazione', 'arcobaleno')?",
+          "options": [
+            "Composizione",
+            "Derivazione",
+            "Alterazione",
+            "Conversione"
+          ],
+          "correctAnswer": "Composizione",
+          "explanation": "La composizione è un procedimento di formazione delle parole che unisce due o più basi lessicali autonome per formare un nuovo vocabolo."
+        }
+      ],
+      "Aggettivo e Pronome": [
+        {
+          "id": 88,
+          "question": "Quale aggettivo qualificativo si trova al grado superlativo assoluto?",
+          "options": [
+            "Bellissimo",
+            "Più bello",
+            "Meno bello",
+            "Il più bello di tutti"
+          ],
+          "correctAnswer": "Bellissimo",
+          "explanation": "Il superlativo assoluto esprime la qualità al massimo grado senza fare confronti (es. suffisso -issimo, prefissi come arci-, stra-)."
+        },
+        {
+          "id": 89,
+          "question": "In grammatica, qual è la differenza essenziale tra un aggettivo e un pronome determinativo?",
+          "options": [
+            "L'aggettivo accompagna sempre un nome, il pronome lo sostituisce",
+            "L'aggettivo è sempre invariabile, il pronome è variabile",
+            "L'aggettivo indica azioni, il pronome no",
+            "Il pronome precede il verbo, l'aggettivo lo segue"
+          ],
+          "correctAnswer": "L'aggettivo accompagna sempre un nome, il pronome lo sostituisce",
+          "explanation": "L'aggettivo si aggiunge al nome per meglio determinarlo; il pronome (pro-nomen, al posto del nome) sostituisce il nome per non ripeterlo."
+        },
+        {
+          "id": 90,
+          "question": "Nella frase 'Mio fratello è più alto del tuo', le parole 'Mio' e 'tuo' sono rispettivamente:",
+          "options": [
+            "Aggettivo possessivo (Mio) e pronome possessivo (tuo)",
+            "Entrambi pronomi possessivi",
+            "Entrambi aggettivi possessivi",
+            "Pronome personale e pronome possessivo"
+          ],
+          "correctAnswer": "Aggettivo possessivo (Mio) e pronome possessivo (tuo)",
+          "explanation": "'Mio' accompagna il nome 'fratello' (aggettivo), 'tuo' sta al posto di 'tuo fratello' (pronome)."
+        },
+        {
+          "id": 404,
+          "question": "Quali sono i gradi dell'aggettivo qualificativo?",
+          "options": [
+            "Positivo, comparativo e superlativo",
+            "Assoluto, relativo e indefinito",
+            "Semplice, composto e derivato",
+            "Maschile, femminile e neutro"
+          ],
+          "correctAnswer": "Positivo, comparativo e superlativo",
+          "explanation": "Il grado positivo esprime la qualità semplicemente (bello); il comparativo la confronta (più bello di); il superlativo la esprime al massimo grado (bellissimo / il più bello)."
+        },
+        {
+          "id": 405,
+          "question": "Nella frase 'Prendi QUESTO libro!', la parola 'questo' è:",
+          "options": [
+            "Aggettivo dimostrativo",
+            "Pronome dimostrativo",
+            "Aggettivo possessivo",
+            "Articolo determinativo"
+          ],
+          "correctAnswer": "Aggettivo dimostrativo",
+          "explanation": "'Questo' è un aggettivo dimostrativo perché accompagna il nome 'libro' indicando la sua vicinanza nello spazio o nel tempo rispetto a chi parla."
+        },
+        {
+          "id": 406,
+          "question": "I pronomi relativi 'che', 'cui', 'il quale' hanno la funzione di:",
+          "options": [
+            "Collegare una proposizione relativa alla proposizione principale, sostituendo un nome già nominato",
+            "Esprimere una domanda su persone o cose",
+            "Indicare il possesso di qualcosa da parte di qualcuno",
+            "Sostituire il soggetto grammaticale della frase principale"
+          ],
+          "correctAnswer": "Collegare una proposizione relativa alla proposizione principale, sostituendo un nome già nominato",
+          "explanation": "I pronomi relativi (che=sogg./comp.ogg.; cui=dopo preposizione; il quale=alternativa formale) introducono proposizioni subordinate relative collegandole all'antecedente."
+        },
+        {
+          "id": 407,
+          "question": "Cosa indica il pronome personale di 1ª persona plurale 'noi'?",
+          "options": [
+            "Il parlante più uno o più interlocutori/terzi",
+            "Solo il parlante in forma di cortesia",
+            "Il solo interlocutore",
+            "Una persona indeterminata"
+          ],
+          "correctAnswer": "Il parlante più uno o più interlocutori/terzi",
+          "explanation": "'Noi' si riferisce all'insieme formato dal parlante (io) e da almeno un'altra persona, che può essere l'interlocutore (tu) o una terza persona."
+        }
+      ],
+      "Verbo": [
+        {
+          "id": 91,
+          "question": "Cosa indica il verbo di 'forma passiva'?",
+          "options": [
+            "Che il soggetto subisce l'azione compiuta da altri",
+            "Che il soggetto compie l'azione e questa ricade su un oggetto",
+            "Che il soggetto compie l'azione e questa ricade su se stesso",
+            "Che l'azione avviene nel passato remoto"
+          ],
+          "correctAnswer": "Che il soggetto subisce l'azione compiuta da altri",
+          "explanation": "Nella forma passiva (es. 'La mela è mangiata da me'), il soggetto grammaticale (la mela) subisce l'azione."
+        },
+        {
+          "id": 92,
+          "question": "Quali sono i verbi 'ausiliari' nella lingua italiana?",
+          "options": [
+            "Essere e Avere",
+            "Fare e Dire",
+            "Potere e Volere",
+            "Andare e Venire"
+          ],
+          "correctAnswer": "Essere e Avere",
+          "explanation": "Essere e avere aiutano (fungono da ausiliari) gli altri verbi per formare i tempi composti e la forma passiva."
+        },
+        {
+          "id": 93,
+          "question": "Come si definiscono i verbi che richiedono un complemento oggetto diretto (es. leggere un libro)?",
+          "options": [
+            "Transitivi",
+            "Intransitivi",
+            "Riflessivi",
+            "Impersonali"
+          ],
+          "correctAnswer": "Transitivi",
+          "explanation": "I verbi transitivi permettono all'azione di 'transitare' direttamente dal soggetto all'oggetto (rispondono a chi? che cosa?)."
+        },
+        {
+          "id": 408,
+          "question": "Cosa indica il modo 'Congiuntivo' del verbo?",
+          "options": [
+            "Azioni incerte, dubbiose, desiderate o soggettive, spesso in proposizioni subordinate",
+            "Azioni certe e reali al momento del discorso",
+            "Ordini e comandi diretti",
+            "Azioni che si compiono abitualmente"
+          ],
+          "correctAnswer": "Azioni incerte, dubbiose, desiderate o soggettive, spesso in proposizioni subordinate",
+          "explanation": "Il congiuntivo è il modo della soggettività e dell'incertezza (penso che venga; vorrei che studiasse) e si usa tipicamente in proposizioni subordinate."
+        },
+        {
+          "id": 409,
+          "question": "Qual è la differenza tra l'imperfetto indicativo e il passato remoto?",
+          "options": [
+            "L'imperfetto descrive azioni continuate o abituali nel passato; il passato remoto indica azioni concluse e lontane nel tempo",
+            "L'imperfetto indica azioni già concluse; il passato remoto indica azioni che continuano nel presente",
+            "Non c'è differenza sostanziale di uso tra i due",
+            "Il passato remoto si usa solo nel parlato; l'imperfetto solo nello scritto"
+          ],
+          "correctAnswer": "L'imperfetto descrive azioni continuate o abituali nel passato; il passato remoto indica azioni concluse e lontane nel tempo",
+          "explanation": "Es: 'Da bambino giocavo sempre (impf., azione abituale) nel parco dove un giorno incontrai (p.rem., azione puntuale) il mio migliore amico'."
+        },
+        {
+          "id": 410,
+          "question": "Come si chiama il modo verbale che non ha una propria desinenza personale e indica l'azione in modo astratto? (Es. 'mangiare', 'correre')",
+          "options": [
+            "L'Infinito",
+            "Il Congiuntivo",
+            "Il Gerundio",
+            "Il Participio"
+          ],
+          "correctAnswer": "L'Infinito",
+          "explanation": "L'infinito è il modo indefinito del verbo che ne esprime il significato senza indicare persona, numero o modo; è la forma base riportata nei vocabolari."
+        },
+        {
+          "id": 411,
+          "question": "I verbi 'potere', 'volere', 'dovere', 'sapere' sono detti verbi:",
+          "options": [
+            "Servili (o modali)",
+            "Ausiliari",
+            "Transitivi",
+            "Impersonali"
+          ],
+          "correctAnswer": "Servili (o modali)",
+          "explanation": "I verbi servili si 'servono' di un altro verbo all'infinito per completare il loro significato (posso andare, devo studiare). Prendono l'ausiliare del verbo che accompagnano."
+        }
+      ]
+    },
+    "Sintassi e Invariabili": {
+      "Parti Invariabili": [
+        {
+          "id": 94,
+          "question": "Quali sono le quattro parti INVARIABILI del discorso?",
+          "options": [
+            "Avverbio, preposizione, congiunzione, interiezione",
+            "Nome, articolo, verbo, aggettivo",
+            "Pronome, preposizione, nome, avverbio",
+            "Avverbio, verbo, articolo, congiunzione"
+          ],
+          "correctAnswer": "Avverbio, preposizione, congiunzione, interiezione",
+          "explanation": "Queste parti si dicono invariabili perché non subiscono flessioni, ossia non cambiano per genere (maschile/femminile) e numero (singolare/plurale)."
+        },
+        {
+          "id": 95,
+          "question": "Nella frase 'Luigi corre VELOCEMENTE', la parola 'velocemente' è:",
+          "options": [
+            "Un avverbio di modo",
+            "Un aggettivo qualificativo",
+            "Una preposizione di modo",
+            "Un pronome"
+          ],
+          "correctAnswer": "Un avverbio di modo",
+          "explanation": "L'avverbio si affianca al verbo (in questo caso 'corre') per modificarne o precisarne il significato (indica come corre)."
+        },
+        {
+          "id": 96,
+          "question": "Le parole 'di, a, da, in, con, su, per, tra, fra' sono:",
+          "options": [
+            "Preposizioni semplici",
+            "Preposizioni articolate",
+            "Congiunzioni subordinanti",
+            "Avverbi di luogo"
+          ],
+          "correctAnswer": "Preposizioni semplici",
+          "explanation": "Sono le preposizioni proprie semplici, che mettono in relazione due elementi della frase."
+        },
+        {
+          "id": 412,
+          "question": "Nella frase 'Studio AFFINCHÉ tu possa imparare', la parola 'affinché' è:",
+          "options": [
+            "Congiunzione subordinante finale",
+            "Avverbio di scopo",
+            "Preposizione impropria",
+            "Congiunzione coordinante"
+          ],
+          "correctAnswer": "Congiunzione subordinante finale",
+          "explanation": "'Affinché' (= perché, per il fatto che) introduce una proposizione finale subordinata che esprime lo scopo dell'azione principale."
+        },
+        {
+          "id": 413,
+          "question": "Cosa sono le preposizioni 'articolate' (es. 'del', 'alla', 'nello', 'sulla')?",
+          "options": [
+            "Preposizioni semplici fuse con l'articolo determinativo",
+            "Preposizioni semplici fuse con l'articolo indeterminativo",
+            "Avverbi con valore preposizionale",
+            "Congiunzioni con funzione di moto a luogo"
+          ],
+          "correctAnswer": "Preposizioni semplici fuse con l'articolo determinativo",
+          "explanation": "Le preposizioni articolate nascono dalla fusione di preposizioni semplici (di, a, da, in, con, su) con gli articoli determinativi (il, lo, la, i, gli, le)."
+        },
+        {
+          "id": 414,
+          "question": "Quale funzione svolgono le interiezioni (es. 'ah!', 'oh!', 'ahi!', 'mah!')?",
+          "options": [
+            "Esprimere sentimenti, stati d'animo o reazioni spontanee del parlante",
+            "Collegare due proposizioni dello stesso livello sintattico",
+            "Indicare la posizione di qualcosa nello spazio",
+            "Modificare il significato del verbo nella frase"
+          ],
+          "correctAnswer": "Esprimere sentimenti, stati d'animo o reazioni spontanee del parlante",
+          "explanation": "Le interiezioni (o esclamazioni) sono parti invariabili del discorso che esprimono reazioni emotive immediate: gioia, dolore, sorpresa, disappunto."
+        }
+      ],
+      "Sintassi della Frase": [
+        {
+          "id": 97,
+          "question": "Qual è l'elemento fondamentale della frase che indica l'azione compiuta o subita dal soggetto?",
+          "options": [
+            "Il Predicato (verbale o nominale)",
+            "L'Attributo",
+            "Il Complemento Oggetto",
+            "L'Apposizione"
+          ],
+          "correctAnswer": "Il Predicato (verbale o nominale)",
+          "explanation": "Il predicato è il 'motore' della frase; senza un verbo non può esistere una frase completa (proposizione)."
+        },
+        {
+          "id": 98,
+          "question": "A quale domanda risponde il Complemento di Specificazione?",
+          "options": [
+            "Di chi? Di che cosa?",
+            "A chi? A che cosa?",
+            "Chi? Che cosa?",
+            "Perché? Per quale motivo?"
+          ],
+          "correctAnswer": "Di chi? Di che cosa?",
+          "explanation": "Il complemento di specificazione (introdotto tipicamente dalla preposizione 'di') specifica e precisa il significato del termine cui si riferisce."
+        },
+        {
+          "id": 99,
+          "question": "Nella frase 'Ho regalato un libro A MARCO', 'A Marco' è:",
+          "options": [
+            "Complemento di Termine",
+            "Complemento Oggetto",
+            "Complemento di Specificazione",
+            "Complemento di Modo"
+          ],
+          "correctAnswer": "Complemento di Termine",
+          "explanation": "Il complemento di termine risponde alla domanda 'A chi? A che cosa?' e indica il destinatario dell'azione."
+        },
+        {
+          "id": 415,
+          "question": "Nella frase 'Maria canta BENE', qual è il predicato?",
+          "options": [
+            "Canta (predicato verbale)",
+            "Maria (soggetto)",
+            "Bene (complemento di modo)",
+            "Canta bene (predicato nominale)"
+          ],
+          "correctAnswer": "Canta (predicato verbale)",
+          "explanation": "'Canta' è il predicato verbale della frase: indica l'azione compiuta dal soggetto (Maria). 'Bene' è un complemento di modo."
+        },
+        {
+          "id": 416,
+          "question": "Nella frase 'Ho scritto LA LETTERA', il sintagma 'la lettera' è:",
+          "options": [
+            "Complemento oggetto (diretto)",
+            "Complemento di specificazione",
+            "Complemento di termine",
+            "Soggetto della frase"
+          ],
+          "correctAnswer": "Complemento oggetto (diretto)",
+          "explanation": "Il complemento oggetto è un complemento diretto (senza preposizione) che risponde alla domanda 'chi?' o 'che cosa?' riferita al verbo transitivo."
+        },
+        {
+          "id": 417,
+          "question": "Come si chiama il complemento che risponde alla domanda 'con quale mezzo?' (es. 'Vado a scuola IN BICICLETTA')?",
+          "options": [
+            "Complemento di mezzo (o strumento)",
+            "Complemento di modo",
+            "Complemento di causa",
+            "Complemento di compagnia"
+          ],
+          "correctAnswer": "Complemento di mezzo (o strumento)",
+          "explanation": "Il complemento di mezzo (o strumento) indica il mezzo fisico o astratto con cui si compie l'azione; risponde alle domande 'con quale mezzo?', 'con quale strumento?'."
+        }
+      ],
+      "Sintassi del Periodo": [
+        {
+          "id": 100,
+          "question": "In un periodo, la proposizione che non dipende grammaticalmente da nessun'altra frase si chiama:",
+          "options": [
+            "Proposizione Principale (indipendente)",
+            "Proposizione Subordinata",
+            "Proposizione Coordinata",
+            "Proposizione Implicita"
+          ],
+          "correctAnswer": "Proposizione Principale (indipendente)",
+          "explanation": "La proposizione principale ha un senso compiuto e regge l'intera architettura del periodo."
+        },
+        {
+          "id": 101,
+          "question": "Come si chiama una proposizione collegata alla principale (o ad un'altra subordinata) tramite congiunzioni come 'e, o, ma, perciò' mettendola sullo stesso piano sintattico?",
+          "options": [
+            "Proposizione Coordinata",
+            "Proposizione Subordinata causale",
+            "Proposizione Principale",
+            "Proposizione Relativa"
+          ],
+          "correctAnswer": "Proposizione Coordinata",
+          "explanation": "La coordinazione (paratassi) unisce due frasi di pari grado gerarchico."
+        },
+        {
+          "id": 102,
+          "question": "Nel periodo ipotetico, come si chiamano la proposizione che esprime la condizione e quella che esprime la conseguenza?",
+          "options": [
+            "Protasi (condizione) e Apodosi (conseguenza)",
+            "Principale (condizione) e Coordinata (conseguenza)",
+            "Soggettiva (condizione) e Oggettiva (conseguenza)",
+            "Apodosi (condizione) e Protasi (conseguenza)"
+          ],
+          "correctAnswer": "Protasi (condizione) e Apodosi (conseguenza)",
+          "explanation": "Es. 'Se piove (protasi), non esco (apodosi)'. La protasi è subordinata condizionale, l'apodosi è spesso la principale."
+        },
+        {
+          "id": 418,
+          "question": "Cosa introduce una proposizione soggettiva?",
+          "options": [
+            "Svolge la funzione di soggetto della proposizione reggente (es. 'È importante CHE TU STUDI')",
+            "Esprime la causa dell'azione principale",
+            "Indica il fine o lo scopo dell'azione",
+            "Descrive una condizione necessaria per l'azione principale"
+          ],
+          "correctAnswer": "Svolge la funzione di soggetto della proposizione reggente (es. 'È importante CHE TU STUDI')",
+          "explanation": "La proposizione soggettiva fa le veci del soggetto nella frase reggente. È introdotta da 'che + congiuntivo' o da un infinito."
+        },
+        {
+          "id": 419,
+          "question": "Come si chiama la proposizione subordinata che esprime la causa di un'azione? (Es. 'Studio molto PERCHÉ voglio imparare')",
+          "options": [
+            "Proposizione causale",
+            "Proposizione finale",
+            "Proposizione concessiva",
+            "Proposizione consecutiva"
+          ],
+          "correctAnswer": "Proposizione causale",
+          "explanation": "La proposizione causale indica il motivo o la causa dell'azione della principale. È introdotta da congiunzioni come 'perché', 'poiché', 'dato che', 'siccome'."
+        },
+        {
+          "id": 420,
+          "question": "Cosa indica una proposizione temporale? (Es. 'QUANDO arriva Marco, usciamo')",
+          "options": [
+            "Il momento o il periodo in cui avviene l'azione della proposizione principale",
+            "La condizione necessaria affinché avvenga l'azione principale",
+            "La conseguenza dell'azione principale",
+            "Il fine per cui si compie l'azione principale"
+          ],
+          "correctAnswer": "Il momento o il periodo in cui avviene l'azione della proposizione principale",
+          "explanation": "Le proposizioni temporali forniscono una collocazione nel tempo all'azione della reggente. Sono introdotte da congiunzioni come 'quando', 'mentre', 'appena', 'dopo che'."
+        },
+        {
+          "id": 421,
+          "question": "Come si chiama la proposizione subordinata che esprime una circostanza opposta o contraria a quella della principale? (Es. 'SEBBENE fosse stanco, studiò lo stesso')",
+          "options": [
+            "Proposizione concessiva",
+            "Proposizione avversativa",
+            "Proposizione condizionale",
+            "Proposizione causale"
+          ],
+          "correctAnswer": "Proposizione concessiva",
+          "explanation": "La concessiva indica una circostanza che si oppone all'azione principale senza però impedirla. È introdotta da 'sebbene', 'benché', 'nonostante', 'anche se' + congiuntivo."
+        }
+      ]
+    },
+    "Analisi del Testo": {
+      "Tipologie Testuali": [
+        {
+          "id": 422,
+          "question": "Quali sono le principali caratteristiche del testo narrativo?",
+          "options": [
+            "Racconta fatti ed eventi in sequenza cronologica con personaggi, luoghi e un narratore",
+            "Descrive le caratteristiche di oggetti o persone con linguaggio sensoriale",
+            "Spiega relazioni causali tra fenomeni con linguaggio scientifico",
+            "Esprime opinioni e tesi sostenute da argomenti logici"
+          ],
+          "correctAnswer": "Racconta fatti ed eventi in sequenza cronologica con personaggi, luoghi e un narratore",
+          "explanation": "Il testo narrativo è organizzato attorno a una storia (fabula) con una struttura narrativa (situazione iniziale - complicazione - conclusione) e un punto di vista narrativo."
+        },
+        {
+          "id": 423,
+          "question": "Cosa si intende per 'testo argomentativo'?",
+          "options": [
+            "Un testo che sostiene una tesi con argomenti logici e confuta le obiezioni (antitesi)",
+            "Un testo che descrive un oggetto o un paesaggio nei dettagli",
+            "Un testo che informa su eventi accaduti in modo oggettivo",
+            "Un testo che racconta una storia inventata con personaggi fittizi"
+          ],
+          "correctAnswer": "Un testo che sostiene una tesi con argomenti logici e confuta le obiezioni (antitesi)",
+          "explanation": "Il testo argomentativo (es. saggio, articolo di opinione) presenta una tesi, la supporta con argomenti (prove, esempi, dati) e risponde alle possibili obiezioni."
+        },
+        {
+          "id": 424,
+          "question": "Cosa si intende per 'narratore onnisciente' in un romanzo?",
+          "options": [
+            "Un narratore che conosce tutto: i pensieri e i sentimenti di tutti i personaggi, gli eventi passati e futuri",
+            "Un narratore che è protagonista della storia e racconta in prima persona",
+            "Un narratore che osserva dall'esterno senza conoscere i pensieri dei personaggi",
+            "Un narratore che interviene direttamente nella storia per modificarla"
+          ],
+          "correctAnswer": "Un narratore che conosce tutto: i pensieri e i sentimenti di tutti i personaggi, gli eventi passati e futuri",
+          "explanation": "Il narratore onnisciente (o 'a fuoco zero') ha una visione totale della storia: sa tutto di tutti i personaggi e può raccontare anche ciò che non è stato detto esplicitamente."
+        }
+      ],
+      "Figure Retoriche": [
+        {
+          "id": 425,
+          "question": "Come si chiama la figura retorica che consiste nel dare caratteristiche umane a oggetti inanimati, animali o concetti astratti? (Es. 'il vento urla', 'la luna sorride')",
+          "options": [
+            "Personificazione (o Prosopopea)",
+            "Metafora",
+            "Similitudine",
+            "Metonimia"
+          ],
+          "correctAnswer": "Personificazione (o Prosopopea)",
+          "explanation": "La personificazione attribuisce qualità, azioni o sentimenti tipicamente umani a entità non umane, creando un forte effetto poetico e di animazione."
+        },
+        {
+          "id": 426,
+          "question": "Qual è la differenza tra una similitudine e una metafora?",
+          "options": [
+            "La similitudine usa esplicitamente i termini 'come' o 'simile a'; la metafora no, identificando direttamente i due termini",
+            "La metafora riguarda solo il linguaggio poetico; la similitudine è usata solo in prosa",
+            "Non c'è differenza: sono sinonimi",
+            "La similitudine è più forte della metafora perché più esplicita"
+          ],
+          "correctAnswer": "La similitudine usa esplicitamente i termini 'come' o 'simile a'; la metafora no, identificando direttamente i due termini",
+          "explanation": "Similitudine: 'È forte come un leone'. Metafora: 'È un leone'. La metafora è più incisiva perché l'identificazione è totale e implicita."
+        },
+        {
+          "id": 427,
+          "question": "Come si chiama la figura retorica che consiste nella ripetizione di uno stesso suono consonantico all'inizio di parole vicine? (Es. 'Sopra la panca la capra campa')",
+          "options": [
+            "Allitterazione",
+            "Assonanza",
+            "Onomatopea",
+            "Anafora"
+          ],
+          "correctAnswer": "Allitterazione",
+          "explanation": "L'allitterazione è la ripetizione di uno stesso suono (consonante o vocale) all'inizio di parole vicine, creando un effetto musicale e mnemonico."
+        }
+      ]
+    },
+    "Grammatica": {
+      "Morfologia - Parti del Discorso": [
+        {
+          "question": "Quante sono le parti del discorso in italiano?",
+          "options": [
+            "9 (articolo, nome, aggettivo, pronome, verbo, avverbio, preposizione, congiunzione, interiezione)",
+            "7",
+            "10",
+            "8"
+          ],
+          "correctAnswer": "9 (articolo, nome, aggettivo, pronome, verbo, avverbio, preposizione, congiunzione, interiezione)",
+          "explanation": "Le parti del discorso sono 9: articolo, nome, aggettivo, pronome e verbo sono variabili; avverbio, preposizione, congiunzione e interiezione sono invariabili."
+        },
+        {
+          "question": "L'articolo 'lo' si usa davanti a nomi maschili che cominciano per…",
+          "options": [
+            "X, Z, GN, PS, PN, S impura",
+            "Vocale",
+            "Qualsiasi consonante",
+            "B, D, F, G, L"
+          ],
+          "correctAnswer": "X, Z, GN, PS, PN, S impura",
+          "explanation": "L'articolo determinativo 'lo' (plurale 'gli') si usa davanti a nomi maschili inizianti per x, z, gn, ps, pn, s impura (es. lo studente, lo zaino, lo gnomo)."
+        },
+        {
+          "question": "Quale dei seguenti è un nome collettivo?",
+          "options": [
+            "Gregge",
+            "Pecora",
+            "Sara",
+            "Gioia"
+          ],
+          "correctAnswer": "Gregge",
+          "explanation": "Il nome collettivo riguarda un insieme di persone, animali o cose della stessa specie (es. gregge, popolo, flotta). 'Pecora' è individuale, 'Sara' è proprio, 'gioia' è astratto."
+        },
+        {
+          "question": "Un nome alterato diminutivo si ottiene con quale suffisso?",
+          "options": [
+            "-ino, -etto, -ello",
+            "-one, -acchione",
+            "-accio, -astro",
+            "-issimo, -mente"
+          ],
+          "correctAnswer": "-ino, -etto, -ello",
+          "explanation": "I nomi alterati diminutivi si formano con suffissi come -ino (ombrellino), -etto (bacetto), -ello (alberello). I peggiorativi usano -accio, gli accrescitivi -one."
+        },
+        {
+          "question": "Qual è la differenza tra aggettivo qualificativo e aggettivo determinativo?",
+          "options": [
+            "Il qualificativo esprime una qualità del nome, il determinativo ne precisa aspetti come quantità o posizione",
+            "Il qualificativo cambia genere, il determinativo no",
+            "Il qualificativo è sempre prima del nome, il determinativo dopo",
+            "Non c'è differenza"
+          ],
+          "correctAnswer": "Il qualificativo esprime una qualità del nome, il determinativo ne precisa aspetti come quantità o posizione",
+          "explanation": "Gli aggettivi qualificativi esprimono una qualità o condizione del nome (alto, bello). Gli aggettivi determinativi (possessivi, dimostrativi, numerali ecc.) ne precisano aspetti come la vicinanza, la quantità o la posizione."
+        },
+        {
+          "question": "Il pronome relativo 'cui' ha quale caratteristica sintattica?",
+          "options": [
+            "È invariabile e non è mai soggetto, ma sempre complemento",
+            "È variabile e si usa solo come soggetto",
+            "Può essere sia soggetto che complemento diretto",
+            "Si usa esclusivamente in funzione di soggetto"
+          ],
+          "correctAnswer": "È invariabile e non è mai soggetto, ma sempre complemento",
+          "explanation": "Il pronome relativo 'cui' è invariabile e non è mai soggetto, bensì sempre complemento (es. Ti do un consiglio di cui mi ringrazierai)."
+        },
+        {
+          "question": "A quale coniugazione appartengono i verbi che all'infinito presente escono in -ere?",
+          "options": [
+            "Seconda coniugazione",
+            "Prima coniugazione",
+            "Terza coniugazione",
+            "Coniugazione irregolare"
+          ],
+          "correctAnswer": "Seconda coniugazione",
+          "explanation": "Le coniugazioni italiane sono: I (-are: cantare), II (-ere: vedere, temere), III (-ire: udire, partire). I verbi in -ere appartengono alla seconda coniugazione."
+        },
+        {
+          "question": "Quali sono le preposizioni semplici in italiano?",
+          "options": [
+            "Di, a, da, in, con, su, per, tra, fra (nove in totale)",
+            "Di, a, da, in, per, tra (sei)",
+            "A, da, in, su, per, tra, verso (sette)",
+            "Di, a, da, in, con, su, per (sette)"
+          ],
+          "correctAnswer": "Di, a, da, in, con, su, per, tra, fra (nove in totale)",
+          "explanation": "Le preposizioni proprie semplici sono in tutto nove: di, a, da, in, con, su, per, tra, fra. Da queste, unite agli articoli determinativi, si formano le preposizioni articolate."
+        },
+        {
+          "question": "Come si chiamano le congiunzioni che uniscono due proposizioni stabilendo fra esse un rapporto di dipendenza?",
+          "options": [
+            "Subordinanti",
+            "Coordinanti",
+            "Copulative",
+            "Disgiuntive"
+          ],
+          "correctAnswer": "Subordinanti",
+          "explanation": "Le congiunzioni subordinanti (es. benché, perché, quando, sebbene) congiungono due proposizioni in modo tale da stabilire fra esse un rapporto di dipendenza o subordinazione."
+        },
+        {
+          "question": "Quale tipo di avverbio si forma aggiungendo il suffisso -mente alla forma femminile dell'aggettivo qualificativo?",
+          "options": [
+            "Avverbio di modo (qualificativo)",
+            "Avverbio di luogo",
+            "Avverbio di tempo",
+            "Avverbio di quantità"
+          ],
+          "correctAnswer": "Avverbio di modo (qualificativo)",
+          "explanation": "Gli avverbi di modo (qualificativi) si formano spesso aggiungendo il suffisso -mente alla forma femminile dell'aggettivo (es. precisa → precisamente). Indicano il modo in cui avviene un'azione."
+        }
+      ],
+      "Sintassi": [
+        {
+          "question": "Quante proposizioni contiene un periodo?",
+          "options": [
+            "Tante quanti sono i verbi in esso contenuti",
+            "Sempre due: principale e subordinata",
+            "Tante quante le virgole",
+            "Una sola proposizione principale"
+          ],
+          "correctAnswer": "Tante quanti sono i verbi in esso contenuti",
+          "explanation": "In un periodo ci sono tante proposizioni quanti sono i verbi in esso contenuti. La proposizione è l'unità sintattica retta da un verbo."
+        },
+        {
+          "question": "Quale tipo di proposizione subordinata svolge la funzione di soggetto rispetto alla principale?",
+          "options": [
+            "La proposizione soggettiva",
+            "La proposizione oggettiva",
+            "La proposizione relativa",
+            "La proposizione dichiarativa"
+          ],
+          "correctAnswer": "La proposizione soggettiva",
+          "explanation": "La proposizione soggettiva svolge la funzione di soggetto rispetto alla principale, rispondendo alla domanda 'che cosa?' ed è introdotta dalla congiunzione 'che' (es. Sembra che non sia contento)."
+        },
+        {
+          "question": "La proposizione concesiva indica…",
+          "options": [
+            "La circostanza nonostante la quale si verifica l'azione della principale",
+            "Lo scopo da raggiungere",
+            "La causa dell'azione principale",
+            "Il mezzo con cui si compie l'azione"
+          ],
+          "correctAnswer": "La circostanza nonostante la quale si verifica l'azione della principale",
+          "explanation": "La proposizione concessiva indica la circostanza nonostante la quale si verifica l'azione della principale. È introdotta da benché, sebbene, nonostante, quantunque (es. Sebbene fosse stanca, continuava a leggere)."
+        },
+        {
+          "question": "Il predicato nominale è composto da…",
+          "options": [
+            "Il verbo essere (copula) + parte nominale",
+            "Solo da un verbo d'azione",
+            "Un verbo intransitivo + avverbio",
+            "Un sostantivo + aggettivo"
+          ],
+          "correctAnswer": "Il verbo essere (copula) + parte nominale",
+          "explanation": "Il predicato nominale è formato dal verbo essere (copula) + una parte nominale (es. L'oro è costoso: 'è' = copula, 'costoso' = parte nominale)."
+        },
+        {
+          "question": "L'apposizione è un sostantivo che si unisce a un altro sostantivo per…",
+          "options": [
+            "Meglio determinarlo",
+            "Sostituirlo completamente",
+            "Esprimere un'azione",
+            "Indicare una qualità astratta"
+          ],
+          "correctAnswer": "Meglio determinarlo",
+          "explanation": "L'apposizione è un sostantivo che si 'appone' a un altro sostantivo per meglio determinarlo (es. Il poeta Virgilio celebrò le origini di Roma)."
+        },
+        {
+          "question": "Quale complemento risponde alla domanda 'a chi? a che cosa?' ed è retto dalla preposizione 'a'?",
+          "options": [
+            "Complemento di termine",
+            "Complemento oggetto",
+            "Complemento di causa",
+            "Complemento di stato in luogo"
+          ],
+          "correctAnswer": "Complemento di termine",
+          "explanation": "Il complemento di termine risponde alla domanda 'a chi? a che cosa?' ed è retto dalla preposizione 'a' semplice o articolata (es. Ho regalato un libro a mia sorella)."
+        },
+        {
+          "question": "Le proposizioni coordinate sono unite alla principale da…",
+          "options": [
+            "Una congiunzione coordinante o da un segno di interpunzione debole",
+            "Una congiunzione subordinante",
+            "Un pronome relativo",
+            "Un avverbio di modo"
+          ],
+          "correctAnswer": "Una congiunzione coordinante o da un segno di interpunzione debole",
+          "explanation": "Le proposizioni coordinate sono unite alla principale da una congiunzione coordinante (e, ma, o, dunque...) o da un segno di interpunzione debole (virgola, due punti, punto e virgola)."
+        },
+        {
+          "question": "Quale tipo di proposizione principale esprime un ordine o un'esortazione?",
+          "options": [
+            "La proposizione volitiva (o imperativa)",
+            "La proposizione enunciativa",
+            "La proposizione desiderativa",
+            "La proposizione esclamativa"
+          ],
+          "correctAnswer": "La proposizione volitiva (o imperativa)",
+          "explanation": "La proposizione volitiva (o imperativa) comunica un ordine, un'esortazione, un divieto o un invito, usando l'imperativo, il congiuntivo o non + infinito (es. State buoni)."
+        }
+      ]
+    }
+  }
+}
